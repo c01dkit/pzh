@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Puzzlehunt 知识库
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+这是一个用于收录与浏览各类 **puzzlehunt（解谜比赛）** 的 MkDocs 站点。
 
-## Commands
+## 你可以在这里做什么
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- 在「**赛事总览**」中按年份查看每年有哪些比赛、各届的基本信息与链接。
+- 在「**题目总览**」中按题目类型（例如词语机制、逻辑、密码、元谜等）横向整理题目与常见机制。
+- 在「**解题工具**」中按工具类型维护工具清单与使用方法，形成可复用的解题工作流。
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

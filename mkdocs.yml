@@ -1,15 +1,59 @@
 nav:
   - 首页: index.md
+  - 赛事总览:
+    - 总览: events/index.md
+    - 2010: events/2010/index.md
+    - 2011: events/2011/index.md
+    - 2012: events/2012/index.md
+    - 2013: events/2013/index.md
+    - 2014: events/2014/index.md
+    - 2015: events/2015/index.md
+    - 2016: events/2016/index.md
+    - 2017: events/2017/index.md
+    - 2018: events/2018/index.md
+    - 2019: events/2019/index.md
+    - 2020: events/2020/index.md
+    - 2021: events/2021/index.md
+    - 2022: events/2022/index.md
+    - 2023: events/2023/index.md
+    - 2024: events/2024/index.md
+    - 2025: events/2025/index.md
+    - 2026: events/2026/index.md
+  - 题目总览:
+    - 总览: puzzles/index.md
+    - Wordplay（词语机制）: puzzles/wordplay/index.md
+    - Logic（逻辑推理）: puzzles/logic/index.md
+    - Math（数学）: puzzles/math/index.md
+    - Crypto（古典密码）: puzzles/crypto/index.md
+    - Encoding（编码/协议/格式）: puzzles/encoding/index.md
+    - Pattern（找规律）: puzzles/pattern/index.md
+    - Trivia / Research（检索与知识）: puzzles/trivia/index.md
+    - Image（图像题）: puzzles/image/index.md
+    - Audio（音频题）: puzzles/audio/index.md
+    - Meta（元谜）: puzzles/meta/index.md
+    - Round Mechanics（盘面/结构机制）: puzzles/round-mechanics/index.md
+    - Physical / Interaction（实物/互动）: puzzles/physical-interaction/index.md
+  - 解题工具:
+    - 总览: tools/index.md
+    - 通用网站与检索: tools/search/index.md
+    - 词典与文字工具: tools/text/index.md
+    - 密码与编码工具: tools/crypto-encoding/index.md
+    - 图像工具: tools/image/index.md
+    - 音频工具: tools/audio/index.md
+    - 编程与自动化: tools/programming/index.md
+    - 协作与记录（表格/看板/日志）: tools/collaboration/index.md
+
+
 
 
 # 以下配置，均参考 Xiaokang2022 https://github.com/oh-my-mkdocs/oh-my-mkdocs/blob/main/mkdocs.yml
 
 site_name: Puzzle Hunt Collection # 站点名称
-# site_url: https://tech.c01dkit.com # 站点链接
-# repo_url: https://github.com/c01dkit/tech-blog # 仓库地址
-# repo_name: c01dkit/tech-blog # 仓库名称
-edit_uri: edit/main/docs # 编辑地址
-edit_uri_template: null # 编辑地址模板（默认值）
+site_url: https://puzzlehunt.c01dkit.com # 站点链接
+repo_url: https://github.com/c01dkit/pzh # 仓库地址
+repo_name: c01dkit/pzh # 仓库名称
+#edit_uri: edit/main/docs # 编辑地址
+#edit_uri_template: null # 编辑地址模板（默认值）
 site_description: c01dkit's puzzle hunt collection. # 站点描述
 site_author: c01dkit # 站点作者
 copyright: Copyright &copy; 2026 c01dkit # 版权信息
