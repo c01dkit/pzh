@@ -1,24 +1,48 @@
 nav:
   - 首页: index.md
   - 赛事总览:
-    - 总览: events/index.md
-    - 2010: events/2010/index.md
-    - 2011: events/2011/index.md
-    - 2012: events/2012/index.md
-    - 2013: events/2013/index.md
-    - 2014: events/2014/index.md
-    - 2015: events/2015/index.md
-    - 2016: events/2016/index.md
-    - 2017: events/2017/index.md
-    - 2018: events/2018/index.md
-    - 2019: events/2019/index.md
-    - 2020: events/2020/index.md
-    - 2021: events/2021/index.md
-    - 2022: events/2022/index.md
-    - 2023: events/2023/index.md
-    - 2024: events/2024/index.md
-    - 2025: events/2025/index.md
-    - 2026: events/2026/index.md
+    - events/index.md
+    - 2026:
+      - events/2026/index.md
+      - "Abyssal Puzzle": events/2026/abyssal-puzzle.md
+      - "SECO Puzzle Hunt2": events/2026/seco-puzzle-hunt2.md
+    - 2025:
+      - events/2025/index.md
+      - "2024 MIT Mystery Hunt": events/2025/2024-mit-mystery-hunt.md
+      - "2025 MIT Mystery Hunt": events/2025/2025-mit-mystery-hunt.md
+      - "SECO Puzzle Hunt": events/2025/seco-puzzle-hunt.md
+      - "Cornsnaky's Snakeyear PUZZLE HUNT": events/2025/cornsnakys-snakeyear-puzzle-hunt.md
+      - "第三届 亦乐杯": events/2025/event-7b2c4e095c4a.md
+      - "2025 Teammate Hunt: Matt & Emma's Deep-space Disaster": events/2025/2025-teammate-hunt-matt-and-emmas-deep-space-disaster.md
+      - "FDU PUZZLE HUNT Final Deadline Upcoming": events/2025/fdu-puzzle-hunt-final-deadline-upcoming.md
+      - "Huntingale 2025: ~Carpe Diem~ ep. I": events/2025/huntingale-2025-carpe-diem-ep-i.md
+      - "REXEI PUZZLE HUNT": events/2025/rexei-puzzle-hunt.md
+      - "金牌解谜": events/2025/event-91d1724c89e3.md
+      - "CCBC 16": events/2025/ccbc-16.md
+      - "Galactic Puzzle Hunt 2025": events/2025/galactic-puzzle-hunt-2025.md
+      - "National School Puzzle Hunt": events/2025/national-school-puzzle-hunt.md
+      - "Puzzle Hunt US-TC": events/2025/puzzle-hunt-us-tc.md
+      - "ZJUPH2025：Journey to the West · 觅西溪笔记": events/2025/zjuph2025journey-to-the-west.md
+      - "LN Hunt": events/2025/ln-hunt.md
+    - 2024:
+      - events/2024/index.md
+      - "江湖解谜": events/2024/event-6c5f6e5689e3.md
+      - "fishunt": events/2024/fishunt.md
+      - "enigame: enitime": events/2024/enigame-enitime.md
+      - "LGPH 2": events/2024/lgph-2.md
+      - "P&KU 3（上）": events/2024/p-and-ku-3.md
+      - "CCBC 15": events/2024/ccbc-15.md
+      - "Just Puzzle Hunt": events/2024/just-puzzle-hunt.md
+      - "Galactic Puzzle Hunt 2024": events/2024/galactic-puzzle-hunt-2024.md
+      - "玥hunt": events/2024/hunt.md
+      - "EC Puzzle Hunt 2": events/2024/ec-puzzle-hunt-2.md
+      - "Christmas Hunt": events/2024/christmas-hunt.md
+    - 2023:
+      - events/2023/index.md
+      - "CCBC-1314": events/2023/ccbc-1314.md
+      - "enigame: dance To The beat": events/2023/enigame-dance-to-the-beat.md
+      - "Galactic Puzzle Hunt 2023": events/2023/galactic-puzzle-hunt-2023.md
+      - "MiaoHunt 2023": events/2023/miaohunt-2023.md
   - 题目总览:
     - 总览: puzzles/index.md
     - Wordplay（词语机制）: puzzles/wordplay/index.md
@@ -34,21 +58,28 @@ nav:
     - Round Mechanics（盘面/结构机制）: puzzles/round-mechanics/index.md
     - Physical / Interaction（实物/互动）: puzzles/physical-interaction/index.md
   - 解题工具:
-    - 总览: tools/index.md
-    - 通用网站与检索: tools/search/index.md
-    - 词典与文字工具: tools/text/index.md
-    - 密码与编码工具: tools/crypto-encoding/index.md
-    - 图像工具: tools/image/index.md
-    - 音频工具: tools/audio/index.md
-    - 编程与自动化: tools/programming/index.md
-    - 协作与记录（表格/看板/日志）: tools/collaboration/index.md
-
+    - index: tools/index.md
+    - 中文类: tools/中文类/index.md
+    - 其他杂项类: tools/其他杂项类/index.md
+    - 化学类: tools/化学类/index.md
+    - 团队协作类: tools/团队协作类/index.md
+    - 国家类: tools/国家类/index.md
+    - 图片 音乐 音频 台词类: tools/图片-音乐-音频-台词类/index.md
+    - 工具杂项类: tools/工具杂项类/index.md
+    - 工具箱类: tools/工具箱类/index.md
+    - 批量转换汉字: tools/批量转换汉字/index.md
+    - 知识性网站类: tools/知识性网站类/index.md
+    - 纸笔类: tools/纸笔类/index.md
+    - 英文类: tools/英文类/index.md
+    - 输入法 单字类: tools/输入法-单字类/index.md
+  - 密码表:
+    - index: graphs/index.md
 
 
 
 # 以下配置，均参考 Xiaokang2022 https://github.com/oh-my-mkdocs/oh-my-mkdocs/blob/main/mkdocs.yml
 
-site_name: Puzzle Hunt Collection # 站点名称
+site_name: Puzzle Hunt All-in-One # 站点名称
 site_url: https://puzzlehunt.c01dkit.com # 站点链接
 repo_url: https://github.com/c01dkit/pzh # 仓库地址
 repo_name: c01dkit/pzh # 仓库名称
@@ -314,7 +345,7 @@ extra_javascript:
   # - js/oml2d.js # 看板娘配置 
 
 extra_css:
-  - css/counter.css # 章节数字编号
+  # - css/counter.css # 章节数字编号
   - css/extra.css # 加载自定义的样式
   - css/background.css # 背景图
   - css/blur-code-block.css # 代码块模糊效果
@@ -343,17 +374,17 @@ plugins:
       background: white
       shadow: true
       manual: false
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: iso_datetime # date / datetime / iso_date /iso_datetime / timeago / custom (with custom_format)
-      timezone: Asia/Shanghai
-      locale: zh
-      fallback_to_build_date: false
-      exclude:
-          - index.md
-      enable_git_follow: true
-      enabled: true
-      strict: true
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: iso_datetime # date / datetime / iso_date /iso_datetime / timeago / custom (with custom_format)
+  #     timezone: Asia/Shanghai
+  #     locale: zh
+  #     fallback_to_build_date: false
+  #     exclude:
+  #         - index.md
+  #     enable_git_follow: true
+  #     enabled: true
+  #     strict: true
   # - git-committers:
   #     repository: c01dkit/tech-blog
   #     branch: main

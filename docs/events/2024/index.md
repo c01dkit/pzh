@@ -1,21 +1,67 @@
-# 2024 年赛事
+# 2024
 
-本页用于收录 2024 年发生/发布的 puzzlehunt。
+### 江湖解谜
 
-## 你可以在这里整理
+2024-02-23 20:00:00 ~ 2024-03-03 20:00:00 `cn`
 
-- 该年各比赛的入口链接与存档
-- 你参与过的队伍记录（可选）
-- 本年代表性题目与机制（可选，或链接到「题目总览」相应题型页）
+[本站](./event-6c5f6e5689e3.md) · [官网](https://jh2024.jianghujiemi.fun/)
 
-## 建议的页面结构（可直接改成你喜欢的格式）
+### fishunt
 
-### 比赛列表
-- （待补充）比赛 A：链接 / 简评
-- （待补充）比赛 B：链接 / 简评
+2024-03-29 20:00:00 ~ 2024-03-31 20:00:00 `cn`
 
-### 本年精选题
-- （待补充）题目名 → 题型 → 一句话机制
+[本站](./fishunt.md) · [官网](https://mp.weixin.qq.com/s/6Iw1aLHo1OkqGeOO5Tgj3A)
 
-### 复盘与总结
-- （待补充）今年常见的提取方式/机制复用
+### enigame: enitime
+
+2024-04-26 23:00:00 ~ 2024-04-30 05:55:00 `cn`
+
+[本站](./enigame-enitime.md) · [官网](https://www.enigame.de/game)
+
+### LGPH 2
+
+2024-04-30 20:00:00 ~ 2024-05-07 20:00:00 `cn`
+
+[本站](./lgph-2.md) · [官网](https://www.luogu.com.cn/contest/162008)
+
+### P&KU 3（上）
+
+2024-07-19 20:00:00 ~ 2024-07-28 20:00:00 `cn`
+
+[本站](./p-and-ku-3.md) · [官网](https://pnku3.pkupuzzle.art/home)
+
+### CCBC 15
+
+2024-08-09 20:00:00 ~ 2024-08-18 20:00:00 `cn`
+
+[本站](./ccbc-15.md) · [官网](https://ccbc15.cipherpuzzles.com/)
+
+### Just Puzzle Hunt
+
+2024-09-06 19:43:00 ~ 2024-09-17 23:59:00 `cn`
+
+[本站](./just-puzzle-hunt.md) · [官网](https://justhunt.cn/#/)
+
+### Galactic Puzzle Hunt 2024
+
+2024-09-21 06:28:00 ~ 2024-10-01 06:28:00 `us`
+
+[本站](./galactic-puzzle-hunt-2024.md) · [官网](https://2024.galacticpuzzlehunt.com/)
+
+### 玥hunt
+
+2024-10-04 18:00:00 ~ 2024-10-09 00:00:00 `cn`
+
+[本站](./hunt.md) · [官网](https://yuehunt.fun/)
+
+### EC Puzzle Hunt 2
+
+2024-10-13 00:00:00 ~ 2024-10-21 12:00:00 `us`
+
+[本站](./ec-puzzle-hunt-2.md) · [官网](https://ecph.site/)
+
+### Christmas Hunt
+
+2024-12-21 20:00:00 ~ 2024-12-24 00:00:00 `cn`
+
+[本站](./christmas-hunt.md) · [官网](https://mp.weixin.qq.com/s/CNPQKam8eWobZz15TBCJsg)

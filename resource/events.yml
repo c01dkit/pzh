@@ -1,0 +1,263 @@
+- name: SECO Puzzle Hunt2
+  description:
+  url: https://www.secopuzzle.com
+  start_time: 2026-01-31 20:00:00
+  end_time: 2026-02-12 20:00:00
+  year: 2026
+  host: cn
+
+- name: Abyssal Puzzle
+  description:
+  url: https://mp.weixin.qq.com/s/mFV75MQcd3WIB_f-_4vwvw
+  start_time: 2026-01-23 20:00:00
+  end_time: 2026-03-02 20:00:00
+  year: 2026
+  host: cn
+
+- name: LN Hunt
+  description:
+  url: https://ln-hunt.com/
+  start_time: 2025-12-06 06:00:00
+  end_time: 2025-12-15 18:00:00
+  year: 2025
+  host: jp
+
+- name: "ZJUPH2025：Journey to the West · 觅西溪笔记"
+  description:
+  url: https://2025.zjuph.fun/
+  start_time: 2025-11-21 20:00:00
+  end_time: 2025-11-30 20:00:00
+  year: 2025
+  host: cn
+
+- name: Puzzle Hunt US-TC
+  description:
+  url: https://us-tc.top/home
+  start_time: 2025-10-06 20:00:00
+  end_time: 2025-10-19 20:00:00
+  year: 2025
+  host: cn
+
+- name: National School Puzzle Hunt #1
+  description:
+  url: https://mp.weixin.qq.com/s/_r5YMyK0QqafJs_WumW_HQ
+  start_time: 2025-09-30 20:00:00
+  end_time: 2025-10-07 20:00:00
+  year: 2025
+  host: cn
+
+- name: Galactic Puzzle Hunt 2025
+  description:
+  url: https://2025.galacticpuzzlehunt.com/
+  start_time: 2025-08-23 06:28:00
+  end_time: 2025-09-02 06:28:00
+  year: 2025
+  host: us
+
+- name: CCBC 16
+  description:
+  url: https://ccbc16.cipherpuzzles.com/
+  start_time: 2025-08-08 20:00:00
+  end_time: 2025-08-17 20:00:00
+  year: 2025
+  host: cn
+
+- name: 金牌解谜
+  description:
+  url: https://goldenph.art/
+  start_time: 2025-07-18 20:00:00
+  end_time: 2025-07-27 20:00:00
+  year: 2025
+  host: cn
+
+- name: REXEI PUZZLE HUNT
+  description:
+  url: https://www.rexei-hunt.fun/
+  start_time: 2025-05-01 20:00:00
+  end_time: 2025-05-07 20:00:00
+  year: 2025
+  host: cn
+
+- name: "Huntingale 2025: ~Carpe Diem~ ep. I"
+  description:
+  url: https://huntingale.nightmeow.site/
+  start_time: 2025-04-26 07:00:00
+  end_time: 2025-05-03 07:00:00
+  year: 2025
+  host: us
+
+- name: "FDU PUZZLE HUNT Final Deadline Upcoming"
+  description:
+  url: https://fduph25.fdupuzzle.fun/
+  start_time: 2025-04-18 15:00:00
+  end_time: 2025-04-27 20:00:00
+  year: 2025
+  host: cn
+
+- name: "2025 Teammate Hunt: Matt & Emma's Deep-space Disaster"
+  description:
+  url: https://2025.teammatehunt.com/
+  start_time: 2025-03-29 07:00:00
+  end_time: 2025-04-07 11:59:00
+  year: 2025
+  host: cn
+
+- name: 第三届 亦乐杯
+  description:
+  url: https://mp.weixin.qq.com/s/8aRzczJrvWqGOxsZaOua-Q
+  start_time: 2025-02-22 20:00:00
+  end_time: 2025-02-28 20:00:00
+  year: 2025
+  host: cn
+
+- name: "Cornsnaky's Snakeyear PUZZLE HUNT"
+  description:
+  url: https://cornsnaky.dearfad.com
+  start_time: 2025-02-05 21:00:00
+  end_time: 2025-02-09 21:00:00
+  year: 2025
+  host: cn
+
+- name: SECO Puzzle Hunt
+  description:
+  url: https://secopuzzle.com/
+  start_time: 2025-01-21 17:00:00
+  end_time: 2025-01-27 17:00:00
+  year: 2025
+  host: cn
+
+- name: 2025 MIT Mystery Hunt
+  description:
+  url: https://mitmh2025.com/
+  start_time: 2025-01-18 01:00:00
+  end_time: 2025-01-21 01:00:00
+  year: 2025
+  host: us
+
+- name: Christmas Hunt
+  description:
+  url: https://mp.weixin.qq.com/s/CNPQKam8eWobZz15TBCJsg
+  start_time: 2024-12-21 20:00:00
+  end_time: 2024-12-24 00:00:00
+  year: 2024
+  host: cn
+
+- name: EC Puzzle Hunt 2
+  description:
+  url: https://ecph.site/
+  start_time: 2024-10-13 00:00:00
+  end_time: 2024-10-21 12:00:00
+  year: 2024
+  host: us
+
+- name: 玥hunt
+  description:
+  url: https://yuehunt.fun/
+  start_time: 2024-10-04 18:00:00
+  end_time: 2024-10-09 00:00:00
+  year: 2024
+  host: cn
+
+- name: Galactic Puzzle Hunt 2024
+  description:
+  url: https://2024.galacticpuzzlehunt.com/
+  start_time: 2024-09-21 06:28:00
+  end_time: 2024-10-01 06:28:00
+  year: 2024
+  host: us
+
+- name: Just Puzzle Hunt
+  description:
+  url: https://justhunt.cn/#/
+  start_time: 2024-09-06 19:43:00
+  end_time: 2024-09-17 23:59:00
+  year: 2024
+  host: cn
+
+- name: CCBC 15
+  description:
+  url: https://ccbc15.cipherpuzzles.com/
+  start_time: 2024-08-09 20:00:00
+  end_time: 2024-08-18 20:00:00
+  year: 2024
+  host: cn
+
+- name: P&KU 3（上）
+  description:
+  url: https://pnku3.pkupuzzle.art/home
+  start_time: 2024-07-19 20:00:00
+  end_time: 2024-07-28 20:00:00
+  year: 2024
+  host: cn
+
+- name: LGPH 2
+  description:
+  url: https://www.luogu.com.cn/contest/162008
+  start_time: 2024-04-30 20:00:00
+  end_time: 2024-05-07 20:00:00
+  year: 2024
+  host: cn
+
+- name: "enigame: enitime"
+  description:
+  url: https://www.enigame.de/game
+  start_time: 2024-04-26 23:00:00
+  end_time: 2024-04-30 05:55:00
+  year: 2024
+  host: cn
+
+- name: fishunt
+  description:
+  url: https://mp.weixin.qq.com/s/6Iw1aLHo1OkqGeOO5Tgj3A
+  start_time: 2024-03-29 20:00:00
+  end_time: 2024-03-31 20:00:00
+  year: 2024
+  host: cn
+
+- name: 江湖解谜
+  description:
+  url: https://jh2024.jianghujiemi.fun/
+  start_time: 2024-02-23 20:00:00
+  end_time: 2024-03-03 20:00:00
+  year: 2024
+  host: cn
+
+- name: 2024 MIT Mystery Hunt
+  description:
+  url: https://mitmh2024.com/
+  start_time: 2025-01-13 01:00:00
+  end_time: 2025-01-15 13:00:00
+  year: 2025
+  host: us
+
+- name: MiaoHunt 2023
+  description:
+  url: https://mh2023.puzzlehunt.cn
+  start_time: 2023-12-29 20:00:00
+  end_time: 2024-01-11 20:00:00
+  year: 2023
+  host: cn
+
+- name: Galactic Puzzle Hunt 2023
+  description:
+  url: https://2023.galacticpuzzlehunt.com/
+  start_time: 2023-11-11 08:11:00
+  end_time: 2023-11-21 08:11:00
+  year: 2023
+  host: us
+
+- name: "enigame: dance To The beat"
+  description:
+  url: https://www.enigame.de/game
+  start_time: 2023-10-27 23:00:00
+  end_time: 2024-10-31 05:55:00
+  year: 2023
+  host: cn
+
+- name: CCBC-1314
+  description:
+  url: https://ccbc13.cipherpuzzles.com
+  start_time: 2023-08-11 20:00:00
+  end_time: 2023-08-20 20:00:00
+  year: 2023
+  host: cn
