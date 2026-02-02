@@ -1,22 +1,46 @@
-# 左列：工具箱类 / 知识性网站类 / 纸笔类 / 国家类 / 中文类 ...
-- name: mit的工具箱
+- name: MIT工具箱
   url: https://puzzles.mit.edu/tools.html
-  description: ""
+  description: 英文工具箱
   category: 工具箱类
-  tags: []
+  tags: 
+    - 单词
+    - 英文
+    - 填字游戏
+    - 密码分析
+    - 图片搜索
+    - 音频搜索
 
-- name: 光子和他朋友开发的工具箱
+- name: solvertools
+  url: https://github.com/rspeer/solvertools
+  description: Mystery Hunt solving tools for Metropolitan Rage Warehouse. Or anyone really.
+  category: 软件类
+  tags:
+    - 单词
+    - 英文
+
+- name: SCIE Puzzle Hunter
   url: https://scieph.com/tools
-  description: 好用
+  description: 包括Binary Nutrimatic、Cipher Canvas、CIST、Morse Nutrimatic、Jisho等工具
   category: 工具箱类
-  tags: []
+  tags: 
+    - 二进制Nutrimatic
+    - 密码学交互画布
+    - 成语查询
+    - 摩斯密码Nutrimatic
+    - 类QAT的日语查词
+
+- name: CyberChef
+  url: https://gchq.github.io/CyberChef/
+  description: 像做菜一样的密码破译器，拖拽式添加每步的变换方法
+  category: 密码类
+  tags:
+    - 密码分析
 
 - name: 英文焖肉面
   url: https://philippica.github.io/cipher_machine/
   description: 焖肉面 - puzzle hunt工具集
   category: 工具箱类
   tags:
-    - 工具箱
     - 查词
     - Word Search
     - 密码分析
@@ -29,54 +53,78 @@
 
 - name: 中文焖肉面
   url: https://philippica.github.io/ChinesePuzzleTool/
-  description: 我说地丁老师是神
+  description: 
   category: 工具箱类
   tags:
     - 工具箱
 
-- name: 十分强劲的密码机器
+- name: cryptii
   url: https://cryptii.com/
-  description: ""
-  category: 工具箱类
+  description: 
+  category: 密码类
   tags:
-    - 古典密码
+    - 密码分析
     - 编码/解码
+
+- name: Cipher Editor
+  url: https://ciphereditor.com/
+  description: 支持画布式可拖拽的密码多流程处理
+  category: 密码类
+  tags: 
+    - 密码分析
+    - 编码解码
 
 - name: 密码机器
   url: https://puzz.cipherpuzzles.com/tools/mmjq.html
-  description: 有本地版
-  category: 工具箱类
+  description: 简单的密码处理器
+  category: 密码类
   tags:
-    - 古典密码
-    - 编码/解码
+    - 密码分析
+    - 编码解码
+
 
 - name: 不暴力不成活
   url: https://puzz.cipherpuzzles.com/tools/bblbch.htm
-  description: 有本地版
-  category: 工具箱类
+  description:
+  category: 密码类
   tags:
-    - 密码爆破
+    - 密码分析
+    - 编码解码
+
 
 - name: dCode.fr
   url: https://www.dcode.fr/tools-list
-  description: ""
-  category: 工具箱类
+  description: 提供各类用于古典密码、文字游戏、代码编码甚至策略游戏的工具
+  category: 密码类
   tags:
-    - 工具箱
-    - 古典密码
-    - 编码/解码
+    - 密码分析
+    - 编码解码
+
+- name: azurewebsites.net
+  url: https://puzzlehunt.azurewebsites.net/123-123/play/encodings
+  description: 某puzzlehunt的样例，包含基础编码知识
+  category: 密码类
+  tags:
+    - 盲文
+    - 旗语
+    - 手语
+    - 密码分析
+    - 编码解码
+
 
 - name: 非常庞大工具箱
   url: https://ref.wikibruce.com/
-  description: ""
-  category: 工具箱类
+  description: 
+  category: 密码类
   tags:
-    - 工具箱
+    - 密码分析
+    - 编码解码
 
-- name: 古典密码 偏ctf
+
+- name: CTF编码
   url: http://www.hiencode.com/
   description: ""
-  category: 工具箱类
+  category: 密码类
   tags:
     - 古典密码
     - CTF
@@ -84,58 +132,44 @@
 - name: 维基百科 英文
   url: https://en.wikipedia.org/wiki/Wikipedia
   description: ""
-  category: 知识性网站类
+  category: 百科类
   tags:
     - 百科
 
 - name: 维基百科 中文
   url: https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91
   description: ""
-  category: 知识性网站类
+  category: 百科类
   tags:
     - 百科
 
 - name: 萌娘百科
   url: https://zh.moegirl.org.cn/#/flow
   description: ""
-  category: 知识性网站类
+  category: 百科类
   tags:
     - 百科
 
 - name: 灰机wiki（游戏）
   url: https://www.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5
   description: ""
-  category: 知识性网站类
+  category: 百科类
   tags:
     - 百科
 
 - name: 求闻百科
   url: https://www.qiuwenbaike.cn/wiki/Qiuwen:%E9%A6%96%E9%A1%B5
   description: ""
-  category: 知识性网站类
+  category: 百科类
   tags:
     - 百科
 
 - name: 百度百科
   url: https://baike.baidu.com/
   description: ""
-  category: 知识性网站类
+  category: 百科类
   tags:
     - 百科
-
-- name: bilibili（b站up主题还是有的）
-  url: https://www.bilibili.com/
-  description: ""
-  category: 知识性网站类
-  tags:
-    - 视频
-
-- name: YouTube（可能洋hunt需要）
-  url: https://www.youtube.com/
-  description: ""
-  category: 知识性网站类
-  tags:
-    - 视频
 
 - name: 数独变体类 强力solver
   url: https://sigh.github.io/Interactive-Sudoku-Solver/?q=
@@ -144,16 +178,16 @@
   tags:
     - 数独
 
-- name: 外国人搞的各种solver
+- name: semiexp.net
   url: https://semiexp.net/games/index.html
-  description: ""
+  description: 包含pzprRT、cspuz-solver2、Sudoku Editor Plus、Scrabble Solver、Infinite Numberlink、Slitherlink、Unset、Logic Pad Solver
   category: 纸笔类
   tags:
-    - 纸笔
+    - solver
 
 - name: yajilin solver（myamyasdvx）
   url: https://myamyasdvx.herokuapp.com/yajilin.html
-  description: ""
+  description: 仙人指路纸笔，不过看不懂这个网站该怎么用
   category: 纸笔类
   tags:
     - 纸笔
@@ -547,23 +581,30 @@
     - 协作
     - 白板
 
-- name: nutri
+- name: Nutrimatic
   url: https://nutrimatic.org/2024/
-  description: ""
+  description: 词组正则匹配网站
   category: 英文类
   tags:
     - 查词
 
 - name: qat
   url: https://www.quinapalus.com/qat.html
-  description: ""
+  description: 单词模式匹配网站，这里给出的是教程链接，页面点击第一行的Try it now可以进入搜索页面
   category: 英文类
   tags:
     - 查词
 
-- name: monkey（旗语/盲文/摩斯）
+- name: OneLook
+  url: https://www.onelook.com/
+  description: 释义查询及词组匹配网站
+  category: 英文类
+  tags:
+    - 查词
+
+- name: monkey
   url: https://www.npinsker.me/puzzles/monkey/
-  description: 个人认为非常快捷的查表工具
+  description: 
   category: 英文类
   tags:
     - 旗语
@@ -600,38 +641,38 @@
   tags:
     - 单表替换
 
-- name: 强力anagram工具（util.in）
+- name: Anagram工具
   url: https://util.in/solver
-  description: ""
+  description: 强力anagram工具（util.in）
   category: 英文类
   tags:
     - anagram
 
-- name: 根据发音搜索单词
+- name: 搜索单词
   url: https://www.benbriedis.com/phonetic/search.php?ref=signals.mysteryleague.com
-  description: ""
+  description: 根据发音搜索单词
   category: 英文类
   tags:
     - 发音
     - 查词
 
-- name: 英文set of things（Airtable）
+- name: Set of things - airtable
   url: https://airtable.com/app5PTNATLzMgFfEc/shr1byObQRdPYR7HM/tblfyrB4qaCAb1hUY
-  description: ""
+  description: 英文set of things，以表格形式呈现
   category: 英文类
   tags:
-    - set-of-things
+    - set of things
 
-- name: 英文set of things（phenomist）
+- name: Sets of Things - phenomist
   url: https://phenomist.wordpress.com/storage/sets/
-  description: ""
+  description: 英文set of things，以网站形式呈现
   category: 英文类
   tags:
-    - set-of-things
+    - set of things
 
 - name: 将cw图片变成cw工具
   url: https://www.npinsker.me/puzzles/crossword/
-  description: google sheet!!!
+  description: 
   category: 英文类
   tags:
     - Crossword

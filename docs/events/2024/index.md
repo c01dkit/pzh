@@ -1,5 +1,11 @@
 # 2024
 
+### MIT Mystery Hunt
+
+2024-01-13 01:00:00 ~ 2024-01-15 13:00:00 `us`
+
+[本站](./mit-mystery-hunt.md) · [官网](https://puzzles.mit.edu/2024/mythstoryhunt.world)
+
 ### 江湖解谜
 
 2024-02-23 20:00:00 ~ 2024-03-03 20:00:00 `cn`

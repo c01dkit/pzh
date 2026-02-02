@@ -78,7 +78,7 @@
   year: 2025
   host: cn
 
-- name: "Huntingale 2025: ~Carpe Diem~ ep. I"
+- name: Huntingale
   description:
   url: https://huntingale.nightmeow.site/
   start_time: 2025-04-26 07:00:00
@@ -126,9 +126,9 @@
   year: 2025
   host: cn
 
-- name: 2025 MIT Mystery Hunt
-  description:
-  url: https://mitmh2025.com/
+- name: MIT Mystery Hunt
+  description: "2025 MIT Mystery Hunt: The Case of the Shadow Diamond"
+  url: https://puzzles.mit.edu/2025/
   start_time: 2025-01-18 01:00:00
   end_time: 2025-01-21 01:00:00
   year: 2025
@@ -222,12 +222,12 @@
   year: 2024
   host: cn
 
-- name: 2024 MIT Mystery Hunt
+- name: MIT Mystery Hunt
   description:
-  url: https://mitmh2024.com/
-  start_time: 2025-01-13 01:00:00
-  end_time: 2025-01-15 13:00:00
-  year: 2025
+  url: https://puzzles.mit.edu/2024/mythstoryhunt.world
+  start_time: 2024-01-13 01:00:00
+  end_time: 2024-01-15 13:00:00
+  year: 2024
   host: us
 
 - name: MiaoHunt 2023

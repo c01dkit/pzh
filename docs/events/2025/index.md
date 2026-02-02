@@ -1,16 +1,10 @@
 # 2025
 
-### 2024 MIT Mystery Hunt
-
-2025-01-13 01:00:00 ~ 2025-01-15 13:00:00 `us`
-
-[本站](./2024-mit-mystery-hunt.md) · [官网](https://mitmh2024.com/)
-
-### 2025 MIT Mystery Hunt
+### MIT Mystery Hunt
 
 2025-01-18 01:00:00 ~ 2025-01-21 01:00:00 `us`
 
-[本站](./2025-mit-mystery-hunt.md) · [官网](https://mitmh2025.com/)
+[本站](./mit-mystery-hunt.md) · [官网](https://puzzles.mit.edu/2025/)
 
 ### SECO Puzzle Hunt
 
@@ -42,11 +36,11 @@
 
 [本站](./fdu-puzzle-hunt-final-deadline-upcoming.md) · [官网](https://fduph25.fdupuzzle.fun/)
 
-### Huntingale 2025: ~Carpe Diem~ ep. I
+### Huntingale
 
 2025-04-26 07:00:00 ~ 2025-05-03 07:00:00 `us`
 
-[本站](./huntingale-2025-carpe-diem-ep-i.md) · [官网](https://huntingale.nightmeow.site/)
+[本站](./huntingale.md) · [官网](https://huntingale.nightmeow.site/)
 
 ### REXEI PUZZLE HUNT
 
