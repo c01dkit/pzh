@@ -1,8 +1,8 @@
-# FDU PUZZLE HUNT Final Deadline Upcoming
+# 2025 年赛事
 
-## 信息
+## FDU PUZZLE HUNT Final Deadline Upcoming
 
-- **URL**: https://fduph25.fdupuzzle.fun/
-- **Host**: `cn`
-- **开始时间（中国时间）**: 2025-04-18 15:00:00
-- **结束时间（中国时间）**: 2025-04-27 20:00:00
+- 时间：2025-04-18 15:00 ～ 2025-04-27 20:00  
+- 主办方：cn
+
+[本站](/events/2025/fdu-puzzle-hunt-final-deadline-upcoming/) · [官网](https://fduph25.fdupuzzle.fun/)

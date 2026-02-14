@@ -1,8 +1,8 @@
-# ZJUPH2025：Journey to the West · 觅西溪笔记
+# 2025 年赛事
 
-## 信息
+## ZJUPH2025：Journey to the West · 觅西溪笔记
 
-- **URL**: https://2025.zjuph.fun/
-- **Host**: `cn`
-- **开始时间（中国时间）**: 2025-11-21 20:00:00
-- **结束时间（中国时间）**: 2025-11-30 20:00:00
+- 时间：2025-11-21 20:00 ～ 2025-11-30 20:00  
+- 主办方：cn
+
+[本站](/events/2025/zjuph2025journey-to-the-west/) · [官网](https://2025.zjuph.fun/)

@@ -2,6 +2,13 @@
 
 共 6 个工具。
 
+## Interactive Sudoku Solver
+
+- 链接：<https://sigh.github.io/Interactive-Sudoku-Solver/?q=>
+- 关键字：数独, Soler
+
+非常强大的数独求解器，预设约束丰富，也支持自行添加新的约束。
+
 ## noq 有一些大众的
 
 - 链接：<https://www.noq.solutions/>
@@ -33,9 +40,4 @@
 - 链接：<https://util.in:8102/>
 - 关键字：纸笔, penpa
 
-外国人写的←
-
-## 数独变体类 强力solver
-
-- 链接：<https://sigh.github.io/Interactive-Sudoku-Solver/?q=>
-- 关键字：数独
+外国人写的

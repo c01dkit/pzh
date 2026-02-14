@@ -69,6 +69,11 @@
 - 链接：<https://tools.qhex.org/>
 - 关键字：Word Search
 
+## Wordle Solver
+
+- 链接：<https://wordraiders.com/solvers/wordle/>
+- 关键字：wordle
+
 ## 单表替换（quipqiup）
 
 - 链接：<https://www.quipqiup.com/>
@@ -97,8 +102,3 @@
 - 关键字：发音, 查词
 
 根据发音搜索单词
-
-## 英文cw solver
-
-- 链接：<https://www.wordplays.com/crossword-solver/>
-- 关键字：Crossword

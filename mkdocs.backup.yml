@@ -2,18 +2,17 @@ nav:
   - 首页: 
     - index: index.md
     - 赛事总览: events/index.md
-#    - 题目总览: puzzles/index.md
+    - 题目总览: puzzles/index.md
     - 解题工具: tools/index.md
     - 密码表: graphs/index.md
   - 赛事总览:
-    - index: events/index.md
+    - events/index.md
     - 2026:
-      - index: events/2026/index.md
+      - events/2026/index.md
       - "Abyssal Puzzle": events/2026/abyssal-puzzle.md
       - "SECO Puzzle Hunt2": events/2026/seco-puzzle-hunt2.md
-      - "欣年三": events/2026/event-6b235e744e09.md
     - 2025:
-      - index: events/2025/index.md
+      - events/2025/index.md
       - "MIT Mystery Hunt": events/2025/mit-mystery-hunt.md
       - "SECO Puzzle Hunt": events/2025/seco-puzzle-hunt.md
       - "Cornsnaky's Snakeyear PUZZLE HUNT": events/2025/cornsnakys-snakeyear-puzzle-hunt.md
@@ -30,7 +29,7 @@ nav:
       - "ZJUPH2025：Journey to the West · 觅西溪笔记": events/2025/zjuph2025journey-to-the-west.md
       - "LN Hunt": events/2025/ln-hunt.md
     - 2024:
-      - index: events/2024/index.md
+      - events/2024/index.md
       - "MIT Mystery Hunt": events/2024/mit-mystery-hunt.md
       - "江湖解谜": events/2024/event-6c5f6e5689e3.md
       - "fishunt": events/2024/fishunt.md
@@ -44,11 +43,25 @@ nav:
       - "EC Puzzle Hunt 2": events/2024/ec-puzzle-hunt-2.md
       - "Christmas Hunt": events/2024/christmas-hunt.md
     - 2023:
-      - index: events/2023/index.md
+      - events/2023/index.md
       - "CCBC-1314": events/2023/ccbc-1314.md
       - "enigame: dance To The beat": events/2023/enigame-dance-to-the-beat.md
       - "Galactic Puzzle Hunt 2023": events/2023/galactic-puzzle-hunt-2023.md
       - "MiaoHunt 2023": events/2023/miaohunt-2023.md
+  - 题目总览:
+    - 总览: puzzles/index.md
+    - Wordplay（词语机制）: puzzles/wordplay/index.md
+    - Logic（逻辑推理）: puzzles/logic/index.md
+    - Math（数学）: puzzles/math/index.md
+    - Crypto（古典密码）: puzzles/crypto/index.md
+    - Encoding（编码/协议/格式）: puzzles/encoding/index.md
+    - Pattern（找规律）: puzzles/pattern/index.md
+    - Trivia / Research（检索与知识）: puzzles/trivia/index.md
+    - Image（图像题）: puzzles/image/index.md
+    - Audio（音频题）: puzzles/audio/index.md
+    - Meta（元谜）: puzzles/meta/index.md
+    - Round Mechanics（盘面/结构机制）: puzzles/round-mechanics/index.md
+    - Physical / Interaction（实物/互动）: puzzles/physical-interaction/index.md
   - 解题工具:
     - index: tools/index.md
     - 中文类: tools/中文类/index.md
@@ -56,17 +69,19 @@ nav:
     - 化学类: tools/化学类/index.md
     - 团队协作类: tools/团队协作类/index.md
     - 国家类: tools/国家类/index.md
-    - 多媒体类: tools/多媒体类/index.md
+    - 图片 音乐 音频 台词类: tools/图片-音乐-音频-台词类/index.md
     - 密码类: tools/密码类/index.md
     - 工具杂项类: tools/工具杂项类/index.md
     - 工具箱类: tools/工具箱类/index.md
-    - 必备: tools/必备/index.md
+    - 批量转换汉字: tools/批量转换汉字/index.md
     - 百科类: tools/百科类/index.md
     - 纸笔类: tools/纸笔类/index.md
     - 英文类: tools/英文类/index.md
     - 软件类: tools/软件类/index.md
+    - 输入法 单字类: tools/输入法-单字类/index.md
   - 密码表:
     - index: graphs/index.md
+
 # END NAV
 
 # 以下配置，均参考 Xiaokang2022 https://github.com/oh-my-mkdocs/oh-my-mkdocs/blob/main/mkdocs.yml

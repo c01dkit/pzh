@@ -145,24 +145,26 @@
 
 - name: 萌娘百科
   url: https://zh.moegirl.org.cn/#/flow
-  description: ""
+  description: 二次元百科
   category: 百科类
   tags:
     - 百科
 
-- name: 灰机wiki（游戏）
+- name: 灰机wiki
   url: https://www.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5
-  description: ""
+  description: 游戏百科
   category: 百科类
   tags:
     - 百科
+    - 游戏
 
 - name: 求闻百科
   url: https://www.qiuwenbaike.cn/wiki/Qiuwen:%E9%A6%96%E9%A1%B5
-  description: ""
+  description: 求闻百科是基于共笔技术的在线百科全书计划，由志愿者合作编纂，旨在创造一部版权开放、质量优良、内容丰富的在线百科全书，推广“开放版权”“自由及开源软件”等理念，鼓励并推动知识、信息、数据及文化、艺术、科学等领域内容的创造、传播、利用。
   category: 百科类
   tags:
     - 百科
+
 
 - name: 百度百科
   url: https://baike.baidu.com/
@@ -171,12 +173,13 @@
   tags:
     - 百科
 
-- name: 数独变体类 强力solver
+- name: Interactive Sudoku Solver
   url: https://sigh.github.io/Interactive-Sudoku-Solver/?q=
-  description: ""
+  description: 非常强大的数独求解器，预设约束丰富，也支持自行添加新的约束。
   category: 纸笔类
   tags:
     - 数独
+    - Soler
 
 - name: semiexp.net
   url: https://semiexp.net/games/index.html
@@ -195,7 +198,7 @@
 
 - name: 基于penpa的纸笔solver
   url: https://util.in:8102/
-  description: 外国人写的←
+  description: 外国人写的
   category: 纸笔类
   tags:
     - 纸笔
@@ -308,10 +311,12 @@
     - 成语
     - 俗语
 
-- name: 搜韵 可以查古诗
+- name: 搜韵
   url: https://sou-yun.cn/
-  description: "\"额 我看是\"\"琵琶拨尽四弦悲\"\""
-  category: 中文类
+  description: 支持诗词查询，可按作者、朝代、体裁、韵部、关键字词及其位置精确查询，也可像百度、谷歌一类模糊检索。可查典故、词谱、诗词地图、对仗词汇。支持定字查询。
+  category: 
+    - 中文类
+    - 必备
   tags:
     - 古诗词
 
@@ -322,12 +327,16 @@
   tags:
     - 工具箱
 
-- name: 千篇国学 可以定字查成语
-  url: https://chengyu.qianp.com/
-  description: 
-  category: 中文类
+- name: 千篇国学
+  url: https://qianp.com/
+  description: 千篇国学首页，包含字典、词典、成语，支持定字查找，非常好用
+  category: 
+    - 中文类
+    - 必备
   tags:
     - 成语
+    - 字典
+    - 词典
 
 - name: 词牌名
   url: https://sou-yun.cn/QueryCiTune.aspx
@@ -367,70 +376,72 @@
 - name: 字统网
   url: https://zi.tools/
   description: 支持部件 结构
-  category: 输入法 单字类
+  category:
+    - 中文类
+    - 必备
   tags:
     - 汉字
 
 - name: 郑码输入法
   url: https://zhengmashurufa.bmcx.com/
   description: ""
-  category: 输入法 单字类
+  category: 中文类
   tags:
     - 输入法
 
 - name: 在线仓颉输入法
   url: https://cangjieshurufa.bmcx.com/
   description: ""
-  category: 输入法 单字类
+  category: 中文类
   tags:
     - 输入法
 
 - name: 在线五笔输入法（daziba）
   url: http://www.daziba.cn/tools/onlinewbime.aspx
   description: ""
-  category: 输入法 单字类
+  category: 中文类
   tags:
     - 输入法
 
 - name: 在线五笔输入法（qqxiuzi）
   url: https://www.qqxiuzi.cn/%E5%9C%A8%E7%BA%BF%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95.htm
-  description: 这俩都行
-  category: 输入法 单字类
+  description: 
+  category: 中文类
   tags:
     - 输入法
 
 - name: 拼音偏旁笔画四角五笔仓颉unicode（zdic）
   url: https://www.zdic.net/
   description: 这个应该很厉害
-  category: 输入法 单字类
+  category: 中文类
   tags:
     - 汉字
 
 - name: 中文电码
   url: https://dianma.bmcx.com/
   description: ""
-  category: 批量转换汉字
+  category: 中文类
   tags:
     - 电码
 
 - name: 四角号码
   url: https://www.qqxiuzi.cn/bianma/sijiaohaoma/
   description: ""
-  category: 批量转换汉字
+  category: 中文类
   tags:
     - 四角号码
 
 - name: 汉字笔画统计
   url: https://uutool.cn/hanzi-bihua/
-  description: "‘变’字笔画数错误"
-  category: 批量转换汉字
+  description: 
+  category: 中文类
   tags:
     - 汉字
 
 - name: 汉字转五笔 转拼音 转粤语
   url: https://tool.lu/py5bconvert/
   description: ""
-  category: 批量转换汉字
+  category: 中文类
   tags:
     - 汉字
     - 输入法
@@ -440,63 +451,63 @@
 - name: unicode查询（unicodeplus）
   url: https://unicodeplus.com/
   description: 但自动按照从小到大顺序
-  category: 批量转换汉字
+  category: 中文类
   tags:
     - Unicode
 
 - name: 乱码恢复工具
   url: http://www.mytju.com/classCode/tools/messyCodeRecover.asp
   description: 部分
-  category: 批量转换汉字
+  category: 中文类
   tags:
     - 乱码修复
 
 - name: 简繁日互转
   url: https://www.jcinfo.net/zh-hans/tools/kanji
   description: ""
-  category: 批量转换汉字
+  category: 中文类
   tags:
     - 简繁转换
 
 - name: exif信息查询
   url: https://exifmeta.com/
   description: ""
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - EXIF
 
 - name: 民谣查找器
   url: https://www.folktunefinder.com/
   description: 绝对音感找旋律妙妙网站——silverhawk
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - 音乐
 
 - name: 钢琴曲（Musipedia Piano）
   url: https://www.musipedia.org/js_piano.html
   description: ""
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - 音乐
 
 - name: 在线测量音高
   url: https://bideyuanli.com/pp
   description: ""
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - 音频
 
 - name: 台词查找
   url: https://getyarn.io/
   description: ""
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - 台词
 
 - name: 标准音频摩斯解码器
   url: https://morsefm.com/
   description: ""
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - 摩斯
     - 音频
@@ -504,14 +515,14 @@
 - name: 听歌识曲（Shazam）
   url: https://www.shazam.com/
   description: ""
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - 音乐
 
 - name: Shazam（Chrome插件下载页）
   url: https://crxdl.com/search?q=chazam
   description: "←可以在这里下载chrome插件"
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - 插件
     - 音乐
@@ -519,14 +530,14 @@
 - name: 音频倒放网站
   url: https://www.tooldeer.com/mp3reverser.html
   description: ""
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - 音频
 
 - name: 动漫场景现实原型
   url: https://www.animepilgrimage.com/
   description: ""
-  category: 图片 音乐 音频 台词类
+  category: 多媒体类
   tags:
     - 动漫
 
@@ -584,7 +595,9 @@
 - name: Nutrimatic
   url: https://nutrimatic.org/2024/
   description: 词组正则匹配网站
-  category: 英文类
+  category: 
+    - 英文类
+    - 必备
   tags:
     - 查词
 
@@ -610,13 +623,6 @@
     - 旗语
     - 盲文
     - 摩斯
-
-- name: 英文cw solver
-  url: https://www.wordplays.com/crossword-solver/
-  description: ""
-  category: 英文类
-  tags:
-    - Crossword
 
 - name: 同义词反义词
   url: https://www.powerthesaurus.org/
@@ -669,6 +675,14 @@
   category: 英文类
   tags:
     - set of things
+
+- name: Wordle Solver
+  url: https://wordraiders.com/solvers/wordle/
+  description: 
+  category: 英文类
+  tags:
+    - wordle
+
 
 - name: 将cw图片变成cw工具
   url: https://www.npinsker.me/puzzles/crossword/

@@ -1,8 +1,8 @@
-# Galactic Puzzle Hunt 2024
+# 2024 年赛事
 
-## 信息
+## Galactic Puzzle Hunt 2024
 
-- **URL**: https://2024.galacticpuzzlehunt.com/
-- **Host**: `us`
-- **开始时间（中国时间）**: 2024-09-21 06:28:00
-- **结束时间（中国时间）**: 2024-10-01 06:28:00
+- 时间：2024-09-21 06:28 ～ 2024-10-01 06:28  
+- 主办方：us
+
+[本站](/events/2024/galactic-puzzle-hunt-2024/) · [官网](https://2024.galacticpuzzlehunt.com/)

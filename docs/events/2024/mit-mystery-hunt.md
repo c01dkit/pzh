@@ -1,8 +1,8 @@
-# MIT Mystery Hunt
+# 2024 年赛事
 
-## 信息
+## MIT Mystery Hunt
 
-- **URL**: https://puzzles.mit.edu/2024/mythstoryhunt.world
-- **Host**: `us`
-- **开始时间（中国时间）**: 2024-01-13 01:00:00
-- **结束时间（中国时间）**: 2024-01-15 13:00:00
+- 时间：2024-01-13 01:00 ～ 2024-01-15 13:00  
+- 主办方：us
+
+[本站](/events/2024/mit-mystery-hunt/) · [官网](https://puzzles.mit.edu/2024/mythstoryhunt.world)

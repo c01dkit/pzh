@@ -1,8 +1,8 @@
-# SECO Puzzle Hunt
+# 2025 年赛事
 
-## 信息
+## SECO Puzzle Hunt
 
-- **URL**: https://secopuzzle.com/
-- **Host**: `cn`
-- **开始时间（中国时间）**: 2025-01-21 17:00:00
-- **结束时间（中国时间）**: 2025-01-27 17:00:00
+- 时间：2025-01-21 17:00 ～ 2025-01-27 17:00  
+- 主办方：cn
+
+[本站](/events/2025/seco-puzzle-hunt/) · [官网](https://secopuzzle.com/)

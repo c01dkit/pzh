@@ -1,8 +1,8 @@
-# Puzzle Hunt US-TC
+# 2025 年赛事
 
-## 信息
+## Puzzle Hunt US-TC
 
-- **URL**: https://us-tc.top/home
-- **Host**: `cn`
-- **开始时间（中国时间）**: 2025-10-06 20:00:00
-- **结束时间（中国时间）**: 2025-10-19 20:00:00
+- 时间：2025-10-06 20:00 ～ 2025-10-19 20:00  
+- 主办方：cn
+
+[本站](/events/2025/puzzle-hunt-us-tc/) · [官网](https://us-tc.top/home)

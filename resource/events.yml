@@ -1,5 +1,13 @@
+- name: 欣年三
+  description: 这是一个春节主题的puzzlehunt，兼具中西风味。谜题数量在20道以内。有彩蛋题，正确解答可参与抢红包活动。这是一个众筹HUNT，没有主办方。
+  url: https://thrivingyear.fun/
+  start_time: 2026-02-19 20:00:00
+  end_time: 2026-02-28 11:59:59
+  year: 2026
+  host: cn
+
 - name: SECO Puzzle Hunt2
-  description:
+  description: 这是由一个不想起床的屑主办的解谜比赛，谜题数量在60道左右。
   url: https://www.secopuzzle.com
   start_time: 2026-01-31 20:00:00
   end_time: 2026-02-12 20:00:00

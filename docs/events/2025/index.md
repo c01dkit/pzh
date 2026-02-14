@@ -1,91 +1,108 @@
-# 2025
+# 2025 年赛事
 
-### MIT Mystery Hunt
+## MIT Mystery Hunt
 
-2025-01-18 01:00:00 ~ 2025-01-21 01:00:00 `us`
+2025 MIT Mystery Hunt: The Case of the Shadow Diamond
 
-[本站](./mit-mystery-hunt.md) · [官网](https://puzzles.mit.edu/2025/)
+- 时间：2025-01-18 01:00 ～ 2025-01-21 01:00  
+- 主办方：us
 
-### SECO Puzzle Hunt
+[本站](/events/2025/mit-mystery-hunt/) · [官网](https://puzzles.mit.edu/2025/)
 
-2025-01-21 17:00:00 ~ 2025-01-27 17:00:00 `cn`
+## SECO Puzzle Hunt
 
-[本站](./seco-puzzle-hunt.md) · [官网](https://secopuzzle.com/)
+- 时间：2025-01-21 17:00 ～ 2025-01-27 17:00  
+- 主办方：cn
 
-### Cornsnaky's Snakeyear PUZZLE HUNT
+[本站](/events/2025/seco-puzzle-hunt/) · [官网](https://secopuzzle.com/)
 
-2025-02-05 21:00:00 ~ 2025-02-09 21:00:00 `cn`
+## Cornsnaky's Snakeyear PUZZLE HUNT
 
-[本站](./cornsnakys-snakeyear-puzzle-hunt.md) · [官网](https://cornsnaky.dearfad.com)
+- 时间：2025-02-05 21:00 ～ 2025-02-09 21:00  
+- 主办方：cn
 
-### 第三届 亦乐杯
+[本站](/events/2025/cornsnakys-snakeyear-puzzle-hunt/) · [官网](https://cornsnaky.dearfad.com)
 
-2025-02-22 20:00:00 ~ 2025-02-28 20:00:00 `cn`
+## 第三届 亦乐杯
 
-[本站](./event-7b2c4e095c4a.md) · [官网](https://mp.weixin.qq.com/s/8aRzczJrvWqGOxsZaOua-Q)
+- 时间：2025-02-22 20:00 ～ 2025-02-28 20:00  
+- 主办方：cn
 
-### 2025 Teammate Hunt: Matt & Emma's Deep-space Disaster
+[本站](/events/2025/event-7b2c4e095c4a/) · [官网](https://mp.weixin.qq.com/s/8aRzczJrvWqGOxsZaOua-Q)
 
-2025-03-29 07:00:00 ~ 2025-04-07 11:59:00 `cn`
+## 2025 Teammate Hunt: Matt & Emma's Deep-space Disaster
 
-[本站](./2025-teammate-hunt-matt-and-emmas-deep-space-disaster.md) · [官网](https://2025.teammatehunt.com/)
+- 时间：2025-03-29 07:00 ～ 2025-04-07 11:59  
+- 主办方：cn
 
-### FDU PUZZLE HUNT Final Deadline Upcoming
+[本站](/events/2025/2025-teammate-hunt-matt-and-emmas-deep-space-disaster/) · [官网](https://2025.teammatehunt.com/)
 
-2025-04-18 15:00:00 ~ 2025-04-27 20:00:00 `cn`
+## FDU PUZZLE HUNT Final Deadline Upcoming
 
-[本站](./fdu-puzzle-hunt-final-deadline-upcoming.md) · [官网](https://fduph25.fdupuzzle.fun/)
+- 时间：2025-04-18 15:00 ～ 2025-04-27 20:00  
+- 主办方：cn
 
-### Huntingale
+[本站](/events/2025/fdu-puzzle-hunt-final-deadline-upcoming/) · [官网](https://fduph25.fdupuzzle.fun/)
 
-2025-04-26 07:00:00 ~ 2025-05-03 07:00:00 `us`
+## Huntingale
 
-[本站](./huntingale.md) · [官网](https://huntingale.nightmeow.site/)
+- 时间：2025-04-26 07:00 ～ 2025-05-03 07:00  
+- 主办方：us
 
-### REXEI PUZZLE HUNT
+[本站](/events/2025/huntingale/) · [官网](https://huntingale.nightmeow.site/)
 
-2025-05-01 20:00:00 ~ 2025-05-07 20:00:00 `cn`
+## REXEI PUZZLE HUNT
 
-[本站](./rexei-puzzle-hunt.md) · [官网](https://www.rexei-hunt.fun/)
+- 时间：2025-05-01 20:00 ～ 2025-05-07 20:00  
+- 主办方：cn
 
-### 金牌解谜
+[本站](/events/2025/rexei-puzzle-hunt/) · [官网](https://www.rexei-hunt.fun/)
 
-2025-07-18 20:00:00 ~ 2025-07-27 20:00:00 `cn`
+## 金牌解谜
 
-[本站](./event-91d1724c89e3.md) · [官网](https://goldenph.art/)
+- 时间：2025-07-18 20:00 ～ 2025-07-27 20:00  
+- 主办方：cn
 
-### CCBC 16
+[本站](/events/2025/event-91d1724c89e3/) · [官网](https://goldenph.art/)
 
-2025-08-08 20:00:00 ~ 2025-08-17 20:00:00 `cn`
+## CCBC 16
 
-[本站](./ccbc-16.md) · [官网](https://ccbc16.cipherpuzzles.com/)
+- 时间：2025-08-08 20:00 ～ 2025-08-17 20:00  
+- 主办方：cn
 
-### Galactic Puzzle Hunt 2025
+[本站](/events/2025/ccbc-16/) · [官网](https://ccbc16.cipherpuzzles.com/)
 
-2025-08-23 06:28:00 ~ 2025-09-02 06:28:00 `us`
+## Galactic Puzzle Hunt 2025
 
-[本站](./galactic-puzzle-hunt-2025.md) · [官网](https://2025.galacticpuzzlehunt.com/)
+- 时间：2025-08-23 06:28 ～ 2025-09-02 06:28  
+- 主办方：us
 
-### National School Puzzle Hunt
+[本站](/events/2025/galactic-puzzle-hunt-2025/) · [官网](https://2025.galacticpuzzlehunt.com/)
 
-2025-09-30 20:00:00 ~ 2025-10-07 20:00:00 `cn`
+## National School Puzzle Hunt
 
-[本站](./national-school-puzzle-hunt.md) · [官网](https://mp.weixin.qq.com/s/_r5YMyK0QqafJs_WumW_HQ)
+- 时间：2025-09-30 20:00 ～ 2025-10-07 20:00  
+- 主办方：cn
 
-### Puzzle Hunt US-TC
+[本站](/events/2025/national-school-puzzle-hunt/) · [官网](https://mp.weixin.qq.com/s/_r5YMyK0QqafJs_WumW_HQ)
 
-2025-10-06 20:00:00 ~ 2025-10-19 20:00:00 `cn`
+## Puzzle Hunt US-TC
 
-[本站](./puzzle-hunt-us-tc.md) · [官网](https://us-tc.top/home)
+- 时间：2025-10-06 20:00 ～ 2025-10-19 20:00  
+- 主办方：cn
 
-### ZJUPH2025：Journey to the West · 觅西溪笔记
+[本站](/events/2025/puzzle-hunt-us-tc/) · [官网](https://us-tc.top/home)
 
-2025-11-21 20:00:00 ~ 2025-11-30 20:00:00 `cn`
+## ZJUPH2025：Journey to the West · 觅西溪笔记
 
-[本站](./zjuph2025journey-to-the-west.md) · [官网](https://2025.zjuph.fun/)
+- 时间：2025-11-21 20:00 ～ 2025-11-30 20:00  
+- 主办方：cn
 
-### LN Hunt
+[本站](/events/2025/zjuph2025journey-to-the-west/) · [官网](https://2025.zjuph.fun/)
 
-2025-12-06 06:00:00 ~ 2025-12-15 18:00:00 `jp`
+## LN Hunt
 
-[本站](./ln-hunt.md) · [官网](https://ln-hunt.com/)
+- 时间：2025-12-06 06:00 ～ 2025-12-15 18:00  
+- 主办方：jp
+
+[本站](/events/2025/ln-hunt/) · [官网](https://ln-hunt.com/)

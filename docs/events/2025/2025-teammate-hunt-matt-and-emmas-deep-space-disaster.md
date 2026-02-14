@@ -1,8 +1,8 @@
-# 2025 Teammate Hunt: Matt & Emma's Deep-space Disaster
+# 2025 年赛事
 
-## 信息
+## 2025 Teammate Hunt: Matt & Emma's Deep-space Disaster
 
-- **URL**: https://2025.teammatehunt.com/
-- **Host**: `cn`
-- **开始时间（中国时间）**: 2025-03-29 07:00:00
-- **结束时间（中国时间）**: 2025-04-07 11:59:00
+- 时间：2025-03-29 07:00 ～ 2025-04-07 11:59  
+- 主办方：cn
+
+[本站](/events/2025/2025-teammate-hunt-matt-and-emmas-deep-space-disaster/) · [官网](https://2025.teammatehunt.com/)

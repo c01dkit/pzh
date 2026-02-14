@@ -1,8 +1,8 @@
-# Galactic Puzzle Hunt 2023
+# 2023 年赛事
 
-## 信息
+## Galactic Puzzle Hunt 2023
 
-- **URL**: https://2023.galacticpuzzlehunt.com/
-- **Host**: `us`
-- **开始时间（中国时间）**: 2023-11-11 08:11:00
-- **结束时间（中国时间）**: 2023-11-21 08:11:00
+- 时间：2023-11-11 08:11 ～ 2023-11-21 08:11  
+- 主办方：us
+
+[本站](/events/2023/galactic-puzzle-hunt-2023/) · [官网](https://2023.galacticpuzzlehunt.com/)
