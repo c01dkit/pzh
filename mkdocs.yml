@@ -9,62 +9,62 @@ nav:
     - index: events/index.md
     - 2026:
       - index: events/2026/index.md
-      - "Abyssal Puzzle": events/2026/abyssal-puzzle.md
-      - "SECO Puzzle Hunt2": events/2026/seco-puzzle-hunt2.md
-      - "欣年三": events/2026/event-6b235e744e09.md
+      - "Abyssal Puzzle": events/2026/6488dae472f55a87.md
+      - "SECO Puzzle Hunt2": events/2026/7d7c349ada446bf4.md
+      - "欣年三": events/2026/4948bf9479046558.md
     - 2025:
       - index: events/2025/index.md
-      - "MIT Mystery Hunt": events/2025/mit-mystery-hunt.md
-      - "SECO Puzzle Hunt": events/2025/seco-puzzle-hunt.md
-      - "Cornsnaky's Snakeyear PUZZLE HUNT": events/2025/cornsnakys-snakeyear-puzzle-hunt.md
-      - "第三届 亦乐杯": events/2025/event-7b2c4e095c4a.md
-      - "2025 Teammate Hunt: Matt & Emma's Deep-space Disaster": events/2025/2025-teammate-hunt-matt-and-emmas-deep-space-disaster.md
-      - "FDU PUZZLE HUNT Final Deadline Upcoming": events/2025/fdu-puzzle-hunt-final-deadline-upcoming.md
-      - "Huntingale": events/2025/huntingale.md
-      - "REXEI PUZZLE HUNT": events/2025/rexei-puzzle-hunt.md
-      - "金牌解谜": events/2025/event-91d1724c89e3.md
-      - "CCBC 16": events/2025/ccbc-16.md
-      - "Galactic Puzzle Hunt 2025": events/2025/galactic-puzzle-hunt-2025.md
-      - "National School Puzzle Hunt": events/2025/national-school-puzzle-hunt.md
-      - "Puzzle Hunt US-TC": events/2025/puzzle-hunt-us-tc.md
-      - "ZJUPH2025：Journey to the West · 觅西溪笔记": events/2025/zjuph2025journey-to-the-west.md
-      - "LN Hunt": events/2025/ln-hunt.md
+      - "MIT Mystery Hunt": events/2025/6c4272cb4cedf332.md
+      - "SECO Puzzle Hunt": events/2025/7d8732e60169804e.md
+      - "Cornsnaky's Snakeyear PUZZLE HUNT": events/2025/552350cec0247e76.md
+      - "第三届 亦乐杯": events/2025/35e5d7cfb3b6768c.md
+      - "2025 Teammate Hunt: Matt & Emma's Deep-space Disaster": events/2025/fcdae590977d50bb.md
+      - "FDU PUZZLE HUNT Final Deadline Upcoming": events/2025/9184f974486b275a.md
+      - "Huntingale": events/2025/c79bd961fefd1940.md
+      - "REXEI PUZZLE HUNT": events/2025/057d49e6b5f802fb.md
+      - "金牌解谜": events/2025/d7a2f6ad1d5125a1.md
+      - "CCBC 16": events/2025/6a3b521cf05f73b9.md
+      - "Galactic Puzzle Hunt 2025": events/2025/9d1c13621abd102f.md
+      - "National School Puzzle Hunt": events/2025/13222f44ca2aaf5a.md
+      - "Puzzle Hunt US-TC": events/2025/a9ee78521126c92b.md
+      - "ZJUPH2025：Journey to the West · 觅西溪笔记": events/2025/de9be6a091cccbc5.md
+      - "LN Hunt": events/2025/74082b32294a4278.md
     - 2024:
       - index: events/2024/index.md
-      - "MIT Mystery Hunt": events/2024/mit-mystery-hunt.md
-      - "江湖解谜": events/2024/event-6c5f6e5689e3.md
-      - "fishunt": events/2024/fishunt.md
-      - "enigame: enitime": events/2024/enigame-enitime.md
-      - "LGPH 2": events/2024/lgph-2.md
-      - "P&KU 3（上）": events/2024/p-and-ku-3.md
-      - "CCBC 15": events/2024/ccbc-15.md
-      - "Just Puzzle Hunt": events/2024/just-puzzle-hunt.md
-      - "Galactic Puzzle Hunt 2024": events/2024/galactic-puzzle-hunt-2024.md
-      - "玥hunt": events/2024/hunt.md
-      - "EC Puzzle Hunt 2": events/2024/ec-puzzle-hunt-2.md
-      - "Christmas Hunt": events/2024/christmas-hunt.md
+      - "MIT Mystery Hunt": events/2024/b15e075545f858e1.md
+      - "江湖解谜": events/2024/bd16168546a0d95e.md
+      - "fishunt": events/2024/743ecd6a7f94b4ff.md
+      - "enigame: enitime": events/2024/e4eab5b358340e34.md
+      - "LGPH 2": events/2024/35ab04ba6413496f.md
+      - "P&KU 3（上）": events/2024/bc7dd3689a3d6ac9.md
+      - "CCBC 15": events/2024/78750e3b63c03f0e.md
+      - "Just Puzzle Hunt": events/2024/b9827c69f83b27c1.md
+      - "Galactic Puzzle Hunt 2024": events/2024/eee6c32d299a61f9.md
+      - "玥hunt": events/2024/a364fcc9e22ba98f.md
+      - "EC Puzzle Hunt 2": events/2024/47c6df5fb061b566.md
+      - "Christmas Hunt": events/2024/0de2393131151d8c.md
     - 2023:
       - index: events/2023/index.md
-      - "CCBC-1314": events/2023/ccbc-1314.md
-      - "enigame: dance To The beat": events/2023/enigame-dance-to-the-beat.md
-      - "Galactic Puzzle Hunt 2023": events/2023/galactic-puzzle-hunt-2023.md
-      - "MiaoHunt 2023": events/2023/miaohunt-2023.md
+      - "CCBC-1314": events/2023/2ef665af2041cdd8.md
+      - "enigame: dance To The beat": events/2023/6554aadaa1aa6f68.md
+      - "Galactic Puzzle Hunt 2023": events/2023/fdf67604b24eaa82.md
+      - "MiaoHunt 2023": events/2023/7b5159e16b413fd6.md
   - 解题工具:
     - index: tools/index.md
+    - 必备: tools/必备/index.md
     - 中文类: tools/中文类/index.md
-    - 其他杂项类: tools/其他杂项类/index.md
     - 化学类: tools/化学类/index.md
     - 团队协作类: tools/团队协作类/index.md
     - 国家类: tools/国家类/index.md
     - 多媒体类: tools/多媒体类/index.md
     - 密码类: tools/密码类/index.md
-    - 工具杂项类: tools/工具杂项类/index.md
     - 工具箱类: tools/工具箱类/index.md
-    - 必备: tools/必备/index.md
     - 百科类: tools/百科类/index.md
     - 纸笔类: tools/纸笔类/index.md
     - 英文类: tools/英文类/index.md
     - 软件类: tools/软件类/index.md
+    - 工具杂项类: tools/工具杂项类/index.md
+    - 其他杂项类: tools/其他杂项类/index.md
   - 密码表:
     - index: graphs/index.md
 # END NAV

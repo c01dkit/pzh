@@ -7,7 +7,7 @@ git submodule update --init --recursive
 uv sync
 
 # After modifying yml files in /resource
-uv run main.py
+uv run src/main.py
 
 ```
 ## Deploy 
