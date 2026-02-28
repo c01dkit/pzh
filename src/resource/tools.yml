@@ -1,940 +1,934 @@
 - name: Nutrimatic
   url: https://nutrimatic.org/2024/
   description: 词组正则匹配网站
-  category: 
-    - 必备
-    - 英文类
+  category:
+  - 必备
+  - 英文类
   tags:
-    - 查词
-
+  - 查词
+  id: baeae242b9f5d8d2
 - name: MIT工具箱
   url: https://puzzles.mit.edu/tools.html
   description: 英文工具箱
   category: 工具箱类
-  tags: 
-    - 单词
-    - 英文
-    - 填字游戏
-    - 密码分析
-    - 图片搜索
-    - 音频搜索
-
+  tags:
+  - 单词
+  - 英文
+  - 填字游戏
+  - 密码分析
+  - 图片搜索
+  - 音频搜索
+  id: 548bcc99545f2fd1
 - name: solvertools
   url: https://github.com/rspeer/solvertools
-  description: Mystery Hunt solving tools for Metropolitan Rage Warehouse. Or anyone really.
+  description: Mystery Hunt solving tools for Metropolitan Rage Warehouse. Or anyone
+    really.
   category: 软件类
   tags:
-    - 单词
-    - 英文
-
+  - 单词
+  - 英文
+  id: b5c45ddbf89d461e
 - name: SCIE Puzzle Hunter
   url: https://scieph.com/tools
   description: 包括Binary Nutrimatic、Cipher Canvas、CIST、Morse Nutrimatic、Jisho等工具
   category: 工具箱类
-  tags: 
-    - 二进制Nutrimatic
-    - 密码学交互画布
-    - 成语查询
-    - 摩斯密码Nutrimatic
-    - 类QAT的日语查词
-
+  tags:
+  - 二进制Nutrimatic
+  - 密码学交互画布
+  - 成语查询
+  - 摩斯密码Nutrimatic
+  - 类QAT的日语查词
+  id: 0d8147ae81e3c9ec
 - name: CyberChef
   url: https://gchq.github.io/CyberChef/
   description: 像做菜一样的密码破译器，拖拽式添加每步的变换方法
   category: 密码类
   tags:
-    - 密码分析
-
+  - 密码分析
+  id: 96930790e1eb0d03
 - name: 英文焖肉面
   url: https://philippica.github.io/cipher_machine/
   description: 焖肉面 - puzzle hunt工具集
   category: 工具箱类
   tags:
-    - 查词
-    - Word Search
-    - 密码分析
-    - 盲文
-    - 旗语
-    - 摩斯
-    - 古典密码
-    - 图片处理
-    - 纸笔
-
+  - 查词
+  - Word Search
+  - 密码分析
+  - 盲文
+  - 旗语
+  - 摩斯
+  - 古典密码
+  - 图片处理
+  - 纸笔
+  id: 64e6cf66dfa1ad74
 - name: 中文焖肉面
   url: https://philippica.github.io/ChinesePuzzleTool/
-  description: 
+  description: null
   category: 工具箱类
   tags:
-    - 工具箱
-
+  - 工具箱
+  id: 45d5c770b79eaf93
 - name: cryptii
   url: https://cryptii.com/
-  description: 
+  description: null
   category: 密码类
   tags:
-    - 密码分析
-    - 编码/解码
-
+  - 密码分析
+  - 编码/解码
+  id: 117602ded9e35edd
 - name: Cipher Editor
   url: https://ciphereditor.com/
   description: 支持画布式可拖拽的密码多流程处理
   category: 密码类
-  tags: 
-    - 密码分析
-    - 编码解码
-
+  tags:
+  - 密码分析
+  - 编码解码
+  id: 20dd04b3d6b809e2
 - name: 密码机器
   url: https://puzz.cipherpuzzles.com/tools/mmjq.html
   description: 简单的密码处理器
   category: 密码类
   tags:
-    - 密码分析
-    - 编码解码
-
-
+  - 密码分析
+  - 编码解码
+  id: 0c1948b7d7a816b4
 - name: 不暴力不成活
   url: https://puzz.cipherpuzzles.com/tools/bblbch.htm
-  description:
+  description: null
   category: 密码类
   tags:
-    - 密码分析
-    - 编码解码
-
-
+  - 密码分析
+  - 编码解码
+  id: 54a91b04c2fd314e
 - name: dCode.fr
   url: https://www.dcode.fr/tools-list
   description: 提供各类用于古典密码、文字游戏、代码编码甚至策略游戏的工具
   category: 密码类
   tags:
-    - 密码分析
-    - 编码解码
-
+  - 密码分析
+  - 编码解码
+  id: 2922391a9988496f
 - name: azurewebsites.net
   url: https://puzzlehunt.azurewebsites.net/123-123/play/encodings
   description: 某puzzlehunt的样例，包含基础编码知识
   category: 密码类
   tags:
-    - 盲文
-    - 旗语
-    - 手语
-    - 密码分析
-    - 编码解码
-
-
+  - 盲文
+  - 旗语
+  - 手语
+  - 密码分析
+  - 编码解码
+  id: 74ce95b4f2f9db6a
 - name: 非常庞大工具箱
   url: https://ref.wikibruce.com/
-  description: 
+  description: null
   category: 密码类
   tags:
-    - 密码分析
-    - 编码解码
-
-
+  - 密码分析
+  - 编码解码
+  id: 77e0027e2f9cca33
 - name: CTF编码
   url: http://www.hiencode.com/
-  description: ""
+  description: ''
   category: 密码类
   tags:
-    - 古典密码
-    - CTF
-
+  - 古典密码
+  - CTF
+  id: 5d2aa35a29aac0fe
 - name: 维基百科 英文
   url: https://en.wikipedia.org/wiki/Wikipedia
-  description: ""
+  description: ''
   category: 百科类
   tags:
-    - 百科
-
+  - 百科
+  id: 86d6dc45201f5e3e
 - name: 维基百科 中文
   url: https://zh.wikipedia.org/wiki/%E7%BB%B4%E5%9F%BA%E7%99%BE%E7%A7%91
-  description: ""
+  description: ''
   category: 百科类
   tags:
-    - 百科
-
+  - 百科
+  id: 725fa31c6754941a
 - name: 萌娘百科
   url: https://zh.moegirl.org.cn/#/flow
   description: 二次元百科
   category: 百科类
   tags:
-    - 百科
-
+  - 百科
+  id: f6e7829c3cb4f833
 - name: 灰机wiki
   url: https://www.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5
   description: 游戏百科
   category: 百科类
   tags:
-    - 百科
-    - 游戏
-
+  - 百科
+  - 游戏
+  id: fb571d22644edd58
 - name: 求闻百科
   url: https://www.qiuwenbaike.cn/wiki/Qiuwen:%E9%A6%96%E9%A1%B5
   description: 求闻百科是基于共笔技术的在线百科全书计划，由志愿者合作编纂，旨在创造一部版权开放、质量优良、内容丰富的在线百科全书，推广“开放版权”“自由及开源软件”等理念，鼓励并推动知识、信息、数据及文化、艺术、科学等领域内容的创造、传播、利用。
   category: 百科类
   tags:
-    - 百科
-
-
+  - 百科
+  id: f917581bf4b9425c
 - name: 百度百科
   url: https://baike.baidu.com/
-  description: ""
+  description: ''
   category: 百科类
   tags:
-    - 百科
-
+  - 百科
+  id: 41dc380e3930b70f
 - name: Interactive Sudoku Solver
   url: https://sigh.github.io/Interactive-Sudoku-Solver/?q=
   description: 非常强大的数独求解器，预设约束丰富，也支持自行添加新的约束。
   category: 纸笔类
   tags:
-    - 数独
-    - Soler
-
+  - 数独
+  - Soler
+  id: 27fdd705615977e4
 - name: semiexp.net
   url: https://semiexp.net/games/index.html
-  description: 包含pzprRT、cspuz-solver2、Sudoku Editor Plus、Scrabble Solver、Infinite Numberlink、Slitherlink、Unset、Logic Pad Solver
+  description: 包含pzprRT、cspuz-solver2、Sudoku Editor Plus、Scrabble Solver、Infinite
+    Numberlink、Slitherlink、Unset、Logic Pad Solver
   category: 纸笔类
   tags:
-    - solver
-
+  - solver
+  id: d6d828723d800115
 - name: yajilin solver（myamyasdvx）
   url: https://myamyasdvx.herokuapp.com/yajilin.html
   description: 仙人指路纸笔，不过看不懂这个网站该怎么用
   category: 纸笔类
   tags:
-    - 纸笔
-    - yajilin
-
+  - 纸笔
+  - yajilin
+  id: 3c0396ba1a329870
 - name: 基于penpa的纸笔solver
   url: https://util.in:8102/
   description: 外国人写的
   category: 纸笔类
   tags:
-    - 纸笔
-    - penpa
-
+  - 纸笔
+  - penpa
+  id: 05630d6cd3fdf524
 - name: penpa-edit（t0nyx1ang）
   url: https://t0nyx1ang.github.io/noqx/penpa-edit/
   description: 群友tonyXFY写的←
   category: 纸笔类
   tags:
-    - 纸笔
-    - penpa
-
+  - 纸笔
+  - penpa
+  id: 64e8ad41b5ce1627
 - name: noq 有一些大众的
   url: https://www.noq.solutions/
-  description: ""
+  description: ''
   category: 纸笔类
   tags:
-    - 纸笔
-
+  - 纸笔
+  id: e772ce9dcc35e688
 - name: 国旗正查询 可用时间轴
   url: https://flaglog.com/
-  description: ""
+  description: ''
   category: 国家类
   tags:
-    - 国旗
-
+  - 国旗
+  id: 346491fa102305f5
 - name: 国旗反查询（photius）
   url: https://www.photius.com/flags/flag_identifier.html
-  description: ""
+  description: ''
   category: 国家类
   tags:
-    - 国旗
-
+  - 国旗
+  id: f29e8f5b426aae50
 - name: 国旗反查询（flagid）
   url: https://flagid.org/
   description: 这俩都行
   category: 国家类
   tags:
-    - 国旗
-
+  - 国旗
+  id: 7b6122a48c36d641
 - name: 国徽（维基：国徽列表）
   url: https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%BE%BD%E5%88%97%E8%A1%A8
-  description: ""
+  description: ''
   category: 国家类
   tags:
-    - 国徽
-
+  - 国徽
+  id: 9ac51e0b846bba35
 - name: 世界资料库
   url: https://guo.ge/
   description: 使用地图点击找到该国家国歌国旗国徽，需要你对世界地图很熟悉
   category: 国家类
   tags:
-    - 国家
-
+  - 国家
+  id: 823bf0c92c46709d
 - name: 机场三字母码
   url: http://szdm.00cha.net/
-  description: 
+  description: null
   category: 国家类
   tags:
-    - 机场三字码
-
+  - 机场三字码
+  id: 72910584041b2622
 - name: 包括国家代码 数字代码 电话 域名
   url: https://www.guojiadaima.com/
-  description: ""
+  description: ''
   category: 国家类
   tags:
-    - 国家代码
-
+  - 国家代码
+  id: 97f641e47a77595c
 - name: 地名信息库
   url: https://dmfw.mca.gov.cn/
   description: 不止中国的 月球都能查（
   category: 国家类
   tags:
-    - 地名
-
+  - 地名
+  id: 5fb87ef5e5d4c491
 - name: 谷歌地图
   url: https://www.google.com/maps/search/?hl=zh-CN
-  description: ""
+  description: ''
   category: 国家类
   tags:
-    - 地图
-
+  - 地图
+  id: 1713a4e5800c1390
 - name: 逆向搜图（TinEye）
   url: https://tineye.com/
-  description: ""
+  description: ''
   category: 国家类
   tags:
-    - 识图
-
+  - 识图
+  id: 7fe4a9ca061e13fe
 - name: 全球地铁
   url: https://people.reed.edu/~reyn/transport.html#maps
-  description: ""
+  description: ''
   category: 国家类
   tags:
-    - 地铁
-
+  - 地铁
+  id: 5fa710801863d4c3
 - name: 地铁换乘?(换城)工具
   url: https://metro.wallbreaker5th.top/
-  description: ""
+  description: ''
   category: 国家类
   tags:
-    - 地铁
-
+  - 地铁
+  id: a0172341a6050a56
 - name: 8846条谚语、惯用语、歇后语等俗语
   url: http://cs.newdu.com/
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 成语
-    - 俗语
-
+  - 成语
+  - 俗语
+  id: 9f6b899e13fa57ce
 - name: 搜韵
   url: https://sou-yun.cn/
   description: 支持诗词查询，可按作者、朝代、体裁、韵部、关键字词及其位置精确查询，也可像百度、谷歌一类模糊检索。可查典故、词谱、诗词地图、对仗词汇。支持定字查询。
-  category: 
-    - 中文类
-    - 必备
+  category:
+  - 中文类
+  - 必备
   tags:
-    - 古诗词
-
+  - 古诗词
+  id: 8b8454dc57ea0e85
 - name: 光子和他朋友开发的工具箱（cist）
   url: https://scieph.com/cist
   description: 好用
   category: 工具箱类
   tags:
-    - 工具箱
-
+  - 工具箱
+  id: 4ec2966faa03d209
 - name: 千篇国学
   url: https://www.qianp.com/
   description: 千篇国学，右上角可以选字典、词典、成语，支持定字查找，非常好用
-  category: 
-    - 中文类
-    - 必备
+  category:
+  - 中文类
+  - 必备
   tags:
-    - 成语
-    - 字典
-    - 词典
-
+  - 成语
+  - 字典
+  - 词典
+  id: faaf9bae6c30feb9
 - name: 词牌名
   url: https://sou-yun.cn/QueryCiTune.aspx
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 词牌名
-
+  - 词牌名
+  id: d882037622820215
 - name: 很全的中华古诗库（GitHub）
   url: https://github.com/chinese-poetry/chinese-poetry
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 古诗词
-
+  - 古诗词
+  id: 2b77f6d09f1a1e18
 - name: 古诗文网
   url: https://www.gushiwen.cn/
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 古诗词
-
+  - 古诗词
+  id: 1c98499bd1745f19
 - name: 押韵大师（rap.zlxiang）
   url: https://rap.zlxiang.com/
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 押韵
-
+  - 押韵
+  id: d153372afd965532
 - name: 完美韵脚
   url: https://wanmeiyunjiao.com/
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 押韵
-
+  - 押韵
+  id: a8fd3db07a0a0c8e
 - name: 字统网
   url: https://zi.tools/
   description: 支持部件 结构
   category:
-    - 中文类
-    - 必备
+  - 中文类
+  - 必备
   tags:
-    - 汉字
-
+  - 汉字
+  id: 3d30567b6ece129c
 - name: 郑码输入法
   url: https://zhengmashurufa.bmcx.com/
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 输入法
-
+  - 输入法
+  id: df77f5bea140a74c
 - name: 在线仓颉输入法
   url: https://cangjieshurufa.bmcx.com/
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 输入法
-
+  - 输入法
+  id: f79a6358dc71df4d
 - name: 在线五笔输入法（daziba）
   url: http://www.daziba.cn/tools/onlinewbime.aspx
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 输入法
-
+  - 输入法
+  id: f89ff1a0a1c017c3
 - name: 在线五笔输入法（qqxiuzi）
   url: https://www.qqxiuzi.cn/%E5%9C%A8%E7%BA%BF%E4%BA%94%E7%AC%94%E8%BE%93%E5%85%A5%E6%B3%95.htm
-  description: 
+  description: null
   category: 中文类
   tags:
-    - 输入法
-
+  - 输入法
+  id: 65b75b9582f58e46
 - name: 拼音偏旁笔画四角五笔仓颉unicode（zdic）
   url: https://www.zdic.net/
   description: 这个应该很厉害
   category: 中文类
   tags:
-    - 汉字
-
+  - 汉字
+  id: ca5911c7fa121813
 - name: 中文电码
   url: https://dianma.bmcx.com/
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 电码
-
+  - 电码
+  id: 45235aa6c6f1a9a7
 - name: 四角号码
   url: https://www.qqxiuzi.cn/bianma/sijiaohaoma/
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 四角号码
-
+  - 四角号码
+  id: 85e3b615eab3bf16
 - name: 汉字笔画统计
   url: https://uutool.cn/hanzi-bihua/
-  description: 
+  description: null
   category: 中文类
   tags:
-    - 汉字
-
+  - 汉字
+  id: 924681da28886534
 - name: 汉字转五笔 转拼音 转粤语
   url: https://tool.lu/py5bconvert/
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 汉字
-    - 输入法
-    - 拼音
-    - 粤语
-
+  - 汉字
+  - 输入法
+  - 拼音
+  - 粤语
+  id: 06d290573df63c3e
 - name: unicode查询（unicodeplus）
   url: https://unicodeplus.com/
   description: 但自动按照从小到大顺序
   category: 中文类
   tags:
-    - Unicode
-
+  - Unicode
+  id: 5d5e360e390d6484
 - name: 乱码恢复工具
   url: http://www.mytju.com/classCode/tools/messyCodeRecover.asp
   description: 部分
   category: 中文类
   tags:
-    - 乱码修复
-
+  - 乱码修复
+  id: bd1f2b74dd3db4e5
 - name: 简繁日互转
   url: https://www.jcinfo.net/zh-hans/tools/kanji
-  description: ""
+  description: ''
   category: 中文类
   tags:
-    - 简繁转换
-
+  - 简繁转换
+  id: e538ef76dfca927c
 - name: exif信息查询
   url: https://exifmeta.com/
-  description: ""
+  description: ''
   category: 多媒体类
   tags:
-    - EXIF
-
+  - EXIF
+  id: 62271917a554d4ee
 - name: 民谣查找器
   url: https://www.folktunefinder.com/
   description: 绝对音感找旋律妙妙网站——silverhawk
   category: 多媒体类
   tags:
-    - 音乐
-
+  - 音乐
+  id: 179349a3c3d906f2
 - name: 钢琴曲（Musipedia Piano）
   url: https://www.musipedia.org/js_piano.html
-  description: ""
+  description: ''
   category: 多媒体类
   tags:
-    - 音乐
-
+  - 音乐
+  id: e82fd23b98e6fdaf
 - name: 在线测量音高
   url: https://bideyuanli.com/pp
-  description: ""
+  description: ''
   category: 多媒体类
   tags:
-    - 音频
-
+  - 音频
+  id: cfe2c7b4a45441d2
 - name: 台词查找
   url: https://getyarn.io/
-  description: ""
+  description: ''
   category: 多媒体类
   tags:
-    - 台词
-
+  - 台词
+  id: 1cbfe74d026d6c65
 - name: 标准音频摩斯解码器
   url: https://morsefm.com/
-  description: ""
+  description: ''
   category: 多媒体类
   tags:
-    - 摩斯
-    - 音频
-
+  - 摩斯
+  - 音频
+  id: f8e74123f507c794
 - name: 听歌识曲（Shazam）
   url: https://www.shazam.com/
-  description: ""
+  description: ''
   category: 多媒体类
   tags:
-    - 音乐
-
+  - 音乐
+  id: 5e8303e32145419c
 - name: Shazam（Chrome插件下载页）
   url: https://crxdl.com/search?q=chazam
-  description: "←可以在这里下载chrome插件"
+  description: ←可以在这里下载chrome插件
   category: 多媒体类
   tags:
-    - 插件
-    - 音乐
-
+  - 插件
+  - 音乐
+  id: 7d383876bdeaf38d
 - name: 音频倒放网站
   url: https://www.tooldeer.com/mp3reverser.html
-  description: ""
+  description: ''
   category: 多媒体类
   tags:
-    - 音频
-
+  - 音频
+  id: f352643826f94458
 - name: 动漫场景现实原型
   url: https://www.animepilgrimage.com/
-  description: ""
+  description: ''
   category: 多媒体类
   tags:
-    - 动漫
-
+  - 动漫
+  id: cba54b0180496dc9
 - name: 化学CAS查询
   url: https://www.chemsrc.com/casindex/
-  description: ""
+  description: ''
   category: 化学类
   tags:
-    - 化学
-
+  - 化学
+  id: 62b2fb0395a57cdf
 - name: 元素周期表（ptable）
   url: https://ptable.com/?lang=en#Properties
-  description: ""
+  description: ''
   category: 化学类
   tags:
-    - 化学
-
+  - 化学
+  id: ab78cb63cff713c8
 - name: 化学元素 物理符号拼写单词
   url: https://www.chemspeller.com/index.html?
-  description: ""
+  description: ''
   category: 化学类
   tags:
-    - 化学
-
+  - 化学
+  id: cfe514c40fe13fae
 - name: 所有能用化学元素拼成的单词
   url: https://nandor.org/math/chemwords/wordslist.htm
-  description: ""
+  description: ''
   category: 化学类
   tags:
-    - 化学
-
+  - 化学
+  id: 29ea95a95d54b0dc
 - name: 化学人名反应
   url: https://www.name-reaction.com/list
-  description: ""
+  description: ''
   category: 化学类
   tags:
-    - 化学
-
+  - 化学
+  id: eb450a38c8d269fd
 - name: 团队协作白板
   url: https://excalidraw.com/
   description: 专注实时性的共享白板，绘制自由轻松，支持方形、圆形、菱形、文字、激光笔、自由曲线等绘制。
   category: 团队协作类
   tags:
-    - 协作
-    - 白板
-
+  - 协作
+  - 白板
+  id: 7853dc9881e279d4
 - name: 团队协作白板
   url: https://www.drawio.com/
   description: 集成了多种流程图、UML图组件，实时性稍弱。
   category: 团队协作类
   tags:
-    - 协作
-    - 白板
-
-
-
+  - 协作
+  - 白板
+  id: 0a78c40776d15575
 - name: qat
   url: https://www.quinapalus.com/qat.html
   description: 单词模式匹配网站，这里给出的是教程链接，页面点击第一行的Try it now可以进入搜索页面
   category: 英文类
   tags:
-    - 查词
-
+  - 查词
+  id: 30f9eb63fc626b1b
 - name: OneLook
   url: https://www.onelook.com/
   description: 释义查询及词组匹配网站
   category: 英文类
   tags:
-    - 查词
-
+  - 查词
+  id: ac23e24e998e7ab6
 - name: monkey
   url: https://www.npinsker.me/puzzles/monkey/
-  description: 
+  description: null
   category: 英文类
   tags:
-    - 旗语
-    - 盲文
-    - 摩斯
-
+  - 旗语
+  - 盲文
+  - 摩斯
+  id: e0fb2f652737aed5
 - name: 同义词反义词
   url: https://www.powerthesaurus.org/
   description: 最快其实是google word+syn——COL
   category: 英文类
   tags:
-    - 同义词
-    - 反义词
-
+  - 同义词
+  - 反义词
+  id: 7a9530a38d9c9657
 - name: 同音词/押韵词
   url: https://www.rhymezone.com/
-  description: ""
+  description: ''
   category: 英文类
   tags:
-    - 同音
-    - 押韵
-
+  - 同音
+  - 押韵
+  id: 6e80acfb7be1119f
 - name: 单表替换（quipqiup）
   url: https://www.quipqiup.com/
-  description: ""
+  description: ''
   category: 英文类
   tags:
-    - 单表替换
-
+  - 单表替换
+  id: 47b3cb5962b344a0
 - name: Anagram工具
   url: https://util.in/solver
   description: 强力anagram工具（util.in）
   category: 英文类
   tags:
-    - anagram
-
+  - anagram
+  id: 482e56ab476c0b75
 - name: 搜索单词
   url: https://www.benbriedis.com/phonetic/search.php?ref=signals.mysteryleague.com
   description: 根据发音搜索单词
   category: 英文类
   tags:
-    - 发音
-    - 查词
-
+  - 发音
+  - 查词
+  id: 18df2fa4b60010ca
 - name: Set of things - airtable
   url: https://airtable.com/app5PTNATLzMgFfEc/shr1byObQRdPYR7HM/tblfyrB4qaCAb1hUY
   description: 英文set of things，以表格形式呈现
   category: 英文类
   tags:
-    - set of things
-
+  - set of things
+  id: fc1cf9134133c117
 - name: Sets of Things - phenomist
   url: https://phenomist.wordpress.com/storage/sets/
   description: 英文set of things，以网站形式呈现
   category: 英文类
   tags:
-    - set of things
-
+  - set of things
+  id: 07a13f965df49e8e
 - name: Wordle Solver
   url: https://wordraiders.com/solvers/wordle/
-  description: 
+  description: null
   category: 英文类
   tags:
-    - wordle
-
-
+  - wordle
+  id: 5a02ed1dc34be34f
 - name: 将cw图片变成cw工具
   url: https://www.npinsker.me/puzzles/crossword/
-  description: 
+  description: null
   category: 英文类
   tags:
-    - Crossword
-
+  - Crossword
+  id: 75afff2ad8bc00cb
 - name: cryptic新手教程
   url: http://www.puzzledpint.com/files/3613/8170/3749/CrypticsGuide.pdf?ref=signals.mysteryleague.com
-  description: ""
+  description: ''
   category: 英文类
   tags:
-    - Cryptic
-
+  - Cryptic
+  id: 318398644eca7e51
 - name: cryptic提示词
   url: https://cryptics.fandom.com/wiki/Category:Setting_and_solving_aids
-  description: ""
+  description: ''
   category: 英文类
   tags:
-    - Cryptic
-
+  - Cryptic
+  id: be21dcc8810d46a6
 - name: word search solver（tools.qhex）
   url: https://tools.qhex.org/
-  description: ""
+  description: ''
   category: 英文类
   tags:
-    - Word Search
-
+  - Word Search
+  id: d416422b807e1d9d
 - name: CMU发音词典
   url: http://www.speech.cs.cmu.edu/cgi-bin/cmudict?ref=signals.mysteryleague.com
-  description: ""
+  description: ''
   category: 英文类
   tags:
-    - 发音
-    - 词典
-
+  - 发音
+  - 词典
+  id: 06b6ec56eb6017d3
 - name: 任意进制转换（math.tools）
   url: https://math.tools/calculator/base/
   description: 范围base2-base64
   category: 工具杂项类
   tags:
-    - 进制转换
-
+  - 进制转换
+  id: 3201118933ba325d
 - name: 进制转换1（hexconvert）
   url: https://hexconvert.com/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 进制转换
-
+  - 进制转换
+  id: 8c96123ae5039775
 - name: 进制转换2（tool.lu）
   url: https://tool.lu/hexconvert/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 进制转换
-
+  - 进制转换
+  id: f4feabb6e7a09c6b
 - name: base100
   url: https://ctf.bugku.com/tool/base100
   description: 谁用100进制emoji出题啊
   category: 工具杂项类
   tags:
-    - base100
-
+  - base100
+  id: 3d8a3a80facdb574
 - name: 在线PS（稿定）
   url: https://ps.gaoding.com/#/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 图片处理
-
+  - 图片处理
+  id: e092e46234a03bff
 - name: Photopea
   url: https://www.photopea.com/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 图片处理
-
+  - 图片处理
+  id: 392bd9484f3d5e81
 - name: 大数分解（FactorDB）
   url: https://factordb.com/
   description: 第一个可能会缺少
   category: 工具杂项类
   tags:
-    - 分解质因数
-
+  - 分解质因数
+  id: 93ca3ab2c8b69744
 - name: 大数分解（Alpertron ECM）
   url: https://www.alpertron.com.ar/ECM.HTM
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 分解质因数
-
+  - 分解质因数
+  id: 2c3ce09dac3fe9f5
 - name: 大数分解（dCode）
   url: https://www.dcode.fr/prime-factors-decomposition
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 分解质因数
-
+  - 分解质因数
+  id: 9e73d8f06bc8987a
 - name: 正则表达式
   url: https://regexr-cn.com/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 正则
-
+  - 正则
+  id: eb95db142a5b3949
 - name: 数列（OEIS）
   url: https://oeis.org/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 数列
-
+  - 数列
+  id: 1b2060b28a0865a7
 - name: emoji
   url: https://emojipedia.org/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - emoji
-
+  - emoji
+  id: 4c7b3cce9f027399
 - name: 很强的计算工具（WolframAlpha）
   url: https://www.wolframalpha.com/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 计算
-
+  - 计算
+  id: 8470041ed58a5a41
 - name: 折纸
   url: https://foldmation.com/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 折纸
-
+  - 折纸
+  id: ecf92dc861be387a
 - name: 折纸大师
   url: https://origamisimulator.org/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 折纸
-
+  - 折纸
+  id: d8e4200e0275ae07
 - name: 手画二维码
   url: https://merri.cx/qrazybox/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 二维码
-
+  - 二维码
+  id: 05a44517fdbc6b8d
 - name: 在线二维码扫描器
   url: https://www.lddgo.net/image/qrcodescanner#toolNoteIframe
   description: 用你的手机难道不是更快吗
   category: 工具杂项类
   tags:
-    - 二维码
-
+  - 二维码
+  id: c7cbbcd91ceea58d
 - name: 二/十六进制生成二维码
   url: https://bahamas10.github.io/binary-to-qrcode/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 二维码
-
+  - 二维码
+  id: 11439919d5fa12ce
 - name: 裸眼3D（stereogram solver）
   url: https://piellardj.github.io/stereogram-solver/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 裸眼3D
-
+  - 裸眼3D
+  id: 48a625f0943e07d3
 - name: 在线多种语言键盘
   url: https://www.branah.com/
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - 键盘
-
+  - 键盘
+  id: 04f363706b5d0580
 - name: 图片Hex编辑器
   url: https://rivers.chaitin.cn/tools/hexeditor
-  description: ""
+  description: ''
   category: 工具杂项类
   tags:
-    - Hex
-
+  - Hex
+  id: f0cc6500c41276ba
 - name: 口袋图鉴
   url: https://www.pokedex.app/
-  description: ""
+  description: ''
   category: 其他杂项类
   tags:
-    - Pokemon
-
+  - Pokemon
+  id: d82799c96d207dc8
 - name: 神奇宝贝百科
   url: https://wiki.52poke.com/wiki/
-  description: ""
+  description: ''
   category: 其他杂项类
   tags:
-    - Pokemon
-
+  - Pokemon
+  id: 120d90f4f78eceb0
 - name: 种子百科（Bulbapedia）
   url: https://bulbapedia.bulbagarden.net/wiki/Main_Page
-  description: ""
+  description: ''
   category: 其他杂项类
   tags:
-    - Pokemon
-
+  - Pokemon
+  id: 736ebe764108e739
 - name: 时拉比（Serebii）
   url: https://serebii.net/
-  description: ""
+  description: ''
   category: 其他杂项类
   tags:
-    - Pokemon
-
+  - Pokemon
+  id: ff192bf486e4f16f
 - name: vocaloid wiki
   url: https://vocaloid.fandom.com/
-  description: ""
+  description: ''
   category: 其他杂项类
   tags:
-    - Vocaloid
-
+  - Vocaloid
+  id: 9770aa382643b9e5
 - name: 英语/罗马音 查日语（Takoboto）
   url: https://takoboto.jp/
-  description: ""
+  description: ''
   category: 其他杂项类
   tags:
-    - 日语
-
+  - 日语
+  id: f0c212654ba951e9
 - name: 首字母缩写转义（nbnhhsh）
   url: https://lab.magiconch.com/nbnhhsh/
-  description: ""
+  description: ''
   category: 其他杂项类
   tags:
-    - 缩写
-
+  - 缩写
+  id: 0f34d927487c3583
 - name: youtube视频下载
   url: https://ytube.savetube.me/27-youtube-video-downloader-5djdh6
-  description: ""
+  description: ''
   category: 其他杂项类
   tags:
-    - 下载
-
+  - 下载
+  id: 1c7d32bd61a6b91b
 - name: 单枚 日谜
   url: https://alqrt.com/
-  description: ""
+  description: ''
   category: 其他杂项类
-  tags:
-
+  tags: null
+  id: 08847582599822be
 - name: 日语平假名nutri
   url: https://shiwehi.com/tools/wordsearch/
   description: 支持正则表达式
   category: 其他杂项类
   tags:
-    - nutri
-    
+  - nutri
+  id: 2c9f75f62236ec70

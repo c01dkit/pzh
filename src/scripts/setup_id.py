@@ -3,11 +3,17 @@ import secrets
 import sys
 import argparse
 from pathlib import Path
+from log import get_logger
 
-
+known_hash = set()
 def generate_id() -> str:
     """生成 16 位小写随机哈希值"""
-    return secrets.token_hex(8)  # 8 字节 = 16 位十六进制字符
+    global known_hash
+    random_id = secrets.token_hex(8)  # 8 字节 = 16 位十六进制字符
+    while random_id in known_hash:
+        random_id = secrets.token_hex(8)
+    known_hash.add(random_id)
+    return random_id
 
 
 def add_id_recursive(data, overwrite: bool = False):
@@ -16,15 +22,20 @@ def add_id_recursive(data, overwrite: bool = False):
     :param data:      YAML 解析后的数据结构
     :param overwrite: 是否覆盖已存在的 id 字段
     """
+    global known_hash
+    cnt = 0
     if isinstance(data, list):
         for item in data:
-            add_id_recursive(item, overwrite)
+           cnt += add_id_recursive(item, overwrite)
     elif isinstance(data, dict):
-        if overwrite or "id" not in data:
+        if "id" in data and len(data["id"]) == 16:
+            known_hash.add(data["id"])
+        if overwrite or "id" not in data or len(data["id"]) < 16:
             data["id"] = generate_id()
+            cnt += 1
         for value in data.values():
-            add_id_recursive(value, overwrite)
-
+            cnt += add_id_recursive(value, overwrite)
+    return cnt
 
 def main():
     parser = argparse.ArgumentParser(
@@ -47,19 +58,19 @@ def main():
     output_path = Path(args.output) if args.output else input_path
 
     if not input_path.exists():
-        print(f"[错误] 文件不存在: {input_path}")
-        sys.exit(1)
+        # print(f"[错误] 文件不存在: {input_path}")
+        sys.exit(-1)
 
     # 读取 YAML
     with open(input_path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
     if data is None:
-        print("[警告] YAML 文件为空，无需处理。")
-        sys.exit(0)
+        # print("[警告] YAML 文件为空，无需处理。")
+        sys.exit(-1)
 
     # 添加 id 字段
-    add_id_recursive(data, overwrite=args.overwrite_id)
+    cnt = add_id_recursive(data, overwrite=args.overwrite_id)
 
     # 写出结果
     with open(output_path, "w", encoding="utf-8") as f:
@@ -71,8 +82,8 @@ def main():
             sort_keys=False,   # 保持原有字段顺序
         )
 
-    print(f"[完成] 结果已写入: {output_path}")
-
+    # print(f"[完成] 结果已写入: {output_path}")
+    return cnt
 """
 # 安装依赖（如未安装）
 pip install pyyaml
@@ -89,4 +100,6 @@ python setup-id.py data.yml --overwrite-id
 """
 
 if __name__ == "__main__":
-    main()
+    logger = get_logger(__name__)
+    cnt = main()
+    logger.debug(f"{cnt} IDs generated.")

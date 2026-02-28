@@ -14,11 +14,12 @@ nav:
       - "欣年三": events/2026/4948bf9479046558.md
     - 2025:
       - index: events/2025/index.md
-      - "MIT Mystery Hunt": events/2025/6c4272cb4cedf332.md
+      - "MIT Mystery Hunt 2025": events/2025/6c4272cb4cedf332.md
       - "SECO Puzzle Hunt": events/2025/7d8732e60169804e.md
       - "Cornsnaky's Snakeyear PUZZLE HUNT": events/2025/552350cec0247e76.md
       - "第三届 亦乐杯": events/2025/35e5d7cfb3b6768c.md
       - "2025 Teammate Hunt: Matt & Emma's Deep-space Disaster": events/2025/fcdae590977d50bb.md
+      - "Teammate Hunt 2025": events/2025/1bdd8bb4332de18e.md
       - "FDU PUZZLE HUNT Final Deadline Upcoming": events/2025/9184f974486b275a.md
       - "Huntingale": events/2025/c79bd961fefd1940.md
       - "REXEI PUZZLE HUNT": events/2025/057d49e6b5f802fb.md
@@ -31,7 +32,7 @@ nav:
       - "LN Hunt": events/2025/74082b32294a4278.md
     - 2024:
       - index: events/2024/index.md
-      - "MIT Mystery Hunt": events/2024/b15e075545f858e1.md
+      - "MIT Mystery Hunt 2024": events/2024/b15e075545f858e1.md
       - "江湖解谜": events/2024/bd16168546a0d95e.md
       - "fishunt": events/2024/743ecd6a7f94b4ff.md
       - "enigame: enitime": events/2024/e4eab5b358340e34.md
@@ -45,10 +46,47 @@ nav:
       - "Christmas Hunt": events/2024/0de2393131151d8c.md
     - 2023:
       - index: events/2023/index.md
+      - "MIT Mystery Hunt 2023": events/2023/bf93901bcb5f89ca.md
       - "CCBC-1314": events/2023/2ef665af2041cdd8.md
       - "enigame: dance To The beat": events/2023/6554aadaa1aa6f68.md
       - "Galactic Puzzle Hunt 2023": events/2023/fdf67604b24eaa82.md
+      - "Huntinality III": events/2023/21d99b4c6cb3543e.md
       - "MiaoHunt 2023": events/2023/7b5159e16b413fd6.md
+    - 2022:
+      - index: events/2022/index.md
+      - "MIT Mystery Hunt 2022": events/2022/ef2b9d7e571cea51.md
+      - "Huntinality 2.0": events/2022/fd1ee8568647e1e8.md
+      - "REDDOThunt 2022": events/2022/d2d308bf913f1e3b.md
+      - "Galactic Puzzle Hunt 2022": events/2022/9904909ff0bce5eb.md
+    - 2021:
+      - index: events/2021/index.md
+      - "Huntinality": events/2021/7ba61ada5dce15a4.md
+      - "Galactic Puzzle Hunt 2020": events/2021/dfea2cdbe61a13c8.md
+      - "Puzzle Potluck 4": events/2021/fbbddc0ef4fb6765.md
+      - "Teammate Hunt 2021": events/2021/bee2b486b6b713c6.md
+      - "Galactic Puzzle Hunt 2021": events/2021/3224caf5676975d6.md
+    - 2020:
+      - index: events/2020/index.md
+      - "REDDOThunt 2020": events/2020/5573861d02f9c697.md
+      - "Puzzle Potluck 3": events/2020/1beaa98fa6ce8943.md
+      - "DP Puzzle Hunt": events/2020/4e9c6baf57cbf673.md
+      - "Teammate Hunt 2020": events/2020/4ff8802893aba56b.md
+    - 2019:
+      - index: events/2019/index.md
+      - "Galactic Puzzle Hunt 2019": events/2019/4c7bae42e61bdb41.md
+      - "Puzzle Potluck 2": events/2019/68d56e325cf0c741.md
+    - 2018:
+      - index: events/2018/index.md
+      - "Galactic Puzzle Hunt 2018": events/2018/07ae014fd74627e2.md
+      - "REDDOThunt 2018": events/2018/266519c484d529a8.md
+      - "Puzzle Potluck 1": events/2018/851a065d74b6860b.md
+    - 2017:
+      - index: events/2017/index.md
+      - "Galactic Puzzle Hunt 2017": events/2017/7df2591b8bd22395.md
+      - "REDDOThunt 2017": events/2017/37b46c7eeef680e0.md
+    - 2016:
+      - index: events/2016/index.md
+      - "mezzacotta": events/2016/4bc609a82eb8c0a6.md
   - 解题工具:
     - index: tools/index.md
     - 必备: tools/必备/index.md
@@ -346,6 +384,7 @@ extra_css:
 
 plugins:
   - search
+  - include-markdown
   # - mike
   - statistics:
       codelines_per_minute: 10
