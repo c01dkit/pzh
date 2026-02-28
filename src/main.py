@@ -11,4 +11,6 @@ if __name__ == "__main__":
 
     get_mkdocs_yml(nav_yml_events, nav_yml_tools)
 
+    get_puzzle_docs()
+    
     logger.info(f"All work done!")

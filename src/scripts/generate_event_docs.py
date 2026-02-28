@@ -8,7 +8,7 @@ import subprocess
 from pathlib import Path
 from .log import get_logger
 from .utils import find_project_root, slugify_dirname
-from .models import EventItem
+from .models import EventItem, create_event_items
 
 
 def md_escape(s: str) -> str:
@@ -27,27 +27,7 @@ def slugify_event_name(text: str) -> str:
 
 
 
-def create_event_items(data:list) -> list[EventItem]:
-    result = []
-    for item in data:
-        if item.get('name', '') == '':
-            logger.warning("EventItem with missing name found")
-            continue
-        
-        result.append(
-            EventItem(
-                id=item.get('id'),
-                name=item.get('name'),
-                url = item.get('url'),
-                description=item.get('description'),
-                start_time=item.get('start_time'),
-                end_time=item.get('end_time'),
-                year=item.get('year'),
-                host=item.get('host'),
-                tags=item.get('tags', [])
-            )
-        )
-    return result
+
 
 def create_event_groups(event_items:list[EventItem]) -> dict[str, list[EventItem]]:
     result = {}
@@ -55,7 +35,7 @@ def create_event_groups(event_items:list[EventItem]) -> dict[str, list[EventItem
         result.setdefault(event.year, []).append(event)
         # logger.debug(f"{event.start_time} is {type(event.start_time)}, {event.end_time} is {type(event.end_time)}")
     for k in result:
-        result[k].sort(key=lambda x: (x.start_time, x.name.lower()))
+        result[k].sort(key=lambda x: (x.start_time, x.name.lower()), reverse=True)
     return dict(sorted(result.items(), key=lambda x: x[0], reverse=True))
 
 def render_events_index_md(categories: list[str]) -> str:
@@ -78,13 +58,16 @@ def render_event_for_one_year_md(year: str, items: list[EventItem]) -> str:
     lines: list[str] = []
     lines.append(f"# {year}年赛事")
     lines.append("")
-    for e in items:
-        name = e.name
-        start_time = e.start_time.strftime("%Y-%m-%d %H:%M") if e.start_time else None
-        end_time = e.end_time.strftime("%Y-%m-%d %H:%M") if e.end_time else None
-        host = e.host or ""
+    for event_item in items:
+        name = event_item.name
+        start_time = event_item.start_time.strftime("%Y-%m-%d %H:%M") if event_item.start_time else None
+        end_time = event_item.end_time.strftime("%Y-%m-%d %H:%M") if event_item.end_time else None
+        host = event_item.host or ""
 
         lines.append(f"## {name}")
+        if event_item.subtitle:
+            lines.append("")
+            lines.append(f"*{event_item.subtitle}*")
         lines.append("")
 
         # 比赛时间、主办方、网址
@@ -94,27 +77,28 @@ def render_event_for_one_year_md(year: str, items: list[EventItem]) -> str:
             lines.append(f"- 时间：{start_time}")
         if host:
             lines.append(f"- 主办方：{host}")
-        if e.url:
-            lines.append(f"- 网站链接：[本站](/events/{e.year}/{e.id}/) · [官网]({e.url})")
+        if event_item.url:
+            lines.append(f"- 网站链接：[本站](/events/{event_item.year}/{event_item.id}/) · [官网]({event_item.url})")
 
-        if e.description:
+        if event_item.description:
             lines.append("")
-            lines.append(md_escape(e.description))
-            lines.append("")
+            lines.append(md_escape(event_item.description))
+        lines.append("")
 
     return "\n".join(lines).rstrip() + "\n"
 
 def render_single_event_md(year: str, event_item: EventItem) -> str:
     """生成某个具体赛事的界面"""
     lines: list[str] = []
-    lines.append(f"# {year}年赛事")
-    lines.append("")
     name = event_item.name
     start_time = event_item.start_time.strftime("%Y-%m-%d %H:%M")
     end_time = event_item.end_time.strftime("%Y-%m-%d %H:%M") if isinstance(event_item.end_time, datetime.datetime) else None
     host = event_item.host or ""
 
-    lines.append(f"## {name}")
+    lines.append(f"# {name}")
+    if event_item.subtitle:
+        lines.append("")
+        lines.append(f"*{event_item.subtitle}*")
     lines.append("")
 
     # 比赛时间、主办方、网址
@@ -132,7 +116,7 @@ def render_single_event_md(year: str, event_item: EventItem) -> str:
         lines.append(md_escape(event_item.description))
         lines.append("")
 
-    return "\n".join(lines).rstrip() + "\n"
+    return "\n".join(lines).rstrip() + "\n\n"
 
 def generate_events(events_data:list, target_events_dir:Path) -> str:
     """在指定目录中生成以年份进行分组的赛事子文件夹，返回对应需要填写在nav里的str
@@ -169,11 +153,11 @@ def main():
     logger.info("Generating events...")
     logger.info("Generating event IDs...")
     subprocess.run(
-        ['uv', 'run', f'{ROOT}/src/scripts/setup_id.py', f'{ROOT}/src/resource/events.yml'],
+        ['uv', 'run', f'{ROOT}/src/scripts/setup_id.py', f'{ROOT}/src/resources/events.yml'],
         check=True  
     )
     logger.info("Generating event docs...")
-    with open(ROOT / "src" / "resource" / "events.yml", "r", encoding="utf8") as file:
+    with open(ROOT / "src" / "resources" / "events.yml", "r", encoding="utf8") as file:
         events = yaml.safe_load(file)
     nav_yml_events = generate_events(
         events, 

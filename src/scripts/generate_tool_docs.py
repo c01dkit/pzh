@@ -8,32 +8,7 @@ import subprocess
 from pathlib import Path
 from .log import get_logger
 from .utils import find_project_root, slugify_dirname
-from .models import ToolItem
-
-
-
-def create_tool_items(data:list) -> list[ToolItem]:
-    result = []
-    for item in data:
-        if item.get('name', '') == '':
-            logger.warning("Item with missing name found")
-            continue
-        category = item.get('category', '')
-        if category == '':
-            category = '其他'
-        if isinstance(category, str):
-            category = [category]
-        result.append(
-            ToolItem(
-                id=item.get('id'),
-                name=item.get('name'),
-                url = item.get('url'),
-                description=item.get('description'),
-                category=category,
-                tags=item.get('tags', [])
-            )
-        )
-    return result
+from .models import ToolItem, create_tool_items
 
 def create_tool_groups(tool_items: list[ToolItem]) -> dict[str, list[ToolItem]]:
     result = {}
@@ -45,10 +20,6 @@ def create_tool_groups(tool_items: list[ToolItem]) -> dict[str, list[ToolItem]]:
 
     priority = {"必备": 0, "工具杂项类": 2, "其他杂项类": 3}
     return dict(sorted(result.items(), key=lambda x: (priority.get(x[0], 1), x[0].lower())))
-
-
-
-
 
 def render_tools_index_md(categories: list[str]) -> str:
     lines: list[str] = []
@@ -123,11 +94,11 @@ def main():
     logger.info("Generating tools...")
     logger.info("Generating tool IDs...")
     subprocess.run(
-        ['uv', 'run', f'{ROOT}/src/scripts/setup_id.py', f'{ROOT}/src/resource/tools.yml'],
+        ['uv', 'run', f'{ROOT}/src/scripts/setup_id.py', f'{ROOT}/src/resources/tools.yml'],
         check=True  
     )
     logger.info("Generating tool docs...")
-    with open(ROOT / "src" / "resource" / "tools.yml", "r", encoding="utf8") as file:
+    with open(ROOT / "src" / "resources" / "tools.yml", "r", encoding="utf8") as file:
         tools = yaml.safe_load(file)
     nav_yml_tools = generate_tools(
         tools,

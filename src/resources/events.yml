@@ -1,4 +1,5 @@
-- name: 欣年三
+- name: 欣年
+  subtitle: 欣年3
   description: 这是一个春节主题的puzzlehunt，兼具中西风味。谜题数量在20道以内。有彩蛋题，正确解答可参与抢红包活动。这是一个众筹HUNT，没有主办方。
   url: https://thrivingyear.fun/
   start_time: 2026-02-19 20:00:00
@@ -6,7 +7,17 @@
   year: 2026
   host: cn
   id: 4948bf9479046558
-- name: SECO Puzzle Hunt2
+- name: 欣年
+  subtitle: 欣年2
+  description: null
+  url: https://burnhunt.fun/xinian/index.html
+  start_time: 2023-01-24 20:00:00
+  end_time: 2023-01-31 23:59:00
+  year: 2023
+  host: cn
+  id: 1b318e06dd4191e3
+- name: SECO Puzzle Hunt
+  subtitle: SECO Puzzle Hunt2
   description: 这是由一个不想起床的屑主办的解谜比赛，谜题数量在60道左右。
   url: https://www.secopuzzle.com
   start_time: 2026-01-31 20:00:00
@@ -30,7 +41,8 @@
   year: 2025
   host: jp
   id: 74082b32294a4278
-- name: ZJUPH2025：Journey to the West · 觅西溪笔记
+- name: ZJUPH
+  subtitle: Journey to the West · 觅西溪笔记
   description: null
   url: https://2025.zjuph.fun/
   start_time: 2025-11-21 20:00:00
@@ -134,14 +146,26 @@
   year: 2024
   host: cn
   id: 0de2393131151d8c
-- name: EC Puzzle Hunt 2
-  description: null
+- name: EC Puzzle Hunt
+  subtitle: Enchanted Castle
+  description: You found a castle in the woods! You wonder what's inside. (puzzles,
+    probably puzzles)
   url: https://ecph.site/
   start_time: 2024-10-13 00:00:00
   end_time: 2024-10-21 12:00:00
   year: 2024
-  host: us
+  host: The ECs of /r/PictureGame
   id: 47c6df5fb061b566
+- name: EC Puzzle Hunt
+  subtitle: Exploring the Countryside
+  description: Join us for an adventure through nature! Keep your eyes peeled - you
+    might even spot a puzzle or two!
+  url: https://2022.ecph.site/
+  start_time: 2022-10-09 00:00:00
+  end_time: 2022-10-17 12:00:00
+  year: 2022
+  host: The ECs of /r/PictureGame
+  id: faa7aa605f5c55b9
 - name: 玥hunt
   description: null
   url: https://yuehunt.fun/
@@ -363,12 +387,12 @@
     your glasses and might not be able to participate. If you can find them again,
     you’ll receive a spectacular prize*! *the ability to see clearly
   url: https://2020.galacticpuzzlehunt.com/
-  start_time: 2021-07-24 07:22:00
-  end_time: 2021-08-02 19:22:00
-  year: 2021
+  start_time: 2020-07-24 07:22:00
+  end_time: 2020-08-02 19:22:00
+  year: 2020
   host: Galactic Trendsetters
   id: dfea2cdbe61a13c8
-- name: Galactic Puzzle Hunt 2019
+- name: Galactic Puzzle Hunt
   subtitle: The Galactic Artifact
   description: A mysterious artifact has been discovered near the South Pole and you’ve
     been called in to investigate. Who knows what cool things you’ll discover!* *ice,
@@ -379,7 +403,7 @@
   year: 2019
   host: Galactic Trendsetters
   id: 4c7bae42e61bdb41
-- name: Galactic Puzzle Hunt 2018
+- name: Galactic Puzzle Hunt
   subtitle: The Great Galactic Bake Off
   description: The first-ever Great Galactic Bake Off is coming up! The first team
     to produce a billion cookies will win a huge prize!* *a billion cookies
@@ -389,7 +413,7 @@
   year: 2018
   host: Galactic Trendsetters
   id: 07ae014fd74627e2
-- name: Galactic Puzzle Hunt 2017
+- name: Galactic Puzzle Hunt
   subtitle: Puzzleball Championships
   description: 'The annual Puzzleball Championships are coming up, and we invite everyone
     to come fill out a bracket! If you can predict the winning teams, you could win
@@ -412,7 +436,7 @@
   year: 2016
   host: CiSRA
   id: 4bc609a82eb8c0a6
-- name: Puzzle Potluck 4
+- name: Puzzle Potluck
   subtitle: null
   description: Puzzle Potluck is a concept started by a group of passionate puzzlers
     who wanted to get better at writing puzzles.
@@ -422,7 +446,7 @@
   year: 2021
   host: unknown
   id: fbbddc0ef4fb6765
-- name: Puzzle Potluck 3
+- name: Puzzle Potluck
   subtitle: null
   description: Puzzle Potluck is a concept started by a group of passionate puzzlers
     who wanted to get better at writing puzzles.
@@ -432,7 +456,7 @@
   year: 2020
   host: unknown
   id: 1beaa98fa6ce8943
-- name: Puzzle Potluck 2
+- name: Puzzle Potluck
   subtitle: null
   description: Puzzle Potluck is a concept started by a group of passionate puzzlers
     who wanted to get better at writing puzzles.
@@ -442,7 +466,7 @@
   year: 2019
   host: unknown
   id: 68d56e325cf0c741
-- name: Puzzle Potluck 1
+- name: Puzzle Potluck
   subtitle: null
   description: Puzzle Potluck is a concept started by a group of passionate puzzlers
     who wanted to get better at writing puzzles.
@@ -452,7 +476,7 @@
   year: 2018
   host: unknown
   id: 851a065d74b6860b
-- name: Teammate Hunt 2025
+- name: Teammate Hunt
   subtitle: Matt and Emma’s Deep-space Disaster
   description: null
   url: https://2025.teammatehunt.com/
@@ -461,7 +485,7 @@
   year: 2025
   host: Teammate
   id: 1bdd8bb4332de18e
-- name: Teammate Hunt 2021
+- name: Teammate Hunt
   subtitle: Matt & Emma’s Carnival Conundrum
   description: null
   url: https://2021.teammatehunt.com/
@@ -470,7 +494,7 @@
   year: 2021
   host: Teammate
   id: bee2b486b6b713c6
-- name: Teammate Hunt 2020
+- name: Teammate Hunt
   subtitle: Matt & Emma’s Birthday Bash
   description: You are cordially invited to a celebration of Matt and Emma’s sixth
     birthday! There will be fun, games, and puzzles galore!
@@ -480,7 +504,7 @@
   year: 2020
   host: Teammate
   id: 4ff8802893aba56b
-- name: MIT Mystery Hunt 2025
+- name: MIT Mystery Hunt
   subtitle: The Case of the Shadow Diamond
   description: Mystery Hunt 2025’s epic Gala celebrating the engagement of two of
     MITropolis's leading personas was supposed to begin with the unveiling of the
@@ -493,7 +517,7 @@
   year: 2025
   host: us
   id: 6c4272cb4cedf332
-- name: MIT Mystery Hunt 2024
+- name: MIT Mystery Hunt
   description: Mystery Hunt 2024 first tasked teams with escaping Hades after being
     banished there by the Greco-Roman pantheon for killing the god Pluto, then asked
     teams to revive Pluto by finding his "shades" scattered across the US.
@@ -503,7 +527,7 @@
   year: 2024
   host: us
   id: b15e075545f858e1
-- name: MIT Mystery Hunt 2023
+- name: MIT Mystery Hunt
   subtitle: The Puzzle Factory
   description: Mystery Hunt 2023 started with teams working through a museum-themed
     round, written by a new AI, MATE, before inadvertently discovering a hidden factory.
@@ -515,7 +539,7 @@
   year: 2023
   host: Teammate
   id: bf93901bcb5f89ca
-- name: MIT Mystery Hunt 2022
+- name: MIT Mystery Hunt
   description: Mystery Hunt 2022 asked teams to save Bookspace, an interdimensional
     space of all books and their characters, from disappearing.
   url: https://puzzles.mit.edu/2022/

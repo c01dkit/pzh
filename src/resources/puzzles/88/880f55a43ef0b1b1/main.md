@@ -1,0 +1,57 @@
+
+---
+
+!!! abstract ""
+    *这是一个简单的cw，真的*
+
+似乎在[哪里](https://archive.secopuzzle.com//index.html#/problem?c=seco1/problems/B/14)见到过一样的题目？只不过不是Plus版？不过似乎与本题没什么太大关系……
+
+![img](https://image.secopuzzle.com/SECO2/%E4%B8%AD%E8%8B%B1%E4%BA%92%E8%AF%91Plus/translate.png)
+
+[腾讯文档](https://docs.qq.com/sheet/DYnBjS3d0Y3VIdnN0?tab=000001)
+
+[点击下载](https://image.secopuzzle.com/SECO2/%E4%B8%AD%E8%8B%B1%E4%BA%92%E8%AF%91Plus/%E4%B8%AD%E8%8B%B1%E4%BA%92%E8%AF%91plus.xlsx)
+
+---
+
+??? note "题解"
+    首先完成cw，得到`BURNING FLASHLIGHT`，然后按提示对应到5字母单词，即`TORCH`
+
+    横向
+
+    | 题目 | 答案 | 解释 |
+    | --- | --- | --- |
+    | 3. _____ you _____ a _____ as a _____ner _____ _____ a _____? | can | 绕口令 |
+    | 6. 妈妈和你更亲近，因为爸爸离你______ | farther | 双关 |
+    | 7. 这扇门获得了诺贝尔奖，因为它没有______ | bell | 谐音词 |
+    | 8. Why is your head tippy? Because i'm a ______man. | gentle | 谐音词 |
+    | 14. 猫喜欢在电脑旁边监视______ | mouse | 双关 |
+    | 15. 一群同游的鱼正在前往______的路上 | school | 双关 |
+    | 17. 法医每天都会在解剖室里说：Hello ______ | everybody | 双关 |
+    | 18. The ______ water leaps likes a ______ in ______ | spring | 多义词 |
+    | 19. 青色的苹果叫green apple,青色的李子叫______ | hydrion | 谐音词 |
+    | 20. 为了捡起地上的鸭蛋，你需要______ | duck | 双关 |
+
+    纵向
+
+    | 题目 | 答案 | 解释 |
+    | --- | --- | --- |
+    | 1. Till the end of life a silk worm keeps spinning ______ | thought | ？ |
+    | 2. What flavor would you like? ______,please. 对不起，你想要哪种口味？ | mandarin | 双关 |
+    | 4. Don't ______ ______s until ______s _____ you | trouble | 谚语 |
+    | 5. When your milk has a ______ on Valentine's Day and you don't | date | 双关 |
+    | 9. It seems not sunny,yet there's a hint of ______ | emotion | ？ |
+    | 10. Jia Yucun likes to tell ______ | lies | 典故 |
+    | 11. 螃蟹不喜欢分享东西，因为它们是 | selfish | 双关 |
+    | 12. 一张______的英文是a ______，不是abandon | chair | 谐音 |
+    | 13. 在月圆之夜，狼变成狼人，屋子变成______ | warehouse | 谐音 |
+    | 16. 电脑上有一顶帽子摘不下来，因为______没关 | capslock | 双关 |
+
+??? quote "评价"
+    横15来自a school of fish（鱼群），school是量词，类似表示动物群的用法还有a murder of crows、a cauldron of bats、a gang of buffaloes、a pack of wolves、a parade of elephants、a shadow of jaguars、a troop of monkeys、a crash of rhinos、a herd of sheeps、a flock of geese、an army of frogs、a swarm of bees
+
+    纵1没搞懂为啥是thought，春蚕到死丝方尽不应该是threads么
+
+    纵2指的应该是B想回答柑橘味，A以为B要求A用普通话来问
+
+    一开始被seco1给误导了，以为一个格子可以填多个字母，所以给纵1填了threads，给纵12填了stool

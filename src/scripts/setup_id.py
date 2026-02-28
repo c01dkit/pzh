@@ -16,7 +16,7 @@ def generate_id() -> str:
     return random_id
 
 
-def add_id_recursive(data, overwrite: bool = False):
+def add_id_recursive(data, overwrite: bool = False, current_depth = 0, max_depth = 1):
     """
     递归地为每个字典元素添加 id 字段。
     :param data:      YAML 解析后的数据结构
@@ -24,17 +24,19 @@ def add_id_recursive(data, overwrite: bool = False):
     """
     global known_hash
     cnt = 0
+    if current_depth > max_depth:
+        return 0
     if isinstance(data, list):
         for item in data:
-           cnt += add_id_recursive(item, overwrite)
+           cnt += add_id_recursive(item, overwrite, current_depth+1)
     elif isinstance(data, dict):
-        if "id" in data and len(data["id"]) == 16:
+        if "id" in data and isinstance(data["id"], str) and len(data["id"]) == 16:
             known_hash.add(data["id"])
-        if overwrite or "id" not in data or len(data["id"]) < 16:
+        if overwrite or "id" not in data or data["id"] is None or len(data["id"]) < 16:
             data["id"] = generate_id()
             cnt += 1
         for value in data.values():
-            cnt += add_id_recursive(value, overwrite)
+            cnt += add_id_recursive(value, overwrite, current_depth+1)
     return cnt
 
 def main():
