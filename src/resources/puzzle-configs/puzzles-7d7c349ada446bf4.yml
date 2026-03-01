@@ -47,7 +47,7 @@
   author: Light
   extractions:
   - A1Z26
-  ft: ' *听说东方的人都喜欢吟诗作对。*'
+  ft:  *听说东方的人都喜欢吟诗作对。*
   note: null
   hints:
   - question: 我毫无头绪！
@@ -106,34 +106,70 @@
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft:  *这里似乎举行过什么远古的仪式，但我却完全记不起来了……医生，你实话告诉我，我到底昏迷了多久？*
   note: null
   hints:
   - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+    answer: 想想看，这样排列的12个点在哪里也出现过？本题标题和ft提示了需要找的地方。
+  - question: 可以具体解释一下吗？
+    answer: 本题的真实标题是《人为选择Plus》，对应SECO1的《人为选择》。
+  - question: 我得到了中间答案，但是我实在没法进行操作，可以告诉我这一步的结果吗？
+    answer: 请将中间答案中每个词的首字母合并提交，里程碑会告诉你结果。
+  milestones:
+  - phrase: PAINT THE DOT WHITE
+    text: 使用填充工具将图中左上角的黑点填白吧！
+  - phrase: PTDW
+    text: 这道题的答案是CANNON。
   answer: CANNON
-  ready: false
+  ready: true
 - id: a40753704cf84f3a
   event_id: 7d7c349ada446bf4
-  tool_ids: null
+  tool_ids:
+  - 3d30567b6ece129c
   title: 认字是门化简为繁的技术
   round: 一区 - 庄园
-  topics: null
+  topics:
+  - Unicode
   author: WAHX
   extractions: null
-  ft: null
+  ft: '*万国统一的第二平面上飘着好多不认识的字啊，要怎么让他们落到地上呢*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
+  - question: 我读不懂ft，请解释一下！
+    answer: 这是一系列字谜，但它们的答案位于Unicode的第二辅助平面（U+20000~U+2FFFF）上。
+  - question: 这些字太难找了，有什么比较高效的方法吗？
+    answer: 你可以先找比较容易看出来的部件，如第一段“朝鲜和韩国的共管地带”提示二者共有的部件（𠦝），再把找到的部件放进字统网里面搜索。
+  - question: 我找到了一些字，但是不知道下一步该如何进行？
+    answer: 每段话最后一句是对最终提取出的汉字的描述，想想ft后半段是在说什么。
   - question: 该如何提取？
-    answer: null
-  milestones: null
+    answer: 将这些汉字的Unicode编码最高位去掉，再依次读出得到的汉字。
+  - question: 可以直接告诉我一些小题的答案吗？
+    answer: 请在站内信回复【查询字典】并给出目前的答案，我们会尽快反馈。
+  milestones:
+  - phrase: 𩙶
+    text: 这是本题的小题答案之一。
+  - phrase: 𦽜
+    text: 这是本题的小题答案之一。
+  - phrase: 𥖜
+    text: 这是本题的小题答案之一。
+  - phrase: 𧈱
+    text: 这是本题的小题答案之一。
+  - phrase: 𦤍
+    text: 这是本题的小题答案之一。
+  - phrase: 𧉩
+    text: 这是本题的小题答案之一。
+  - phrase: 𥍁
+    text: 这是本题的小题答案之一。
+  - phrase: 𤸉
+    text: 这是本题的小题答案之一。
+  - phrase: 𥭗
+    text: 这是本题的小题答案之一。
+  - phrase: 𦯍
+    text: 这是本题的小题答案之一。
+  - phrase: 陶潜喜爱植物十三字母
+    text: 这是本题的中间答案！
   answer: CHRYSANTHEMUM
-  ready: false
+  ready: true
 - id: c174bd3d7465b4ea
   event_id: 7d7c349ada446bf4
   tool_ids: null
@@ -142,16 +178,18 @@
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: 完整的图案将揭示最终的谜底。
   note: null
   hints:
   - question: 我毫无头绪！
-    answer: null
+    answer: 这是第一区的元谜题，你需要用到七个小题的答案。
+  - question: 我完成了拼图，然后呢？
+    answer: ft中的“完整”不只是指要拼出完整的图片。
   - question: 该如何提取？
-    answer: null
+    answer: 每个emoji对应一个字母，你需要找到每种emoji中唯一没有被分割的那个。
   milestones: null
   answer: SECTION
-  ready: false
+  ready: true
 - id: 3ba780ad22d1cc93
   event_id: 7d7c349ada446bf4
   tool_ids: null

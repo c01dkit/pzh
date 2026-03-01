@@ -1,6 +1,6 @@
 # 工具箱类
 
-共 5 个工具。
+共 4 个工具。
 
 ## MIT工具箱
 
@@ -16,11 +16,6 @@
 
 包括Binary Nutrimatic、Cipher Canvas、CIST、Morse Nutrimatic、Jisho等工具
 
-## 中文焖肉面
-
-- 链接：<https://philippica.github.io/ChinesePuzzleTool/>
-- 关键字：工具箱
-
 ## 光子和他朋友开发的工具箱（cist）
 
 - 链接：<https://scieph.com/cist>
@@ -28,7 +23,7 @@
 
 好用
 
-## 英文焖肉面
+## 焖肉面工具箱
 
 - 链接：<https://philippica.github.io/cipher_machine/>
 - 关键字：查词, Word Search, 密码分析, 盲文, 旗语, 摩斯, 古典密码, 图片处理, 纸笔

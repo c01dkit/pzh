@@ -9,6 +9,7 @@ from pathlib import Path
 from .log import get_logger
 from .utils import find_project_root, slugify_dirname
 from .models import ToolItem, create_tool_items
+from . import setup_ids
 
 def create_tool_groups(tool_items: list[ToolItem]) -> dict[str, list[ToolItem]]:
     result = {}
@@ -91,18 +92,15 @@ logger = get_logger(__name__)
 ROOT = find_project_root()
 
 def main():
-    logger.info("Generating tools...")
-    logger.info("Generating tool IDs...")
-    subprocess.run(
-        ['uv', 'run', f'{ROOT}/src/scripts/setup_id.py', f'{ROOT}/src/resources/tools.yml'],
-        check=True  
-    )
-    logger.info("Generating tool docs...")
+    logger.info("正在生成工具……")
+    logger.info("正在生成工具ID……")
+    setup_ids(f'{ROOT}/src/resources/tools.yml')
+    logger.info("正在生成工具文档……")
     with open(ROOT / "src" / "resources" / "tools.yml", "r", encoding="utf8") as file:
         tools = yaml.safe_load(file)
     nav_yml_tools = generate_tools(
         tools,
         Path(ROOT / "docs" / "tools")
     )
-    logger.info("Tools generated.")
+    logger.info("工具已完成生成。")
     return nav_yml_tools

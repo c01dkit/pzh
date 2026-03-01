@@ -93,7 +93,7 @@ def create_puzzle_items(data: list) -> list[PuzzleTemplate]:
         else:
             hints = []
 
-        if item.get('milestone', []):
+        if item.get('milestones', []):
             milestones = [
                 MileStone(
                     phrase=ms.get('phrase', ''),

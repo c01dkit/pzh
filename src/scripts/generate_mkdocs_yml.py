@@ -12,7 +12,7 @@ logger = get_logger(__name__)
 ROOT = find_project_root()
 
 def main(nav_yml_events, nav_yml_tools):
-    logger.info("Generating mkdocs.yml...")
+    logger.info("正在更新mkdocs.yml文件……")
     web_settings = ""
     with open(ROOT / "mkdocs.yml", "r", encoding="utf8") as file:
         reach_mark = False
@@ -38,5 +38,5 @@ def main(nav_yml_events, nav_yml_tools):
 """)
         file.write(web_settings)
         
-    logger.info("mkdocs.yml generated.")
+    logger.info("mkdocs.yml文件已更新。")
     

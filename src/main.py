@@ -4,7 +4,7 @@ if __name__ == "__main__":
     logger = get_logger(__name__)
     ROOT = find_project_root()
 
-    logger.info(f"Generating website docs...")
+    logger.info(f"正在生成docs文档...")
 
     nav_yml_events = get_event_docs()
     nav_yml_tools = get_tool_docs()
@@ -13,4 +13,4 @@ if __name__ == "__main__":
 
     get_puzzle_docs()
     
-    logger.info(f"All work done!")
+    logger.info(f"所有工作顺利完成！")

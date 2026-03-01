@@ -1,6 +1,8 @@
 
 ---
 
+## 题目详情
+
 !!! abstract ""
     数字在方阵中各归其位，那些孤悬的独格，藏着解锁码牌的密钥。
 
@@ -23,6 +25,8 @@
 [查看盘面5](https://sudokupad.app/sclN4SwJgXA5ADgpgOxgQwCwCMAMAzAnAVnwHZcBmAJlM1LHXIEYwMjTS59SA2MADm1SgAaAMYBnCJ1Qi4EANqzgAcxAA3RBAAuglRFQBfQYcFLV6rTv0BdQbMMm1CTdojkDg67ePKHTnaTceXqaO5i5u9mbOru42ESHO+kZBPqH+ltYANnLAGsgATopwGtDCcBkZALSKeeCiQhoAFroAdKQiEADEmIIA7jBysviCmB7dIzbd+B5DUzZDI5Z61gCu2cIZyKLiUOgA9vlgFTC7oiAaILsIQsLk0B0AYo9PmJjXxbLkzUOfsz0QQ018EsRMhsssECAAI7LGTYQQNcBgSKlAZjDxSVDpAzAHRQc4aDIyAAEgAdTQCAHoBO00ArGn4KDY3HIZaNXZ5CBEwBVfoBVfUA4k504y4vLLQniImAM+jAIORgC5PQDR8nTFkA?setting-conflictchecker=0)
 
 ---
+
+## 总结
 
 ??? note "题解"
     按提示完成涂色，然后用棋盘密码提取空白格即可。

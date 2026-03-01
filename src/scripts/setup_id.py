@@ -3,7 +3,7 @@ import secrets
 import sys
 import argparse
 from pathlib import Path
-from log import get_logger
+from .log import get_logger
 
 known_hash = set()
 def generate_id() -> str:
@@ -39,40 +39,25 @@ def add_id_recursive(data, overwrite: bool = False, current_depth = 0, max_depth
             cnt += add_id_recursive(value, overwrite, current_depth+1)
     return cnt
 
-def main():
-    parser = argparse.ArgumentParser(
-        description="为 YAML 文件中每个字典元素添加随机 16 位小写 id 字段"
-    )
-    parser.add_argument("input", help="输入的 YAML 文件路径")
-    parser.add_argument(
-        "-o", "--output",
-        help="输出的 YAML 文件路径（默认覆盖原文件）",
-        default=None,
-    )
-    parser.add_argument(
-        "--overwrite-id",
-        action="store_true",
-        help="强制覆盖已存在的 id 字段",
-    )
-    args = parser.parse_args()
+logger = get_logger(__name__)
 
-    input_path = Path(args.input)
-    output_path = Path(args.output) if args.output else input_path
-
+def main(input_file:Path, output_file:Path=None, overwrite=False):
+    
+    input_path = Path(input_file)
+    output_path = Path(output_file) if output_file else input_path
     if not input_path.exists():
-        # print(f"[错误] 文件不存在: {input_path}")
-        sys.exit(-1)
-
+        logger.error(f"文件不存在： {input_path}")
+        return
     # 读取 YAML
     with open(input_path, "r", encoding="utf-8") as f:
         data = yaml.safe_load(f)
 
     if data is None:
-        # print("[警告] YAML 文件为空，无需处理。")
-        sys.exit(-1)
+        logger.warning("YAML 文件为空，无需处理。")
+        return 
 
     # 添加 id 字段
-    cnt = add_id_recursive(data, overwrite=args.overwrite_id)
+    cnt = add_id_recursive(data, overwrite=overwrite)
 
     # 写出结果
     with open(output_path, "w", encoding="utf-8") as f:
@@ -85,7 +70,9 @@ def main():
         )
 
     # print(f"[完成] 结果已写入: {output_path}")
-    return cnt
+    logger.debug(f"为{output_path.name}生成了{cnt}个新的ID，当前缓存{len(known_hash)}个ID。")
+
+    return 
 """
 # 安装依赖（如未安装）
 pip install pyyaml
@@ -101,7 +88,3 @@ python setup-id.py data.yml --overwrite-id
 
 """
 
-if __name__ == "__main__":
-    logger = get_logger(__name__)
-    cnt = main()
-    logger.debug(f"{cnt} IDs generated.")

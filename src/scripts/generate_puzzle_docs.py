@@ -9,7 +9,7 @@ from pathlib import Path
 from .log import get_logger
 from .utils import find_project_root, slugify_dirname
 from .models import *
-
+from . import setup_ids
 
 def md_escape(s: str) -> str:
     return (s or "").replace("\r\n", "\n").replace("\r", "\n").strip()
@@ -68,7 +68,7 @@ def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
         lines.append(f'    出题人：{puzzle_item.author}\n')
     if event_item:
         lines.append(f'    赛事来源：{event_item.name} - {event_item.subtitle} ({event_item.year})\n')
-        lines.append(f"    赛事链接： [本站](/events/{event_item.year}/{event_item.id}/) · [官网]({event_item.url})\n")
+        lines.append(f"    赛事链接： [本站](/events/{event_item.year}/{event_item.id}/#{puzzle_item.title}) · [官网]({event_item.url})\n")
     if puzzle_item.round:
         lines.append(f"    题目分区：{puzzle_item.round}\n")
     if puzzle_item.note:
@@ -87,18 +87,22 @@ def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
     if lines[-1] == '=== "元提示"':
         lines.append('    该题目未见元提示。')
     lines.append("=== \"提示\"")
-    for hint in puzzle_item.hints:
-        lines.append(f'    ??? tip "{hint.question}"')
+    for ind, hint in enumerate(puzzle_item.hints):
+        lines.append(f'    ??? tip "{ind+1}. {hint.question}"')
         lines.append(f'        {hint.answer}')
     lines.append("=== \"答案\"")
     if puzzle_item.milestones:
-        for milestone in puzzle_item.milestones:
-            lines.append(f'    ??? info "里程碑 {milestone.phrase[1]}{"*"*(len(milestone.phrase)-2)}{milestone.phrase[-1]}"')
-            lines.append(f'        {milestone.phrase} : {milestone.text}')
+        for ind, milestone in enumerate(puzzle_item.milestones):
+            if len(milestone.phrase) > 2:
+                no_blank_phrase = milestone.phrase.replace(' ', '')
+                lines.append(f'    ??? info "里程碑 {ind+1}: {no_blank_phrase[0]}{"*"*(len(no_blank_phrase)-2)}{no_blank_phrase[-1]}"')
+            else:
+                lines.append(f'    ??? info "里程碑 {ind+1}"')
+            lines.append(f'        **{milestone.phrase}** : {milestone.text}')
     else:
         lines.append('    该题目未见有里程碑。')
     lines.append(f'    ??? success "最终答案"')
-    lines.append(f'        {puzzle_item.answer}')
+    lines.append(f'        **{puzzle_item.answer}**')
     lines.append("")
 
     lines.append(appendix)
@@ -107,8 +111,6 @@ def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
 
 def generate_puzzles(puzzle_data:list, target_puzzles_dir:Path):
     """为docs生成单独的puzzle页面"""
-    shutil.rmtree(target_puzzles_dir, ignore_errors=True)
-    target_puzzles_dir.mkdir(parents=True, exist_ok=True)
     event_dict = get_event_index_dict()
     puzzle_items = create_puzzle_items(puzzle_data)
     for puzzle_item in puzzle_items:
@@ -129,15 +131,14 @@ def generate_puzzles(puzzle_data:list, target_puzzles_dir:Path):
             with event_file.open('a', encoding='utf8') as f:
                 # TODO 这里要优化一下，这种写法会导致每处理一道题目，文件就要被读取写入一次
                 if puzzle_item.ready:
-                    f.writelines([
-                        f"## {puzzle_item.title}\n",
-                        f"[{puzzle_item.ft}](/puzzles/{puzzle_item.id}/)\n"
-                    ])
+                    f.write(f"## {puzzle_item.title}\n")
+                    if puzzle_item.ft:
+                        f.write(f"[{puzzle_item.ft}](/puzzles/{puzzle_item.id}/)\n")
+                    else:
+                        f.write(f"[本题无FT，点击此处查看题目详情。](/puzzles/{puzzle_item.id}/)\n")
                 else:
-                    f.writelines([
-                        f"## {puzzle_item.title}\n",
-                        f"*题目施工中……*\n"
-                    ])
+                    f.write(f"## 🚧{puzzle_item.title}\n")
+                    f.write(f"*题目施工中……*\n")
                 f.write('\n')
 
 
@@ -145,18 +146,19 @@ logger = get_logger(__name__)
 ROOT = find_project_root()
 
 def main():
-    logger.info("Generating puzzles...")
-    logger.info("Generating puzzle IDs...")
+    logger.info("正在生成谜题……")
+    logger.info("正在生成谜题ID……")
     config_files = next(os.walk(f'{ROOT}/src/resources/puzzle-configs'))[2]
     for config_file in config_files:
-        subprocess.run(
-            ['uv', 'run', f'{ROOT}/src/scripts/setup_id.py', f'{ROOT}/src/resources/puzzle-configs/{config_file}'],
-            check=True  
-        )
-    logger.info("Generating puzzle templates...")
+        setup_ids(f'{ROOT}/src/resources/puzzle-configs/{config_file}')
+       
+    logger.info("正在创建谜题模板……")
+    target_puzzles_dir = ROOT / "docs" / "puzzles"
+    shutil.rmtree(target_puzzles_dir, ignore_errors=True)
+    target_puzzles_dir.mkdir(parents=True, exist_ok=True)
     for config_file in config_files:
         with open(ROOT / "src" / "resources" / "puzzle-configs" / config_file, "r", encoding="utf8") as file:
             puzzles = yaml.safe_load(file)
-        generate_puzzles(puzzles, ROOT / "docs" / "puzzles")
+        generate_puzzles(puzzles, target_puzzles_dir)
 
-    logger.info("Events generated.")
+    logger.info("谜题已完成生成。")

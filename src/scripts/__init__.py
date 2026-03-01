@@ -1,5 +1,6 @@
 from .log import get_logger
 from .utils import find_project_root
+from .setup_id import main as setup_ids
 from .generate_event_docs import main as get_event_docs
 from .generate_tool_docs import main as get_tool_docs
 from .generate_mkdocs_yml import main as get_mkdocs_yml

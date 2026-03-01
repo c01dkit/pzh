@@ -1,6 +1,8 @@
 
 ---
 
+## 题目详情
+
 !!! abstract ""
     *这是一个简单的cw，真的*
 
@@ -13,6 +15,8 @@
 [点击下载](https://image.secopuzzle.com/SECO2/%E4%B8%AD%E8%8B%B1%E4%BA%92%E8%AF%91Plus/%E4%B8%AD%E8%8B%B1%E4%BA%92%E8%AF%91plus.xlsx)
 
 ---
+
+## 总结
 
 ??? note "题解"
     首先完成cw，得到`BURNING FLASHLIGHT`，然后按提示对应到5字母单词，即`TORCH`

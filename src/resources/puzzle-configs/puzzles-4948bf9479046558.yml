@@ -1,0 +1,293 @@
+- id: 86ed0020634ebd6a
+  event_id: 4948bf9479046558
+  tool_ids:
+  - 64e6cf66dfa1ad74
+  title: 无孔不入的填字游戏
+  round: null
+  topics:
+  - crossword
+  author: 403
+  extractions:
+  - 旗语
+  ft: 填字游戏就是把字填到格子里，跟把钥匙插进孔里一样，很简单的——等会，diagramless是什么？
+  note: 本题还给出了一个17x17的空白矩阵格
+  hints:
+  - question: 我需要对于不会的线索的帮助！
+    answer: 在最前面加上【无孔不入】发送站内信，可以获得10条内容的答案或一次进度核查。
+  - question: 我好像卡壳了，我应该注意什么？
+    answer: 注意某些条目使用了别称，且diagramless crossword不一定由左上角开始。
+  - question: 这道题的关键之处是什么？
+    answer: 一个重复出现的结构。
+  - question: 我已经基本做完了填字游戏，下方的Keys有什么用？
+    answer: 每个Keys对应的是一个字谜，你可以将这些字填进3*3环状白色格子的中心（黑色块）。
+  - question: 我已经基本做完了填字游戏，下方的？？？有什么用？
+    answer: ？？？代表的是三字词语，这个三字词一定包含Keys所提示的内容。
+  - question: 该如何入手？
+    answer: 前两条clue（以“单”开头）从第一行第五格开始填写；“马尔可夫链”与“可见度”（大气的透明度）在“可”处相交。
+  milestones: null
+  answer: DOORINTERLOCK
+  ready: true
+- id: 6cc72709f09c6618
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 年夜饭
+  round: null
+  topics: null
+  author: 小祝
+  extractions:
+  - A1Z26
+  ft: null
+  note: null
+  hints:
+  - question: 图片是什么意思
+    answer: 你需要识别图片中的菜的主原料是什么，例如：第一道菜是小鸡炖蘑菇，主原料是小鸡和蘑菇。
+  - question: 食材是什么意思
+    answer: 每一个clue的答案都包含了一种蔬菜，水果，肉等食物的名字。例如第一个clue答案是烂番茄，包含蔬菜西红柿。你需要利用食材的价格计算上面每一道菜品的价格。
+  milestones: null
+  answer: SKYRAIN
+  ready: true
+- id: 9913307f7ca857de
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 抢红包
+  round: null
+  topics:
+  - 哲学思想实验
+  author: WJ
+  extractions: null
+  ft: 过年了，你加入的群聊里发来铺天盖地的红包。可是亲爱的，你真的学会了发红包和抢红包吗？
+  note: null
+  hints:
+  - question: 这些问题是在暗指什么？我毫无头绪
+    answer: 这些问题都指向了一场很有名的思想实验。
+  - question: 这些问题的答案是什么意思，有什么作用？
+    answer: 这些问题的答案给出了针对于每个思想实验的提取方式，对思想实验的名称进行对应的提取。
+  milestones: null
+  answer: WECHATREDPACKETS
+  ready: true
+- id: f08ac749f313d4c7
+  event_id: 4948bf9479046558
+  tool_ids:
+  - 8b903a0d9f5143d1
+  title: 画马
+  round: null
+  topics:
+  - 地图连线
+  author: 小吉
+  extractions: null
+  ft: 为了避免破坏自然，我们在多座城市的市区里设定了画马的替代路线。不过你画的下一匹马，又何必是马。而且，为什么有句话在把我们当天马？
+  note: 为排版美观起见，本站为段落添加了分隔符。原题中以空行分开。
+  hints:
+  - question: 我毫无头绪。我需要要做什么？
+    answer: “画马”是一种活动，一些人按特定轨迹跑步，在跑步软件上显示的轨迹便像是马。本题中由于你不能飞行，你需要按照每段话的指引在地图上连线，“飞行“表示两点之间连出直线，并且会穿过建筑物。你需要辨认出这些马是什么。
+  - question: 能给我一些画马的指引吗？
+    answer: 每条线路的城市都不一样，且除了最后一条线路外，其他线路都在省会城市或者直辖市。为了确认城市名，首先搜索每条线路里明确给出的地名或路名。有时候，你不需要完全画完就知道这些马是什么了。
+  - question: 能直接告诉我线路一怎么跑吗？
+    answer: 线路一在北京。线路为五棵松——莲花池公园；玉渊潭公园中堤桥——北京京西肿瘤医院；白堆子站——白石桥南站——车公庄西站——展览馆路阜成门外大街路口；西单——木樨地；阜成门——西便门桥；文津街北长街路口——南长街西长安街——天安门——正阳门；景山前街北池子大街——南池子大街东长安街——天安门——正阳门；北河沿大街五四大街——北河沿大街地安门东大街——张自忠路站——东四站；雅宝路日坛路——金宝街东四南大街；通惠河北路砖厂南路——崇文门内大街东交民巷；东大桥站——红领巾桥——广渠门外站——朝阳合生汇；红领巾公园西门——朝阳公园桥——姚家园路华文东路——朝阳北路。
+  - question: 能直接告诉我线路二怎么跑吗？
+    answer: 线路二在石家庄。线路为人民会堂——石家庄北站——保利广场——紫晶公园湖心岛——翟营南大街南二环东路路口——河北科技大学东南角——胜利公园东南角—（沿铁路线）—石家庄站——元村站——河北师范大学裕华校区西北角——河北科技大学西北角——南位站——仓丰路留村——仓丰路建通街——建通街南二环东路——南二环东路平安南大街——嘉华路胜利南大街——河北科技大学西南角——南二环东路裕翔街——欧韵公园站——人民会堂。
+  - question: 能直接告诉我线路三怎么跑吗？
+    answer: 线路三在西安。线路为玉祥门——安定门；洒金桥站——大麦市街西大街——广济街站——莲湖公园北1门——洒金桥站；五路口站——北大街站——钟楼——大差市站；西安站——永宁门。
+  - question: 能直接告诉我线路四怎么跑吗？
+    answer: 线路四在郑州。线路为燕庄站——黄河南路站—（沿黄河东路）—中央商务区站—（沿黄河东路、未来路）—燕庄站；众意路黄河东路出发，向北跑3km左右，具体路线不重要；可将以上轨迹对称到南方。在两边各补充8匹马。
+  - question: 能直接告诉我线路五怎么跑吗？
+    answer: 线路五在武汉。线路为唐家墩站——常青花园站；常青花园站——常青人才公园（只画一半）；常青花园站——江岸区政府（只画一半）。
+  - question: 能直接告诉我线路六怎么跑吗？
+    answer: 线路六在重庆。线路为烟雨海棠公园——朝天门长江大桥（折返）——烟雨海棠公园——融汇江山（折返）——烟雨海棠公园。
+  - question: 能直接告诉我线路七怎么跑吗？
+    answer: 线路七在南昌。线路为万达广场东南角——八一南昌起义纪念塔；孺子东路广场南路路口——广场南路洛阳路——南昌IM乐盈广场东北角；万达广场东南角——八一南昌起义纪念塔——南昌IM乐盈广场东北角；南昌市博物馆周围；万达广场东南角——八一南昌起义纪念塔——江西省司法厅——万达广场东南角；滕王阁南1门——滕王阁北——江西古代艺术陈列馆——滕王阁广场东北角——滕阁秋风牌坊；万达广场东南角——南昌市博物馆东南角；八一南昌起义纪念塔——滕阁秋风牌坊。
+  - question: 能直接告诉我线路八怎么跑吗？
+    answer: 线路八在杭州。线路为浙江大学玉泉校区北门——浙江大学华家池校区南1门——甬江路站——血园陵——浙江大学玉泉校区北门；武林门站——中国丝绸博物馆；清江路杭海路口一路向西，与前一条轨迹相交。
+  - question: 能直接告诉我线路九怎么跑吗？
+    answer: 线路九在上海。线路为邯郸路国定路口——邯郸路国顺路——国顺东路双阳北路——中环路——中环路国定东路——邯郸路国定路口。三个圆圈分别在复旦大学邯郸路体育场、铁村小区、上海开放大学，需要对称到另一半上。
+  - question: 能直接告诉我线路十怎么跑吗？
+    answer: 线路十在青岛。线路为台东八路通化路——台东八路顺兴路——台东一路顺兴路——台东一路芙蓉路——芙蓉路桑梓路——桑梓路威海路；延安路延安三路——延安三路西仲一路——西仲一路西仲二路——西仲二路宁夏路；澳柯玛立交桥——山东路延吉路——万达广场东南角——山东路延吉路——山东路敦化路——敦化路连云港路；宁夏路吴兴路——宁夏路南京路——南京路丽水路——丽水路吴兴路——吴兴路龙泉路——龙泉路南京路。
+  - question: 我画完了，该如何理解我得到的轨迹？
+    answer: 这些都不是实际的马，而是名字中带有“马”字的事物。每条线路旁边的emoji表示了这个事物的字数，以及“马”在第几个字上。
+  - question: 该如何提取？
+    answer: 将这些“马”翻译为英语，它们的单词长度和每条线路的指示数量一致，因此字母和每条指示可以一一对应。注意每条线路的指示中都有一句话是相同的，请提取这一位的字母。
+  milestones:
+  - phrase: SEND A HORSE
+    text: 请通过站内信提交一匹你手绘的马
+  answer: BEIJINGOLYMPIC
+  ready: true
+- id: b284b3cd52ef677d
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 推箱字
+  round: null
+  topics: null
+  author: 小祝
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: CHINACOLOUR
+  ready: false
+- id: d4b2f9d32a21d77c
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 对酒当歌
+  round: null
+  topics: null
+  author: WJ
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: ALLBEERHERE
+  ready: false
+- id: 5c38a0e212e10464
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 两灯一谜对连
+  round: null
+  topics: null
+  author: 小祝
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: DIALECTS
+  ready: false
+- id: 5c8df8a8c16b456c
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 物薄情厚
+  round: null
+  topics: null
+  author: LS
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: EXPRESSDELIVERY
+  ready: false
+- id: 01e95f4c511112d6
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 田忌赛马
+  round: null
+  topics: null
+  author: 'Null'
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: YOUNGTOOLD
+  ready: false
+- id: c506b854f213ee82
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 地下旅行
+  round: null
+  topics: null
+  author: 403
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: ELLIPSE
+  ready: false
+- id: 44328a5086f8912e
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 方形田字
+  round: null
+  topics: null
+  author: 无色魁
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: HOURLYCHARGE
+  ready: false
+- id: ab89cf03a59d1fc7
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 所罗门王的钥匙
+  round: null
+  topics: null
+  author: ScHolZee
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: LOGINCREDENTIAL
+  ready: false
+- id: 2c42db3cb12bedc9
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: '[META] 一年又一年'
+  round: null
+  topics: null
+  author: 小祝 / WJ / 403
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: INLUCKYSPELL
+  ready: false
+- id: ce39a1259d626754
+  event_id: 4948bf9479046558
+  tool_ids: null
+  title: 彩蛋-A puzzle only with meta
+  round: null
+  topics: null
+  author: null
+  extractions: null
+  ft: null
+  note: null
+  hints:
+  - question: 我毫无头绪！
+    answer: null
+  - question: 该如何提取？
+    answer: null
+  milestones: null
+  answer: becomericher
+  ready: false

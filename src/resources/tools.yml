@@ -46,7 +46,7 @@
   tags:
   - 密码分析
   id: 96930790e1eb0d03
-- name: 英文焖肉面
+- name: 焖肉面工具箱
   url: https://philippica.github.io/cipher_machine/
   description: 焖肉面 - puzzle hunt工具集
   category: 工具箱类
@@ -63,10 +63,10 @@
   id: 64e6cf66dfa1ad74
 - name: 中文焖肉面
   url: https://philippica.github.io/ChinesePuzzleTool/
-  description: null
-  category: 工具箱类
+  description: 中文组词搜索，支持固定笔画、偏旁部首、拼音
+  category: 中文类
   tags:
-  - 工具箱
+  - 组词
   id: 45d5c770b79eaf93
 - name: cryptii
   url: https://cryptii.com/
@@ -281,10 +281,17 @@
   tags:
   - 地名
   id: 5fb87ef5e5d4c491
+- name: 便捷绘图
+  url: https://mapplat.z7z7z7.cn/mappaint/
+  description: 非常方便地在地图上绘制线段、填色等
+  category: 地图类
+  tags:
+  - 地图
+  id: 8b903a0d9f5143d1
 - name: 谷歌地图
   url: https://www.google.com/maps/search/?hl=zh-CN
   description: ''
-  category: 国家类
+  category: 地图类
   tags:
   - 地图
   id: 1713a4e5800c1390

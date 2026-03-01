@@ -1,6 +1,6 @@
 # 国家类
 
-共 12 个工具。
+共 11 个工具。
 
 ## 世界资料库
 
@@ -57,11 +57,6 @@
 
 - 链接：<http://szdm.00cha.net/>
 - 关键字：机场三字码
-
-## 谷歌地图
-
-- 链接：<https://www.google.com/maps/search/?hl=zh-CN>
-- 关键字：地图
 
 ## 逆向搜图（TinEye）
 

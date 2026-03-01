@@ -9,7 +9,7 @@ from pathlib import Path
 from .log import get_logger
 from .utils import find_project_root, slugify_dirname
 from .models import EventItem, create_event_items
-
+from . import setup_ids
 
 def md_escape(s: str) -> str:
     return (s or "").replace("\r\n", "\n").replace("\r", "\n").strip()
@@ -150,13 +150,10 @@ logger = get_logger(__name__)
 ROOT = find_project_root()
 
 def main():
-    logger.info("Generating events...")
-    logger.info("Generating event IDs...")
-    subprocess.run(
-        ['uv', 'run', f'{ROOT}/src/scripts/setup_id.py', f'{ROOT}/src/resources/events.yml'],
-        check=True  
-    )
-    logger.info("Generating event docs...")
+    logger.info("正在生成赛事……")
+    logger.info("正在生成赛事ID……")
+    setup_ids(f'{ROOT}/src/resources/events.yml')
+    logger.info("正在生成赛事文档……")
     with open(ROOT / "src" / "resources" / "events.yml", "r", encoding="utf8") as file:
         events = yaml.safe_load(file)
     nav_yml_events = generate_events(
@@ -164,5 +161,5 @@ def main():
         Path(ROOT / "docs" / "events")
     )
     
-    logger.info("Events generated.")
+    logger.info("赛事已完成生成。")
     return nav_yml_events
