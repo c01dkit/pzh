@@ -10,7 +10,7 @@
   extractions:
   - 旗语
   ft: 填字游戏就是把字填到格子里，跟把钥匙插进孔里一样，很简单的——等会，diagramless是什么？
-  note: 本题还给出了一个17x17的空白矩阵格
+  note: null
   hints:
   - question: 我需要对于不会的线索的帮助！
     answer: 在最前面加上【无孔不入】发送站内信，可以获得10条内容的答案或一次进度核查。
@@ -78,7 +78,7 @@
   ft: 为了避免破坏自然，我们在多座城市的市区里设定了画马的替代路线。不过你画的下一匹马，又何必是马。而且，为什么有句话在把我们当天马？
   note: 为排版美观起见，本站为段落添加了分隔符。原题中以空行分开。
   hints:
-  - question: 我毫无头绪。我需要要做什么？
+  - question: 我毫无头绪。我需要做什么？
     answer: “画马”是一种活动，一些人按特定轨迹跑步，在跑步软件上显示的轨迹便像是马。本题中由于你不能飞行，你需要按照每段话的指引在地图上连线，“飞行“表示两点之间连出直线，并且会穿过建筑物。你需要辨认出这些马是什么。
   - question: 能给我一些画马的指引吗？
     answer: 每条线路的城市都不一样，且除了最后一条线路外，其他线路都在省会城市或者直辖市。为了确认城市名，首先搜索每条线路里明确给出的地名或路名。有时候，你不需要完全画完就知道这些马是什么了。
@@ -116,37 +116,51 @@
   tool_ids: null
   title: 推箱字
   round: null
-  topics: null
+  topics:
+  - 程序
   author: 小祝
   extractions: null
   ft: null
   note: null
   hints:
   - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+    answer: 蓝色和绿色箱子可以被推动，试试把它们推向”拆“字
+  - question: 第一步怎么办
+    answer: 合成钥字，推向门，即可开门
+  - question: 第二步怎么办
+    answer: 合成桥字，推向河
+  - question: 第三步怎么办
+    answer: 合成炸和弹，两者相撞可以炸掉墙
   milestones: null
   answer: CHINACOLOUR
-  ready: false
+  ready: true
 - id: d4b2f9d32a21d77c
   event_id: 4948bf9479046558
   tool_ids: null
   title: 对酒当歌
   round: null
-  topics: null
+  topics:
+  - crossword
   author: WJ
   extractions: null
-  ft: null
+  ft: 新年配美酒，越喝越有，大步流星四方走
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - question: 这个crossword填入答案的机制是什么？
+    answer: clue序号的颜色代表了填入答案的方向，每个答案都至少有一个交叉验证。
+  - question: 我已经完成了crossword盘面，但我毫无头绪
+    answer: 尝试注意九个九宫格的中心。
+  - question: 我在完成crossword的部分clue时遇到了困难，可以给一些帮助吗？
+    answer: 购买该预设提示可以凭【会须一饮三百杯】在站内信获取任意五条clue的答案。
+  - question: 我得到了中间答案但是毫无头绪
+    answer: 要转90°，颜色格子不用动
+  milestones:
+  - phrase: 逆向转动所有九宫格
+    text: 正确的中间答案！
+  - phrase: CHEERS
+    text: 请提交【ALLBEERHERE】
   answer: ALLBEERHERE
-  ready: false
+  ready: true
 - id: 5c38a0e212e10464
   event_id: 4948bf9479046558
   tool_ids: null

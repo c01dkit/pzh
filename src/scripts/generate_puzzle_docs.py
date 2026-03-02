@@ -67,8 +67,8 @@ def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
     if puzzle_item.author:
         lines.append(f'    出题人：{puzzle_item.author}\n')
     if event_item:
-        lines.append(f'    赛事来源：{event_item.name} - {event_item.subtitle} ({event_item.year})\n')
-        lines.append(f"    赛事链接： [本站](/events/{event_item.year}/{event_item.id}/#{puzzle_item.title}) · [官网]({event_item.url})\n")
+        lines.append(f'    赛事来源：[{event_item.name} - {event_item.subtitle} ({event_item.year})]({event_item.url})\n')
+        lines.append(f"    本站导航： [返回到当前赛事页面](/events/{event_item.year}/{event_item.id}/#{puzzle_item.title})\n")
     if puzzle_item.round:
         lines.append(f"    题目分区：{puzzle_item.round}\n")
     if puzzle_item.note:
@@ -95,12 +95,13 @@ def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
         for ind, milestone in enumerate(puzzle_item.milestones):
             if len(milestone.phrase) > 2:
                 no_blank_phrase = milestone.phrase.replace(' ', '')
-                lines.append(f'    ??? info "里程碑 {ind+1}: {no_blank_phrase[0]}{"*"*(len(no_blank_phrase)-2)}{no_blank_phrase[-1]}"')
+                lines.append(f'    ??? info "里程碑 {ind+1}: {no_blank_phrase[0]}{"\\*"*(len(no_blank_phrase)-2)}{no_blank_phrase[-1]}"')
             else:
                 lines.append(f'    ??? info "里程碑 {ind+1}"')
             lines.append(f'        **{milestone.phrase}** : {milestone.text}')
     else:
-        lines.append('    该题目未见有里程碑。')
+        lines.append('    ??? info ""')
+        lines.append('        该题目未见有里程碑')
     lines.append(f'    ??? success "最终答案"')
     lines.append(f'        **{puzzle_item.answer}**')
     lines.append("")
