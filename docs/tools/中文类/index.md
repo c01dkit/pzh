@@ -92,8 +92,6 @@
 - 链接：<https://www.zdic.net/>
 - 关键字：汉字
 
-这个应该很厉害
-
 ## 搜韵
 
 - 链接：<https://sou-yun.cn/>

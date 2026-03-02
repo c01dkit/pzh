@@ -16,4 +16,4 @@ Puzzle Potluck is a concept started by a group of passionate puzzlers who wanted
 - 主办方：Galactic Trendsetters
 - 网站链接：[本站](/events/2019/4c7bae42e61bdb41/) · [官网](https://2019.galacticpuzzlehunt.com/)
 
-A mysterious artifact has been discovered near the South Pole and you’ve been called in to investigate. Who knows what cool things you’ll discover!* *ice, mainly
+A mysterious artifact has been discovered near the South Pole and you’ve been called in to investigate. Who knows what cool things you’ll discover! (ice, mainly)

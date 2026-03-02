@@ -10,7 +10,7 @@
 
 Join us for an adventure through nature! Keep your eyes peeled - you might even spot a puzzle or two!
 
-## Galactic Puzzle Hunt 2022
+## Galactic Puzzle Hunt
 
 *The Exam*
 
@@ -18,9 +18,9 @@ Join us for an adventure through nature! Keep your eyes peeled - you might even 
 - 主办方：Galactic Trendsetters
 - 网站链接：[本站](/events/2022/9904909ff0bce5eb/) · [官网](https://2022.galacticpuzzlehunt.com/)
 
-The Galactic Aptitude Test, or GAP test, is a one-hour standardized exam featuring around ten challenges on a variety of subjects. Study hard, do well, and change your life!* *Studying hard not a guarantee of doing well. #2 pencil required.
+The Galactic Aptitude Test, or GAP test, is a one-hour standardized exam featuring around ten challenges on a variety of subjects. Study hard, do well, and change your life! (Studying hard not a guarantee of doing well. #2 pencil required.)
 
-## REDDOThunt 2022
+## REDDOThunt
 
 - 时间：2022-07-09 10:00 ～ 2022-07-11 22:00
 - 主办方：sg

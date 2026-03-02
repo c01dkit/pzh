@@ -81,10 +81,14 @@ TODO 后续会更新自动管理方式。
 uv run mkdocs serve
 
 # 网站部署
+uv run src/main.py
 git add .
 git commit -m "xxx"
 git push origin main:main
 uv run mkdocs gh-deploy --clean
+
+# 也可以直接使用脚本完成生成与部署
+./run.sh
 ```
 
 ## Acknowledgments 

@@ -18,7 +18,7 @@ You are cordially invited to a celebration of Matt and Emma’s sixth birthday! 
 
 This is a puzzlehunt inspired by the other hunts that have happened on Puzzle Hunt Calendar, but written to be easier and focused on teams that are relatively new to puzzlehunts.
 
-## Galactic Puzzle Hunt 2020
+## Galactic Puzzle Hunt
 
 *20/20 Vision*
 
@@ -26,7 +26,7 @@ This is a puzzlehunt inspired by the other hunts that have happened on Puzzle Hu
 - 主办方：Galactic Trendsetters
 - 网站链接：[本站](/events/2020/dfea2cdbe61a13c8/) · [官网](https://2020.galacticpuzzlehunt.com/)
 
-Oh no! The Galactic Puzzle Hunt is coming up soon, but you've misplaced your glasses and might not be able to participate. If you can find them again, you’ll receive a spectacular prize*! *the ability to see clearly
+Oh no! The Galactic Puzzle Hunt is coming up soon, but you've misplaced your glasses and might not be able to participate. If you can find them again, you’ll receive a spectacular prize! (the ability to see clearly)
 
 ## Puzzle Potluck
 
@@ -36,7 +36,9 @@ Oh no! The Galactic Puzzle Hunt is coming up soon, but you've misplaced your gla
 
 Puzzle Potluck is a concept started by a group of passionate puzzlers who wanted to get better at writing puzzles.
 
-## REDDOThunt 2020
+## REDDOThunt
+
+*REDDOThunt 2020*
 
 - 时间：2020-06-06 10:00 ～ 2020-06-08 22:00
 - 主办方：sg

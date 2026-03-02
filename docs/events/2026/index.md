@@ -1,5 +1,15 @@
 # 2026年赛事
 
+## Brown Puzzlehunt
+
+*Brown Puzzlehunt College*
+
+- 时间：2026-04-19 12:00 ～ 2026-04-25 12:00
+- 主办方：Brown and RISD students
+- 网站链接：[本站](/events/2026/33826b9983251cc3/) · [官网](https://www.brownpuzzlehunt.com/)
+
+Brown Puzzlehunt 2026 is the fourth annual puzzlehunt run by current Brown and RISD students. This hunt is designed to be a relatively easy introduction to puzzlehunting for beginner teams.
+
 ## 欣年
 
 *欣年3*

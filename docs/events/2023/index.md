@@ -1,6 +1,8 @@
 # 2023年赛事
 
-## MiaoHunt 2023
+## MiaoHunt
+
+*MiaoHunt 2023*
 
 - 时间：2023-12-29 20:00 ～ 2024-01-11 20:00
 - 主办方：cn
@@ -16,7 +18,7 @@
 
 Huntinality是一种在线解谜游戏，由多轮谜题和元谜题组成。它专为最多 6 人的团队而设计，并向任何有/无解谜游戏经验的人开放。
 
-## Galactic Puzzle Hunt 2023
+## Galactic Puzzle Hunt
 
 *GalactiCardCaptors*
 
@@ -24,17 +26,31 @@ Huntinality是一种在线解谜游戏，由多轮谜题和元谜题组成。它
 - 主办方：Galactic Trendsetters
 - 网站链接：[本站](/events/2023/fdf67604b24eaa82/) · [官网](https://2023.galacticpuzzlehunt.com/)
 
-## enigame: dance To The beat
+## enigame
+
+*dance To The beat*
 
 - 时间：2023-10-27 23:00 ～ 2024-10-31 05:55
 - 主办方：cn
 - 网站链接：[本站](/events/2023/6554aadaa1aa6f68/) · [官网](https://www.enigame.de/game)
 
-## CCBC-1314
+## CCBC
+
+*CCBC 1314*
 
 - 时间：2023-08-11 20:00 ～ 2023-08-20 20:00
 - 主办方：cn
 - 网站链接：[本站](/events/2023/2ef665af2041cdd8/) · [官网](https://ccbc13.cipherpuzzles.com)
+
+## Brown Puzzlehunt
+
+*Blueno Resurrection Society*
+
+- 时间：2023-04-16 01:00 ～ 2023-04-17 11:59
+- 主办方：Brown Puzzle Club
+- 网站链接：[本站](/events/2023/64e5a0d887b938c0/) · [官网](https://2023.brownpuzzlehunt.com/)
+
+The Blueno Resurrection Society needs your help. RSVP in advance.
 
 ## 欣年
 

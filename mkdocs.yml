@@ -9,60 +9,67 @@ nav:
     - index: events/index.md
     - 2026:
       - index: events/2026/index.md
+      - "Brown Puzzlehunt": events/2026/33826b9983251cc3.md
       - "欣年": events/2026/4948bf9479046558.md
       - "SECO Puzzle Hunt": events/2026/7d7c349ada446bf4.md
       - "Abyssal Puzzle": events/2026/6488dae472f55a87.md
     - 2025:
       - index: events/2025/index.md
+      - "Orientation Hunt": events/2025/f2edca9f5735cb78.md
       - "LN Hunt": events/2025/74082b32294a4278.md
+      - "Puzzlethon": events/2025/0e14c0600981d08e.md
       - "ZJUPH": events/2025/de9be6a091cccbc5.md
       - "Puzzle Hunt US-TC": events/2025/a9ee78521126c92b.md
       - "National School Puzzle Hunt": events/2025/13222f44ca2aaf5a.md
-      - "Galactic Puzzle Hunt 2025": events/2025/9d1c13621abd102f.md
-      - "CCBC 16": events/2025/6a3b521cf05f73b9.md
+      - "Galactic Puzzle Hunt": events/2025/9d1c13621abd102f.md
+      - "CCBC": events/2025/6a3b521cf05f73b9.md
       - "金牌解谜": events/2025/d7a2f6ad1d5125a1.md
       - "REXEI PUZZLE HUNT": events/2025/057d49e6b5f802fb.md
       - "Huntingale": events/2025/c79bd961fefd1940.md
-      - "FDU PUZZLE HUNT Final Deadline Upcoming": events/2025/9184f974486b275a.md
+      - "Brown Puzzlehunt": events/2025/dfe6e53b332f739c.md
+      - "FDUPH": events/2025/9184f974486b275a.md
       - "Teammate Hunt": events/2025/1bdd8bb4332de18e.md
-      - "2025 Teammate Hunt: Matt & Emma's Deep-space Disaster": events/2025/fcdae590977d50bb.md
-      - "第三届 亦乐杯": events/2025/35e5d7cfb3b6768c.md
-      - "Cornsnaky's Snakeyear PUZZLE HUNT": events/2025/552350cec0247e76.md
+      - "亦乐杯": events/2025/35e5d7cfb3b6768c.md
+      - "Cornsnaky's Snakeyear Puzzle Hunt": events/2025/552350cec0247e76.md
       - "SECO Puzzle Hunt": events/2025/7d8732e60169804e.md
       - "MIT Mystery Hunt": events/2025/6c4272cb4cedf332.md
     - 2024:
       - index: events/2024/index.md
+      - "Orientation Hunt": events/2024/adf47e92e6e527dc.md
       - "Christmas Hunt": events/2024/0de2393131151d8c.md
+      - "Puzzlethon": events/2024/0d837a2b0ae36a82.md
       - "EC Puzzle Hunt": events/2024/47c6df5fb061b566.md
       - "玥hunt": events/2024/a364fcc9e22ba98f.md
-      - "Galactic Puzzle Hunt 2024": events/2024/eee6c32d299a61f9.md
+      - "Galactic Puzzle Hunt": events/2024/eee6c32d299a61f9.md
       - "Just Puzzle Hunt": events/2024/b9827c69f83b27c1.md
-      - "CCBC 15": events/2024/78750e3b63c03f0e.md
+      - "CCBC": events/2024/78750e3b63c03f0e.md
       - "P&KU 3（上）": events/2024/bc7dd3689a3d6ac9.md
       - "LGPH 2": events/2024/35ab04ba6413496f.md
-      - "enigame: enitime": events/2024/e4eab5b358340e34.md
+      - "enigame": events/2024/e4eab5b358340e34.md
+      - "Brown Puzzlehunt": events/2024/61a209f2247d5885.md
       - "fishunt": events/2024/743ecd6a7f94b4ff.md
       - "江湖解谜": events/2024/bd16168546a0d95e.md
       - "MIT Mystery Hunt": events/2024/b15e075545f858e1.md
     - 2023:
       - index: events/2023/index.md
-      - "MiaoHunt 2023": events/2023/7b5159e16b413fd6.md
+      - "MiaoHunt": events/2023/7b5159e16b413fd6.md
       - "Huntinality III": events/2023/21d99b4c6cb3543e.md
-      - "Galactic Puzzle Hunt 2023": events/2023/fdf67604b24eaa82.md
-      - "enigame: dance To The beat": events/2023/6554aadaa1aa6f68.md
-      - "CCBC-1314": events/2023/2ef665af2041cdd8.md
+      - "Galactic Puzzle Hunt": events/2023/fdf67604b24eaa82.md
+      - "enigame": events/2023/6554aadaa1aa6f68.md
+      - "CCBC": events/2023/2ef665af2041cdd8.md
+      - "Brown Puzzlehunt": events/2023/64e5a0d887b938c0.md
       - "欣年": events/2023/1b318e06dd4191e3.md
       - "MIT Mystery Hunt": events/2023/bf93901bcb5f89ca.md
     - 2022:
       - index: events/2022/index.md
       - "EC Puzzle Hunt": events/2022/faa7aa605f5c55b9.md
-      - "Galactic Puzzle Hunt 2022": events/2022/9904909ff0bce5eb.md
-      - "REDDOThunt 2022": events/2022/d2d308bf913f1e3b.md
+      - "Galactic Puzzle Hunt": events/2022/9904909ff0bce5eb.md
+      - "REDDOThunt": events/2022/d2d308bf913f1e3b.md
       - "Huntinality 2.0": events/2022/fd1ee8568647e1e8.md
       - "MIT Mystery Hunt": events/2022/ef2b9d7e571cea51.md
     - 2021:
       - index: events/2021/index.md
-      - "Galactic Puzzle Hunt 2021": events/2021/3224caf5676975d6.md
+      - "Galactic Puzzle Hunt": events/2021/3224caf5676975d6.md
       - "Teammate Hunt": events/2021/bee2b486b6b713c6.md
       - "Puzzle Potluck": events/2021/fbbddc0ef4fb6765.md
       - "Huntinality": events/2021/7ba61ada5dce15a4.md
@@ -70,9 +77,9 @@ nav:
       - index: events/2020/index.md
       - "Teammate Hunt": events/2020/4ff8802893aba56b.md
       - "DP Puzzle Hunt": events/2020/4e9c6baf57cbf673.md
-      - "Galactic Puzzle Hunt 2020": events/2020/dfea2cdbe61a13c8.md
+      - "Galactic Puzzle Hunt": events/2020/dfea2cdbe61a13c8.md
       - "Puzzle Potluck": events/2020/1beaa98fa6ce8943.md
-      - "REDDOThunt 2020": events/2020/5573861d02f9c697.md
+      - "REDDOThunt": events/2020/5573861d02f9c697.md
     - 2019:
       - index: events/2019/index.md
       - "Puzzle Potluck": events/2019/68d56e325cf0c741.md
@@ -80,11 +87,11 @@ nav:
     - 2018:
       - index: events/2018/index.md
       - "Puzzle Potluck": events/2018/851a065d74b6860b.md
-      - "REDDOThunt 2018": events/2018/266519c484d529a8.md
+      - "REDDOThunt": events/2018/266519c484d529a8.md
       - "Galactic Puzzle Hunt": events/2018/07ae014fd74627e2.md
     - 2017:
       - index: events/2017/index.md
-      - "REDDOThunt 2017": events/2017/37b46c7eeef680e0.md
+      - "REDDOThunt": events/2017/37b46c7eeef680e0.md
       - "Galactic Puzzle Hunt": events/2017/7df2591b8bd22395.md
     - 2016:
       - index: events/2016/index.md
@@ -225,7 +232,7 @@ markdown_extensions:
 
   - pymdownx.highlight: # 代码高亮
       use_pygments: true # 使用 Pygments 而不是 JavaScript 来渲染高亮
-      linenums: true # 显示行号（默认值）
+      linenums: false # 显示行号（默认值）
       linenums_style: pymdownx-inline # 行号样式 pymdownx-inline 或者 inline 和 table
       anchor_linenums: true # 用锚链接包装代码行号，便于超链接和共享（就是行号可以像锚点一样被点击）
       line_spans: __span # 这对于高亮功能正常工作至关重要
@@ -274,7 +281,7 @@ theme: # 此项各个设定因主题而异
     - navigation.instant.progress # 加载速度慢时，在页面顶部显示加载进度（400ms 以上加载时间才会显示它）
     - navigation.tabs # 页面顶部导航栏
     # - navigation.tabs.sticky # 导航栏标题栏位置固定
-    # - navigation.sections # 左侧边栏节点是否保持展开
+    - navigation.sections # 左侧边栏节点是否保持展开
     - navigation.expand # 左侧边栏节点默认全部展开（与 navigation.prune 不兼容）
     # - navigation.prune # 左侧栏节点至多展开一个，以此来减小站点的构建大小（对于页数100+的网站很有用，与 navigation.expand 不兼容）
     # - toc.integrate # 右边侧栏是否集成到左侧边栏（与 navigation.indexes 不兼容）

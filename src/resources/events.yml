@@ -66,7 +66,8 @@
   year: 2025
   host: cn
   id: 13222f44ca2aaf5a
-- name: CCBC 16
+- name: CCBC
+  subtitle: CCBC 16
   description: null
   url: https://ccbc16.cipherpuzzles.com/
   start_time: 2025-08-08 20:00:00
@@ -98,7 +99,8 @@
   year: 2025
   host: us
   id: c79bd961fefd1940
-- name: FDU PUZZLE HUNT Final Deadline Upcoming
+- name: FDUPH
+  subtitle: Final Deadline Upcoming
   description: null
   url: https://fduph25.fdupuzzle.fun/
   start_time: 2025-04-18 15:00:00
@@ -106,15 +108,8 @@
   year: 2025
   host: cn
   id: 9184f974486b275a
-- name: '2025 Teammate Hunt: Matt & Emma''s Deep-space Disaster'
-  description: null
-  url: https://2025.teammatehunt.com/
-  start_time: 2025-03-29 07:00:00
-  end_time: 2025-04-07 11:59:00
-  year: 2025
-  host: cn
-  id: fcdae590977d50bb
-- name: 第三届 亦乐杯
+- name: 亦乐杯
+  subtitle: 第三届亦乐杯
   description: null
   url: https://mp.weixin.qq.com/s/8aRzczJrvWqGOxsZaOua-Q
   start_time: 2025-02-22 20:00:00
@@ -122,7 +117,7 @@
   year: 2025
   host: cn
   id: 35e5d7cfb3b6768c
-- name: Cornsnaky's Snakeyear PUZZLE HUNT
+- name: Cornsnaky's Snakeyear Puzzle Hunt
   description: null
   url: https://cornsnaky.dearfad.com
   start_time: 2025-02-05 21:00:00
@@ -182,7 +177,8 @@
   year: 2024
   host: cn
   id: b9827c69f83b27c1
-- name: CCBC 15
+- name: CCBC
+  subtitle: CCBC 15
   description: null
   url: https://ccbc15.cipherpuzzles.com/
   start_time: 2024-08-09 20:00:00
@@ -206,7 +202,8 @@
   year: 2024
   host: cn
   id: 35ab04ba6413496f
-- name: 'enigame: enitime'
+- name: enigame
+  subtitle: enitime
   description: null
   url: https://www.enigame.de/game
   start_time: 2024-04-26 23:00:00
@@ -230,7 +227,8 @@
   year: 2024
   host: cn
   id: bd16168546a0d95e
-- name: MiaoHunt 2023
+- name: MiaoHunt
+  subtitle: MiaoHunt 2023
   description: null
   url: https://mh2023.puzzlehunt.cn
   start_time: 2023-12-29 20:00:00
@@ -238,7 +236,8 @@
   year: 2023
   host: cn
   id: 7b5159e16b413fd6
-- name: 'enigame: dance To The beat'
+- name: enigame
+  subtitle: dance To The beat
   description: null
   url: https://www.enigame.de/game
   start_time: 2023-10-27 23:00:00
@@ -246,7 +245,8 @@
   year: 2023
   host: cn
   id: 6554aadaa1aa6f68
-- name: CCBC-1314
+- name: CCBC
+  subtitle: CCBC 1314
   description: null
   url: https://ccbc13.cipherpuzzles.com
   start_time: 2023-08-11 20:00:00
@@ -254,7 +254,7 @@
   year: 2023
   host: cn
   id: 2ef665af2041cdd8
-- name: REDDOThunt 2022
+- name: REDDOThunt
   subtitle: null
   description: This is a puzzlehunt inspired by the other hunts that have happened
     on Puzzle Hunt Calendar, but written to be easier and focused on teams that are
@@ -265,8 +265,8 @@
   year: 2022
   host: sg
   id: d2d308bf913f1e3b
-- name: REDDOThunt 2020
-  subtitle: null
+- name: REDDOThunt
+  subtitle: REDDOThunt 2020
   description: There was an endless amount of work to be done in the office. The company
     recruited diligent workers who were willing to work round the clock.
   url: https://reddothunt.sg/2020
@@ -275,8 +275,8 @@
   year: 2020
   host: sg
   id: 5573861d02f9c697
-- name: REDDOThunt 2018
-  subtitle: null
+- name: REDDOThunt
+  subtitle: REDDOThunt 2018
   description: A series of gruesome murders was committed, and top sleuths were recruited
     to investigate them.
   url: https://reddothunt.sg/2018
@@ -285,8 +285,8 @@
   year: 2018
   host: sg
   id: 266519c484d529a8
-- name: REDDOThunt 2017
-  subtitle: null
+- name: REDDOThunt
+  subtitle: REDDOThunt 2017
   description: The REDDOThunt is a 48-hour online puzzle hunt.
   url: https://reddothunt.sg/2017
   start_time: 2017-09-29 22:00:00
@@ -332,25 +332,29 @@
   year: 2021
   host: Cardinality
   id: 7ba61ada5dce15a4
-- name: Galactic Puzzle Hunt 2025
-  description: null
+- name: Galactic Puzzle Hunt
+  subtitle: Terraforming
+  description: You are Gaia, a newly-formed nature spirit. Your boss, Pan, has tasked
+    you with guiding the planet’s budding life. Yet, you feel chaos afoot, somewhere
+    not far ahead. Piece together what’s happening, or at least, stay afloat until
+    your shift ends. (in 130 million years)
   url: https://2025.galacticpuzzlehunt.com/
   start_time: 2025-08-23 06:28:00
   end_time: 2025-09-09 06:28:00
   year: 2025
   host: Galactic Trendsetters
   id: 9d1c13621abd102f
-- name: Galactic Puzzle Hunt 2024
+- name: Galactic Puzzle Hunt
   subtitle: Stargazing
   description: Join us on a camping trip to watch the stars. Far from the hubbub,
-    far from the stress, and most importantly, far from the puzzles.* *Well…
+    far from the stress, and most importantly, far from the puzzles. (Well…)
   url: https://2024.galacticpuzzlehunt.com/
   start_time: 2024-09-21 06:28:00
   end_time: 2024-10-01 06:28:00
   year: 2024
   host: Galactic Trendsetters
   id: eee6c32d299a61f9
-- name: Galactic Puzzle Hunt 2023
+- name: Galactic Puzzle Hunt
   subtitle: GalactiCardCaptors
   description: null
   url: https://2023.galacticpuzzlehunt.com/
@@ -359,19 +363,19 @@
   year: 2023
   host: Galactic Trendsetters
   id: fdf67604b24eaa82
-- name: Galactic Puzzle Hunt 2022
+- name: Galactic Puzzle Hunt
   subtitle: The Exam
   description: 'The Galactic Aptitude Test, or GAP test, is a one-hour standardized
     exam featuring around ten challenges on a variety of subjects. Study hard, do
-    well, and change your life!* *Studying hard not a guarantee of doing well. #2
-    pencil required.'
+    well, and change your life! (Studying hard not a guarantee of doing well. #2 pencil
+    required.)'
   url: https://2022.galacticpuzzlehunt.com/
   start_time: 2022-08-27 06:02:00
   end_time: 2022-09-06 22:02:00
   year: 2022
   host: Galactic Trendsetters
   id: 9904909ff0bce5eb
-- name: Galactic Puzzle Hunt 2021
+- name: Galactic Puzzle Hunt
   subtitle: ???
   description: The Galactic Apocalypse Prevention, or GAP program, is our last-ditch
     effort to save everything we know from the coming extinction event.
@@ -381,11 +385,11 @@
   year: 2021
   host: Galactic Trendsetters
   id: 3224caf5676975d6
-- name: Galactic Puzzle Hunt 2020
+- name: Galactic Puzzle Hunt
   subtitle: 20/20 Vision
   description: Oh no! The Galactic Puzzle Hunt is coming up soon, but you've misplaced
     your glasses and might not be able to participate. If you can find them again,
-    you’ll receive a spectacular prize*! *the ability to see clearly
+    you’ll receive a spectacular prize! (the ability to see clearly)
   url: https://2020.galacticpuzzlehunt.com/
   start_time: 2020-07-24 07:22:00
   end_time: 2020-08-02 19:22:00
@@ -395,8 +399,8 @@
 - name: Galactic Puzzle Hunt
   subtitle: The Galactic Artifact
   description: A mysterious artifact has been discovered near the South Pole and you’ve
-    been called in to investigate. Who knows what cool things you’ll discover!* *ice,
-    mainly
+    been called in to investigate. Who knows what cool things you’ll discover! (ice,
+    mainly)
   url: https://2019.galacticpuzzlehunt.com/
   start_time: 2019-03-16 06:28:00
   end_time: 2019-03-25 22:28:00
@@ -406,7 +410,7 @@
 - name: Galactic Puzzle Hunt
   subtitle: The Great Galactic Bake Off
   description: The first-ever Great Galactic Bake Off is coming up! The first team
-    to produce a billion cookies will win a huge prize!* *a billion cookies
+    to produce a billion cookies will win a huge prize! (a billion cookies)
   url: https://2018.galacticpuzzlehunt.com/
   start_time: 2018-03-17 03:14:00
   end_time: 2018-03-26 15:14:00
@@ -417,7 +421,7 @@
   subtitle: Puzzleball Championships
   description: 'The annual Puzzleball Championships are coming up, and we invite everyone
     to come fill out a bracket! If you can predict the winning teams, you could win
-    huge prizes and eternal glory*! *note: there are no prizes'
+    huge prizes and eternal glory! (note: there are no prizes)'
   url: https://2017.galacticpuzzlehunt.com/
   start_time: 2017-03-15 04:59:00
   end_time: 2017-03-24 04:59:00
@@ -548,3 +552,74 @@
   year: 2022
   host: us
   id: ef2b9d7e571cea51
+- name: Brown Puzzlehunt
+  subtitle: Brown Puzzlehunt College
+  description: Brown Puzzlehunt 2026 is the fourth annual puzzlehunt run by current
+    Brown and RISD students. This hunt is designed to be a relatively easy introduction
+    to puzzlehunting for beginner teams.
+  url: https://www.brownpuzzlehunt.com/
+  start_time: 2026-04-19 12:00:00
+  end_time: 2026-04-25 12:00:00
+  year: 2026
+  host: Brown and RISD students
+  id: 33826b9983251cc3
+- name: Brown Puzzlehunt
+  subtitle: Brown Puzzlehunt Cinemas
+  description: The third annual puzzlehunt by current Brown and RISD students.
+  url: https://2025.brownpuzzlehunt.com/
+  start_time: 2025-04-20 12:00:00
+  end_time: 2025-04-26 12:00:00
+  year: 2025
+  host: Brown and RISD students
+  id: dfe6e53b332f739c
+- name: Brown Puzzlehunt
+  subtitle: Brown Puzzlehunt'24
+  description: Brown's second annual puzzlehunt, run by Brown Puzzle Club, offering
+    experiences for both in-person and remote solvers. We are a novice-friendly hunt!
+  url: https://2024.brownpuzzlehunt.com/
+  start_time: 2024-04-14 00:00:00
+  end_time: 2024-04-15 07:00:00
+  year: 2024
+  host: Brown Puzzle Club
+  id: 61a209f2247d5885
+- name: Brown Puzzlehunt
+  subtitle: Blueno Resurrection Society
+  description: The Blueno Resurrection Society needs your help. RSVP in advance.
+  url: https://2023.brownpuzzlehunt.com/
+  start_time: 2023-04-16 01:00:00
+  end_time: 2023-04-17 11:59:00
+  year: 2023
+  host: Brown Puzzle Club
+  id: 64e5a0d887b938c0
+- name: Puzzlethon
+  subtitle: Puzzlethon 2025
+  description: null
+  start_time: 2025-11-24 01:00:00
+  url: https://puzzlethon.brownpuzzle.club/
+  year: 2025
+  host: Brown Puzzle Club
+  id: 0e14c0600981d08e
+- name: Puzzlethon
+  subtitle: Puzzlethon 2024
+  description: null
+  start_time: 2024-11-25 01:00:00
+  url: https://brownpuzzle.club/archive/2024-puzzlethon
+  year: 2024
+  host: Brown Puzzle Club
+  id: 0d837a2b0ae36a82
+- name: Orientation Hunt
+  subtitle: Orientation Hunt 2025
+  description: The hunt had 4 puzzles and a meta, and was designed to be easily solvable
+    by people new to hunting.
+  url: https://brownpuzzle.club/archive/orientation2025.pdf
+  year: 2025
+  host: Brown Puzzle Club
+  id: f2edca9f5735cb78
+- name: Orientation Hunt
+  subtitle: Orientation Hunt 2024
+  description: The hunt had 4 puzzles and a meta, and was designed to be easily solvable
+    by people new to hunting.
+  url: https://brownpuzzle.club/archive/orientation2024.pdf
+  year: 2024
+  host: Brown Puzzle Club
+  id: adf47e92e6e527dc

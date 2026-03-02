@@ -1,6 +1,6 @@
 # 2021年赛事
 
-## Galactic Puzzle Hunt 2021
+## Galactic Puzzle Hunt
 
 *???*
 

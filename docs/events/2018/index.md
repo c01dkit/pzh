@@ -8,7 +8,9 @@
 
 Puzzle Potluck is a concept started by a group of passionate puzzlers who wanted to get better at writing puzzles.
 
-## REDDOThunt 2018
+## REDDOThunt
+
+*REDDOThunt 2018*
 
 - 时间：2018-10-05 22:00 ～ 2018-10-08 22:00
 - 主办方：sg
@@ -24,4 +26,4 @@ A series of gruesome murders was committed, and top sleuths were recruited to in
 - 主办方：Galactic Trendsetters
 - 网站链接：[本站](/events/2018/07ae014fd74627e2/) · [官网](https://2018.galacticpuzzlehunt.com/)
 
-The first-ever Great Galactic Bake Off is coming up! The first team to produce a billion cookies will win a huge prize!* *a billion cookies
+The first-ever Great Galactic Bake Off is coming up! The first team to produce a billion cookies will win a huge prize! (a billion cookies)

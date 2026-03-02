@@ -31,6 +31,8 @@ def add_id_recursive(data, overwrite: bool = False, current_depth = 0, max_depth
            cnt += add_id_recursive(item, overwrite, current_depth+1)
     elif isinstance(data, dict):
         if "id" in data and isinstance(data["id"], str) and len(data["id"]) == 16:
+            if data["id"] in known_hash:
+                logger.critical(f"检测到yml文件存在重复的ID：{data['id']}")
             known_hash.add(data["id"])
         if overwrite or "id" not in data or data["id"] is None or len(data["id"]) < 16:
             data["id"] = generate_id()

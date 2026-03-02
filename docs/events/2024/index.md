@@ -1,10 +1,27 @@
 # 2024年赛事
 
+## Orientation Hunt
+
+*Orientation Hunt 2024*
+
+- 主办方：Brown Puzzle Club
+- 网站链接：[本站](/events/2024/adf47e92e6e527dc/) · [官网](https://brownpuzzle.club/archive/orientation2024.pdf)
+
+The hunt had 4 puzzles and a meta, and was designed to be easily solvable by people new to hunting.
+
 ## Christmas Hunt
 
 - 时间：2024-12-21 20:00 ～ 2024-12-24 00:00
 - 主办方：cn
 - 网站链接：[本站](/events/2024/0de2393131151d8c/) · [官网](https://mp.weixin.qq.com/s/CNPQKam8eWobZz15TBCJsg)
+
+## Puzzlethon
+
+*Puzzlethon 2024*
+
+- 时间：2024-11-25 01:00
+- 主办方：Brown Puzzle Club
+- 网站链接：[本站](/events/2024/0d837a2b0ae36a82/) · [官网](https://brownpuzzle.club/archive/2024-puzzlethon)
 
 ## EC Puzzle Hunt
 
@@ -22,7 +39,7 @@ You found a castle in the woods! You wonder what's inside. (puzzles, probably pu
 - 主办方：cn
 - 网站链接：[本站](/events/2024/a364fcc9e22ba98f/) · [官网](https://yuehunt.fun/)
 
-## Galactic Puzzle Hunt 2024
+## Galactic Puzzle Hunt
 
 *Stargazing*
 
@@ -30,7 +47,7 @@ You found a castle in the woods! You wonder what's inside. (puzzles, probably pu
 - 主办方：Galactic Trendsetters
 - 网站链接：[本站](/events/2024/eee6c32d299a61f9/) · [官网](https://2024.galacticpuzzlehunt.com/)
 
-Join us on a camping trip to watch the stars. Far from the hubbub, far from the stress, and most importantly, far from the puzzles.* *Well…
+Join us on a camping trip to watch the stars. Far from the hubbub, far from the stress, and most importantly, far from the puzzles. (Well…)
 
 ## Just Puzzle Hunt
 
@@ -38,7 +55,9 @@ Join us on a camping trip to watch the stars. Far from the hubbub, far from the 
 - 主办方：cn
 - 网站链接：[本站](/events/2024/b9827c69f83b27c1/) · [官网](https://justhunt.cn/#/)
 
-## CCBC 15
+## CCBC
+
+*CCBC 15*
 
 - 时间：2024-08-09 20:00 ～ 2024-08-18 20:00
 - 主办方：cn
@@ -56,11 +75,23 @@ Join us on a camping trip to watch the stars. Far from the hubbub, far from the 
 - 主办方：cn
 - 网站链接：[本站](/events/2024/35ab04ba6413496f/) · [官网](https://www.luogu.com.cn/contest/162008)
 
-## enigame: enitime
+## enigame
+
+*enitime*
 
 - 时间：2024-04-26 23:00 ～ 2024-04-30 05:55
 - 主办方：cn
 - 网站链接：[本站](/events/2024/e4eab5b358340e34/) · [官网](https://www.enigame.de/game)
+
+## Brown Puzzlehunt
+
+*Brown Puzzlehunt'24*
+
+- 时间：2024-04-14 00:00 ～ 2024-04-15 07:00
+- 主办方：Brown Puzzle Club
+- 网站链接：[本站](/events/2024/61a209f2247d5885/) · [官网](https://2024.brownpuzzlehunt.com/)
+
+Brown's second annual puzzlehunt, run by Brown Puzzle Club, offering experiences for both in-person and remote solvers. We are a novice-friendly hunt!
 
 ## fishunt
 

@@ -35,7 +35,7 @@ def create_event_groups(event_items:list[EventItem]) -> dict[str, list[EventItem
         result.setdefault(event.year, []).append(event)
         # logger.debug(f"{event.start_time} is {type(event.start_time)}, {event.end_time} is {type(event.end_time)}")
     for k in result:
-        result[k].sort(key=lambda x: (x.start_time, x.name.lower()), reverse=True)
+        result[k].sort(key=lambda x: (datetime.datetime.max if x.start_time is None else x.start_time, x.name.lower()), reverse=True)
     return dict(sorted(result.items(), key=lambda x: x[0], reverse=True))
 
 def render_events_index_md(categories: list[str]) -> str:
@@ -91,7 +91,7 @@ def render_single_event_md(year: str, event_item: EventItem) -> str:
     """生成某个具体赛事的界面"""
     lines: list[str] = []
     name = event_item.name
-    start_time = event_item.start_time.strftime("%Y-%m-%d %H:%M")
+    start_time = event_item.start_time.strftime("%Y-%m-%d %H:%M") if isinstance(event_item.start_time, datetime.datetime) else None
     end_time = event_item.end_time.strftime("%Y-%m-%d %H:%M") if isinstance(event_item.end_time, datetime.datetime) else None
     host = event_item.host or ""
 

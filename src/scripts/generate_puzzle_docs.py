@@ -7,7 +7,7 @@ import subprocess
 
 from pathlib import Path
 from .log import get_logger
-from .utils import find_project_root, slugify_dirname
+from .utils import find_project_root, slugify_dirname, replace_img_lines
 from .models import *
 from . import setup_ids
 
@@ -100,14 +100,18 @@ def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
                 lines.append(f'    ??? info "里程碑 {ind+1}"')
             lines.append(f'        **{milestone.phrase}** : {milestone.text}')
     else:
-        lines.append('    ??? info ""')
+        lines.append('    !!! info ""')
         lines.append('        该题目未见有里程碑')
     lines.append(f'    ??? success "最终答案"')
     lines.append(f'        **{puzzle_item.answer}**')
     lines.append("")
 
-    lines.append(appendix)
-
+    lines.append(replace_img_lines(
+        appendix,
+        img_pattern = '![alt text](Snipaste',
+        repo_base= f"https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/{puzzle_item.id[:2]}/{puzzle_item.id}/"
+        )
+    )
     return "\n".join(lines).rstrip() + "\n"
 
 def generate_puzzles(puzzle_data:list, target_puzzles_dir:Path):

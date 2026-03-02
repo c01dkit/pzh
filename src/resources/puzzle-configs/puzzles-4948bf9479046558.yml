@@ -166,55 +166,92 @@
   tool_ids: null
   title: 两灯一谜对连
   round: null
-  topics: null
+  topics:
+  - 两弹一星
   author: 小祝
   extractions: null
   ft: null
   note: null
   hints:
   - question: 我毫无头绪！
-    answer: null
+    answer: 这些字谜的答案都是一个字，他们均属于一个著名人物团体的人名。这个团体一共23个人，标题暗示了这个团体。
+  - question: 我完成了第一步，然后该怎么办
+    answer: 完成数连，规则是将位于上一个提示中所说的同一个事物的首字和尾字相连。
   - question: 该如何提取？
-    answer: null
-  milestones: null
+    answer: 将中间那个字拆解成笔画填入路径，提取爆竹处的笔画，注意填写顺序。另外爆竹前的数字为最后的排序。
+  - question: 我毫无头绪中所说的东西我仍然毫无头绪
+    answer: 两弹一星群体
+  milestones:
+  - phrase: 方言
+    text: 请翻译成八字母单词，复数形式。
   answer: DIALECTS
-  ready: false
+  ready: true
 - id: 5c8df8a8c16b456c
   event_id: 4948bf9479046558
-  tool_ids: null
+  tool_ids:
+  - 8b8454dc57ea0e85
   title: 物薄情厚
   round: null
-  topics: null
+  topics:
+  - 伊索寓言
+  - 情深深雨濛濛
+  - 电竞
+  - 诗词
   author: LS
   extractions: null
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - question: P·INDEX送的礼物怎么做？
+    answer: P·INDEX提示的是Perry Index。你需要找到一个与它相关的书，用FEEDER中存在的该书故事进行计算，结果同样是书中的一个故事。
+  - question: 杜先生送的礼物怎么做？
+    answer: 杜先生提示的是杜飞，题干给出的是他送礼时的台词。杜飞在剧中送出的所有礼物翻译都出现在FEEDER中，把它们按照顺序列出，注意那些不是礼物本身的词。
+  - question: 神秘数字送…的礼物怎么做？
+    answer: 本题的主题是电竞选手送……的温暖。尝试直接将FEEDER中的一些词带上“比赛”“神秘数字”搜索，每个选手都有一个与战绩/伤害/特殊事件相关的神秘数字，下方标注了该场比赛的日期（以UTC+8时间为准），进行计算。
+  - question: 你应该先送礼物提升我的好感度，后面忘了怎么做？
+    answer: 搜索这些游戏人物喜欢的礼物（在特定游戏中是在类似地位的重要物件），寻找出现FEEDER中的这些礼物，用下方的数字进行INDEX即可。
+  - question: 已经离开的某人怎么做？
+    answer: 本题的主题是送别诗。首先搜索到这些诗句，注意到这些诗句中未给出提示词的句子中总存在一个单词出现在FEEDER中，且FEEDER中与该单词共同构成FEEDER的另一个词与诗句等长，每句诗提取2位。这些单词的一些特点提供了排序。
+  - question: 传送带送的礼物怎么做？
+    answer: 注意到FEEDER中只有一些词语可以被放进传送带中。尝试将它们放进去，并且让对角线上出现礼物，此时以顺时针方向在传送带上读出答案。
+  - question: META怎么做？
+    answer: 本题的主题是“送”，小题答案都存在构成一个与“送”有关的故事、成语或固定成词，被“送”的东西直接翻译提取即可。注意META词语顺序与小题顺序一致。
+  - question: 最后一个礼物送的到底是哪种？
+    answer: 在你的礼物前面加上“烈”。
+  milestones:
+  - phrase: MERCURY AND THE WOODMAN
+  - phrase: WILDMAN
+  - phrase: ELDERLYCARE
+  - phrase: WHITE CLOTHES
+  - phrase: BREAKING WILLOW BRANCHES
+  - phrase: THOUSAND MILES
   answer: EXPRESSDELIVERY
-  ready: false
+  ready: true
 - id: 01e95f4c511112d6
   event_id: 4948bf9479046558
-  tool_ids: null
+  tool_ids:
+  - 64e6cf66dfa1ad74
   title: 田忌赛马
   round: null
-  topics: null
+  topics:
+  - word search
+  - 赛马娘
   author: 'Null'
   extractions: null
-  ft: null
+  ft: 依我看，品**德比漂亮**的外貌更重要。
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
+  - question: 我毫无头绪，我应该干什么？
+    answer: 这是一个WORD SEARCH，你应该在字母方阵中找到一些单词，能够对应下面的提示。
+  - question: 我完成了第一步，下一步该做什么？
+    answer: 你需要寻找A组和B组词语之间的关系，请注意，题目中提示的排序是基于字典序的。
+  - question: 我还是不知道，请更详细地告诉我应该怎么做？
+    answer: 两边的词语分别是不同的赛马娘的名字的前后词语，你需要把它们配对。
   - question: 该如何提取？
-    answer: null
+    answer: 提取词语对在表格中延长后的交点的字母。
   milestones: null
   answer: YOUNGTOOLD
-  ready: false
+  ready: true
 - id: c506b854f213ee82
   event_id: 4948bf9479046558
   tool_ids: null
