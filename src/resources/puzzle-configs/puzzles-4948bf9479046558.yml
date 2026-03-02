@@ -257,88 +257,121 @@
   tool_ids: null
   title: 地下旅行
   round: null
-  topics: null
+  topics:
+  - 机场
   author: 403
-  extractions: null
-  ft: null
+  extractions:
+  - A1Z26
+  ft: 20XX年的春节，你申请了国际隧道通行协会（International Association of Tunnel Access）的通行证，在地下高速穿行，脑中满是遐想……
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - question: 这道题的主题是什么？
+    answer: 刘慈欣的作品。
+  - question: 红色表示的是什么？
+    answer: IATA机场代码。
+  - question: 我应该怎么做？
+    answer: 计算前一个机场到后一个机场距离的连线到地心的距离（即从地心作连线的垂线，求垂线长度），以十万米为单位，四舍五入，保留整数。
+  - question: 我找不到译名，怎么办？
+    answer: 本题使用英文维基百科为数据库，在此为因此造成的困扰表示歉意。 您可以参考：https://limewire.com/d/p74rV#keDnB2XR4H
+      或 https://441c-112-41-37-187.ngrok-free.app（感谢找不到北）
   milestones: null
   answer: ELLIPSE
-  ready: false
+  ready: true
 - id: 44328a5086f8912e
   event_id: 4948bf9479046558
   tool_ids: null
   title: 方形田字
   round: null
-  topics: null
+  topics:
+  - crossword
   author: 无色魁
   extractions: null
-  ft: null
+  ft: 虚实裁夺六面围，方底为牢侧声随。
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
+  - question: 填完填字游戏后，第一步该做什么？
+    answer: 词语之间的连通性很差。或许你需要在盘面上补上一些应该有的东西。这一步即为“虚实裁夺”。
+  - question: 第二步要做什么？
+    answer: 观察这些区块的形状，它们有一个共同点，“六面围”暗示了接下来的操作。
+  - question: “横18”到底是什么？第三步要做什么？
+    answer: “横18”是“方形”，每个区块内都有一个相似的“横18”（即方形），“方底为牢”暗示了将其作为底。
+  - question: “横20”到底是什么？最后一步要做什么？
+    answer: “横20”是“同音字”，“侧声随”暗示了最后一步的操作：对立方体的侧面同音字进行拼接排序。
   - question: 该如何提取？
-    answer: null
-  milestones: null
+    answer: 你需要将最后获得的三个clue每个转化为一个字，得到一个三字名词。
+  milestones:
+  - phrase: 火车站
+    text: 在活动期间，你需要通过站内信发送一张你家乡的火车站照片。在发送后，你会得到答案【HOURLY CHARGE】：即使做着【HOURLY CHARGE】的工作，回乡也是每个中国人不变的期待。本题的答案是【HOURLY
+      CHARGE】。祝你新年快乐！
   answer: HOURLYCHARGE
-  ready: false
+  ready: true
 - id: ab89cf03a59d1fc7
   event_id: 4948bf9479046558
   tool_ids: null
   title: 所罗门王的钥匙
   round: null
-  topics: null
+  topics:
+  - 游戏
+  - 女神异闻录
   author: ScHolZee
   extractions: null
-  ft: null
+  ft: 天下第一的人格面具之下的名字，不仅来源于雷蒙盖顿，还来自于其他神佛妖魔。
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - question: 本题的主题是什么
+    answer: 女神异闻录5 皇家版
+  - question: 图中的①至⑩是什么
+    answer: 《雷蒙盖顿》中的10位魔神，这唯一的10位同时也在本题的主题中出现了
+  - question: 我不知道如何对应①到⑩。
+    answer: 只考虑本身的技能属性，不考虑继承技能属性，查阅其自身弱点，根据弱点完成①到⑩的对应
+  milestones:
+  - phrase: denglupingzheng
+    text: 翻译成（5 10）
   answer: LOGINCREDENTIAL
-  ready: false
+  ready: true
 - id: 2c42db3cb12bedc9
   event_id: 4948bf9479046558
   tool_ids: null
   title: '[META] 一年又一年'
   round: null
-  topics: null
+  topics:
+  - 春晚节目
   author: 小祝 / WJ / 403
   extractions: null
-  ft: null
+  ft: 一年又一年，在六十年的轮回中我们能找到怎样的答案？
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
+  - question: 这些问题的答案都是什么？
+    answer: 每一个问题的答案都是一个春晚节目。
   - question: 该如何提取？
-    answer: null
+    answer: 地支排序，天干提取。注意由于历法差异，天干地支有两种选取方式，这里均采取了同一种，你应当自己思考选择了哪一种。
+  - question: 帮我检查一下提取
+    answer: 可以向站内信发送进度检查。前面加上【yearafteryear】标签。
+  - question: 我需要爆破帮助！
+    answer: 本题答案格式为(2 5 5)，第一个词是一个介词。
   milestones: null
   answer: INLUCKYSPELL
-  ready: false
+  ready: true
 - id: ce39a1259d626754
   event_id: 4948bf9479046558
   tool_ids: null
   title: 彩蛋-A puzzle only with meta
   round: null
-  topics: null
+  topics:
+  - 宝可梦
   author: null
   extractions: null
   ft: null
   note: null
   hints:
   - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
-  answer: becomericher
-  ready: false
+    answer: 这是内循环meta组，每个meta的feeder都是其余的meta。
+  - question: 到底应该如何解答
+    answer: 建议完成顺序为meta3，meta1，meta5，meta2，meta4。所有meta答案都是一个宝可梦的名字。
+  - question: 请告诉我其中一个meta的答案
+    answer: 录制一个不少于10s的自己摇花手的视频发送到QQ邮箱:xxx@qq.com
+  milestones:
+  - phrase: PONYTA
+    text: 支付宝口令红包兑换码是【becomericher】，也是本题答案。
+  answer: BECOMERICHER
+  ready: true

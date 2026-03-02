@@ -44,5 +44,6 @@ def replace_img_lines(
         if img_pattern in line:
             old_prefix = img_pattern.split('(')[-1]
             line = line.replace(img_pattern, f'![img]({repo_base}{old_prefix}')
+            line = re.sub(rf'{old_prefix}(.*?)\)',rf'{old_prefix}\1?raw=true)',line)
         out_lines.append(line)
     return "".join(out_lines)

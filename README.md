@@ -67,6 +67,18 @@ uv sync
 
 **注意：对于ready为false的题目，如果在题解未完全写完的情况下更新了题解模板文件（src/resources/puzzles/template.md），会导致题解被强行覆盖。请确保修改题解模板文件前题解均已完成。**
 
+### 插入图片
+
+一般来说直接使用比赛网站的图片链接即可。如果需要使用截图，可以用Snipaste，直接在Vscode里复制图片，保留默认的命名方式（`![alt text](Snipaste_xxxx.png)`即可。图片就留在和`main.md`一样的位置，不需要移动。代码会在生成最终的markdown时自动替换为https网址。需要git push main分支一次后本地mkdocs serve可见。
+
+### 插入代码
+
+解题代码直接保存在和`main.md`一样的位置即可，使用类似`--8<-- "src/resources/puzzles/c5/c506b854f213ee82/main.py"`的语法来引入。mkdocs在构建网站阶段会完成解析。
+
+### 插入特殊构造
+
+mkdocs支持原生html，可以直接放style和div等标签。
+
 ## 更新密码表
 
 上传图片到`docs/assets/images`，然后在`docs/graphs/index.md`中添加对应链接即可。
