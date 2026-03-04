@@ -65,12 +65,10 @@ def render_event_for_one_year_md(year: str, items: list[EventItem]) -> str:
         host = event_item.host or ""
 
         lines.append(f"## {name}")
-        if event_item.subtitle:
-            lines.append("")
-            lines.append(f"*{event_item.subtitle}*")
-        lines.append("")
-
+        
         # 比赛时间、主办方、网址
+        if event_item.subtitle:
+            lines.append(f"- 主题：{event_item.subtitle}")
         if start_time and end_time:
             lines.append(f"- 时间：{start_time} ～ {end_time}")
         elif start_time:
@@ -96,12 +94,11 @@ def render_single_event_md(year: str, event_item: EventItem) -> str:
     host = event_item.host or ""
 
     lines.append(f"# {name}")
-    if event_item.subtitle:
-        lines.append("")
-        lines.append(f"*{event_item.subtitle}*")
-    lines.append("")
+    
 
-    # 比赛时间、主办方、网址
+    # 比赛主题、时间、主办方、网址
+    if event_item.subtitle:
+        lines.append(f"- 主题：{event_item.subtitle}")
     if start_time and end_time:
         lines.append(f"- 时间：{start_time} ～ {end_time}")
     elif start_time:
@@ -130,7 +127,7 @@ def generate_events(events_data:list, target_events_dir:Path) -> str:
     # 创建年份对应的index
     index_md_content = render_events_index_md(list(event_groups.keys()))
     (target_events_dir / "index.md").write_text(index_md_content, encoding="utf8")
-    written += "    - index: events/index.md\n"
+    written += "    - events/index.md\n"
     # 创建每个赛事具体的page
     for year, event_items in event_groups.items():
         cate_dir = target_events_dir / str(year)
@@ -138,7 +135,7 @@ def generate_events(events_data:list, target_events_dir:Path) -> str:
         markdown = render_event_for_one_year_md(year, event_items)
         (cate_dir / "index.md").write_text(markdown, encoding="utf8")
         written += f"    - {year}:\n"
-        written += f"      - index: events/{year}/index.md\n"
+        written += f"      - events/{year}/index.md\n"
         for e in event_items:
             # slug = slugify_event_name(e.name)
             slug = e.id

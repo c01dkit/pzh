@@ -5,7 +5,7 @@
   title: 无孔不入的填字游戏
   round: null
   topics:
-  - crossword
+  - Crossword
   author: 403
   extractions:
   - 旗语
@@ -32,7 +32,8 @@
   tool_ids: null
   title: 年夜饭
   round: null
-  topics: null
+  topics:
+  - 识图
   author: 小祝
   extractions:
   - A1Z26
@@ -52,6 +53,7 @@
   title: 抢红包
   round: null
   topics:
+  - 常识
   - 哲学思想实验
   author: WJ
   extractions: null
@@ -72,7 +74,7 @@
   title: 画马
   round: null
   topics:
-  - 地图连线
+  - 地图
   author: 小吉
   extractions: null
   ft: 为了避免破坏自然，我们在多座城市的市区里设定了画马的替代路线。不过你画的下一匹马，又何必是马。而且，为什么有句话在把我们当天马？
@@ -117,7 +119,8 @@
   title: 推箱字
   round: null
   topics:
-  - 程序
+  - 文件
+  - 游戏程序
   author: 小祝
   extractions: null
   ft: null
@@ -140,7 +143,7 @@
   title: 对酒当歌
   round: null
   topics:
-  - crossword
+  - Crossword
   author: WJ
   extractions: null
   ft: 新年配美酒，越喝越有，大步流星四方走
@@ -167,6 +170,7 @@
   title: 两灯一谜对连
   round: null
   topics:
+  - 常识
   - 两弹一星
   author: 小祝
   extractions: null
@@ -193,6 +197,7 @@
   title: 物薄情厚
   round: null
   topics:
+  - 常识
   - 伊索寓言
   - 情深深雨濛濛
   - 电竞
@@ -234,7 +239,7 @@
   title: 田忌赛马
   round: null
   topics:
-  - word search
+  - 动漫
   - 赛马娘
   author: 'Null'
   extractions: null
@@ -258,6 +263,7 @@
   title: 地下旅行
   round: null
   topics:
+  - 数据库
   - 机场
   author: 403
   extractions:
@@ -283,7 +289,7 @@
   title: 方形田字
   round: null
   topics:
-  - crossword
+  - Crossword
   author: 无色魁
   extractions: null
   ft: 虚实裁夺六面围，方底为牢侧声随。
@@ -311,7 +317,7 @@
   title: 所罗门王的钥匙
   round: null
   topics:
-  - 游戏
+  - 数据库
   - 女神异闻录
   author: ScHolZee
   extractions: null
@@ -335,6 +341,7 @@
   title: '[META] 一年又一年'
   round: null
   topics:
+  - 数据库
   - 春晚节目
   author: 小祝 / WJ / 403
   extractions: null
@@ -358,8 +365,9 @@
   title: 彩蛋-A puzzle only with meta
   round: null
   topics:
+  - 数据库
   - 宝可梦
-  author: null
+  author: 小祝
   extractions: null
   ft: null
   note: null

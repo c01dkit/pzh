@@ -23,6 +23,7 @@
         height: 50px;
         background-color: white;
         border: 1px solid #999;
+        color: #000;
     }
     
     .grid-cell.black {
@@ -45,7 +46,6 @@
         font-size: 18px;
         font-weight: bold;
         margin-bottom: 15px;
-        color: #333;
     }
     
     .clue-item {
@@ -56,7 +56,6 @@
     
     .clue-number {
         font-weight: bold;
-        color: #555;
         margin-right: 8px;
     }
 </style>
@@ -241,4 +240,4 @@
 
 
 ??? quote "评价"
-    <这里填写评价。注意每段前有4个空格。做题的时候先后注意到了什么？陷入了什么误区？有没有什么可以总结反思的地方？>
+    题目不赖。比赛的时候自己做到最后一步漏找两对同音字，导致正方体没有全部拼起来，变成了“之一”、“古典元素”、“运人工具姿态”，还是靠队友发现漏找了的。

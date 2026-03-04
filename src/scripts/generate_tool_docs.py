@@ -76,7 +76,7 @@ def generate_tools(tools_data:list, target_tools_dir:Path) -> str:
     # 创建分类下的index
     index_md_content = render_tools_index_md(list(tool_groups.keys()))
     (target_tools_dir / "index.md").write_text(index_md_content, encoding="utf8")
-    written += "    - index: tools/index.md\n"
+    written += "    - tools/index.md\n"
     # 创建分类内的page
     for cate, cate_items in tool_groups.items():
         slug = slugify_dirname(cate)

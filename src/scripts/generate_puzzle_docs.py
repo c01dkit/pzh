@@ -114,15 +114,19 @@ def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
     )
     return "\n".join(lines).rstrip() + "\n"
 
-def generate_puzzles(puzzle_data:list, target_puzzles_dir:Path):
+
+def generate_puzzles_single_event(puzzle_data:list, target_puzzles_dir:Path):
     """为docs生成单独的puzzle页面"""
     event_dict = get_event_index_dict()
     puzzle_items = create_puzzle_items(puzzle_data)
+    file_appends: dict[Path, list[str]] = {}  # filename -> [lines]
+    event_rounds: dict[str, set] = {}
     for puzzle_item in puzzle_items:
+        # 如果尚未编写题解，则创建题解模板
         dest = ROOT / "src" / "resources" / "puzzles" / puzzle_item.id[:2] / puzzle_item.id / "main.md"
         if not puzzle_item.ready or not dest.exists():
             copy_template( ROOT / "src" / "resources" / "puzzles" / "template.md", dest)
-        # 如果该puzzle的题解已完成，则创建对应的docs文件
+        # 如果该puzzle的题解已完成，则创建对应的docs文件，并将其添加到nav_yml里
         if puzzle_item.ready:
             appendix = dest.read_text(encoding="utf8")
             (target_puzzles_dir / f"{puzzle_item.id}.md").write_text(render_single_puzzle_md(puzzle_item, appendix), encoding="utf8")
@@ -131,21 +135,55 @@ def generate_puzzles(puzzle_data:list, target_puzzles_dir:Path):
             event_item = event_dict[puzzle_item.event_id]
             event_file = ROOT / "docs" / "events" / f"{event_item.year}" / f"{event_item.id}.md"
             if not event_file.exists():
-                logger.warning(f"{event_file.as_posix()} should exist.")
+                logger.warning(f"赛事文件{event_file.as_posix()}未找到")
                 continue
-            with event_file.open('a', encoding='utf8') as f:
-                # TODO 这里要优化一下，这种写法会导致每处理一道题目，文件就要被读取写入一次
+            file_appends.setdefault(event_file,[])
+            event_rounds.setdefault(event_item.id, set())
+            if puzzle_item.round:
+                if puzzle_item.round not in event_rounds[event_item.id]:
+                    file_appends[event_file].append(f'## {puzzle_item.round}\n\n---\n\n')
+                    event_rounds[event_item.id].add(puzzle_item.round)
                 if puzzle_item.ready:
-                    f.write(f"## {puzzle_item.title}\n")
+                    file_appends[event_file].append(f'### {puzzle_item.title}\n')
                     if puzzle_item.ft:
-                        f.write(f"[{puzzle_item.ft}](/puzzles/{puzzle_item.id}/)\n")
+                        file_appends[event_file].append(f"[{puzzle_item.ft}](/puzzles/{puzzle_item.id}/)\n")
                     else:
-                        f.write(f"[本题无FT，点击此处查看题目详情。](/puzzles/{puzzle_item.id}/)\n")
+                        file_appends[event_file].append(f"[本题无FT，点击此处查看题目详情。](/puzzles/{puzzle_item.id}/)\n")
                 else:
-                    f.write(f"## 🚧{puzzle_item.title}\n")
-                    f.write(f"*题目施工中……*\n")
-                f.write('\n')
+                    file_appends[event_file].append(f'### 🚧{puzzle_item.title}\n')
+                    file_appends[event_file].append(f'*题目施工中……*\n')
+            else:
+                if puzzle_item.ready:
+                    file_appends[event_file].append(f'## {puzzle_item.title}\n')
+                    if puzzle_item.ft:
+                        file_appends[event_file].append(f"[{puzzle_item.ft}](/puzzles/{puzzle_item.id}/)\n")
+                    else:
+                        file_appends[event_file].append(f"[本题无FT，点击此处查看题目详情。](/puzzles/{puzzle_item.id}/)\n")
+                else:
+                    file_appends[event_file].append(f'## 🚧{puzzle_item.title}')
+                    file_appends[event_file].append(f'*题目施工中……*\n')
+            file_appends[event_file].append('\n')
+            
+    for file, lines in file_appends.items():
+        with open(file, 'a', encoding='utf8') as f:
+            f.writelines(lines)
+    return puzzle_items
 
+
+def render_puzzle_index_md(puzzle_items_dict: dict[str, list[PuzzleTemplate]]) -> str:
+    """生成题目总览中各个赛事主题的总index"""
+    lines: list[str] = []
+    lines.append("# 题目总览\n")
+    lines.append("按主题整理的题目链接。\n")
+    for topic, puzzle_items in puzzle_items_dict.items():
+        lines.append(f'## {topic}\n')
+        for puzzle_item in puzzle_items:
+            if puzzle_item.topics and len(puzzle_item.topics) >= 2:
+                lines.append(f"- [{'/'.join(puzzle_item.topics[1:])}] [{puzzle_item.title}](/puzzles/{puzzle_item.id}/)")
+            else:
+                lines.append(f"- [{puzzle_item.title}](/puzzles/{puzzle_item.id}/)")
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
 
 logger = get_logger(__name__)
 ROOT = find_project_root()
@@ -161,9 +199,29 @@ def main():
     target_puzzles_dir = ROOT / "docs" / "puzzles"
     shutil.rmtree(target_puzzles_dir, ignore_errors=True)
     target_puzzles_dir.mkdir(parents=True, exist_ok=True)
+
+    written = "  - 题目总览:\n"
+    written += '    - puzzles/index.md\n'
+    puzzle_dict = {'其他':[]}
     for config_file in config_files:
         with open(ROOT / "src" / "resources" / "puzzle-configs" / config_file, "r", encoding="utf8") as file:
             puzzles = yaml.safe_load(file)
-        generate_puzzles(puzzles, target_puzzles_dir)
-
+        puzzle_items = generate_puzzles_single_event(puzzles, target_puzzles_dir)
+        for puzzle_item in puzzle_items:
+            if puzzle_item.ready:
+                if puzzle_item.topics:
+                    topic = puzzle_item.topics[0]
+                    puzzle_dict.setdefault(topic,[])
+                    puzzle_dict[topic].append(puzzle_item)
+                else:
+                    puzzle_dict["其他"].append(puzzle_item)
+    priority = {"其他": 2}
+    puzzle_dict = dict(sorted(puzzle_dict.items(), key=lambda x: (priority.get(x[0], 1), x[0].lower())))
+    for topic, items in puzzle_dict.items():
+        written += f'    - {topic}:\n'
+        for puzzle_item in items:
+            written += f'      - "{puzzle_item.title}": puzzles/{puzzle_item.id}.md\n'
+    index_md_content = render_puzzle_index_md(puzzle_dict)
+    (target_puzzles_dir / "index.md").write_text(index_md_content, encoding="utf8")
     logger.info("谜题已完成生成。")
+    return written

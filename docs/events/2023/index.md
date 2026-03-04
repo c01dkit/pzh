@@ -1,17 +1,13 @@
 # 2023年赛事
 
 ## MiaoHunt
-
-*MiaoHunt 2023*
-
+- 主题：MiaoHunt 2023
 - 时间：2023-12-29 20:00 ～ 2024-01-11 20:00
 - 主办方：cn
 - 网站链接：[本站](/events/2023/7b5159e16b413fd6/) · [官网](https://mh2023.puzzlehunt.cn)
 
 ## Huntinality III
-
-*Hunts Upon a Time*
-
+- 主题：Hunts Upon a Time
 - 时间：2023-12-01 07:00 ～ 2023-12-10 11:00
 - 主办方：Cardinality
 - 网站链接：[本站](/events/2023/21d99b4c6cb3543e/) · [官网](https://www.huntinality.com/)
@@ -19,33 +15,25 @@
 Huntinality是一种在线解谜游戏，由多轮谜题和元谜题组成。它专为最多 6 人的团队而设计，并向任何有/无解谜游戏经验的人开放。
 
 ## Galactic Puzzle Hunt
-
-*GalactiCardCaptors*
-
+- 主题：GalactiCardCaptors
 - 时间：2023-11-11 08:11 ～ 2023-11-21 08:11
 - 主办方：Galactic Trendsetters
 - 网站链接：[本站](/events/2023/fdf67604b24eaa82/) · [官网](https://2023.galacticpuzzlehunt.com/)
 
 ## enigame
-
-*dance To The beat*
-
+- 主题：dance To The beat
 - 时间：2023-10-27 23:00 ～ 2024-10-31 05:55
 - 主办方：cn
 - 网站链接：[本站](/events/2023/6554aadaa1aa6f68/) · [官网](https://www.enigame.de/game)
 
 ## CCBC
-
-*CCBC 1314*
-
+- 主题：CCBC 1314
 - 时间：2023-08-11 20:00 ～ 2023-08-20 20:00
 - 主办方：cn
 - 网站链接：[本站](/events/2023/2ef665af2041cdd8/) · [官网](https://ccbc13.cipherpuzzles.com)
 
 ## Brown Puzzlehunt
-
-*Blueno Resurrection Society*
-
+- 主题：Blueno Resurrection Society
 - 时间：2023-04-16 01:00 ～ 2023-04-17 11:59
 - 主办方：Brown Puzzle Club
 - 网站链接：[本站](/events/2023/64e5a0d887b938c0/) · [官网](https://2023.brownpuzzlehunt.com/)
@@ -53,17 +41,13 @@ Huntinality是一种在线解谜游戏，由多轮谜题和元谜题组成。它
 The Blueno Resurrection Society needs your help. RSVP in advance.
 
 ## 欣年
-
-*欣年2*
-
+- 主题：欣年2
 - 时间：2023-01-24 20:00 ～ 2023-01-31 23:59
 - 主办方：cn
 - 网站链接：[本站](/events/2023/1b318e06dd4191e3/) · [官网](https://burnhunt.fun/xinian/index.html)
 
 ## MIT Mystery Hunt
-
-*The Puzzle Factory*
-
+- 主题：The Puzzle Factory
 - 时间：2023-01-14 01:00
 - 主办方：Teammate
 - 网站链接：[本站](/events/2023/bf93901bcb5f89ca/) · [官网](https://puzzles.mit.edu/2023/)

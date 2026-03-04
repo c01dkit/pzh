@@ -11,7 +11,7 @@ from .utils import find_project_root
 logger = get_logger(__name__)
 ROOT = find_project_root()
 
-def main(nav_yml_events, nav_yml_tools):
+def main(nav_yml_events, nav_yml_puzzles, nav_yml_tools):
     logger.info("正在更新mkdocs.yml文件……")
     web_settings = ""
     with open(ROOT / "mkdocs.yml", "r", encoding="utf8") as file:
@@ -25,16 +25,17 @@ def main(nav_yml_events, nav_yml_tools):
     with open(ROOT / "mkdocs.yml", "w", encoding="utf8") as file:
         file.write("""nav:
   - 首页: 
-    - index: index.md
+    - index.md
     - 赛事总览: events/index.md
-#    - 题目总览: puzzles/index.md
+    - 题目总览: puzzles/index.md
     - 解题工具: tools/index.md
     - 密码表: graphs/index.md
 """)
         file.write(nav_yml_events)
+        file.write(nav_yml_puzzles)
         file.write(nav_yml_tools)
         file.write("""  - 密码表:
-    - index: graphs/index.md
+    - graphs/index.md
 """)
         file.write(web_settings)
         

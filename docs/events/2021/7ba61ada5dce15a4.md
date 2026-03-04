@@ -1,7 +1,5 @@
 # Huntinality
-
-*Wintendont*
-
+- 主题：Wintendont
 - 时间：2021-05-29 02:00 ～ 2021-06-06 11:00
 - 主办方：Cardinality
 - 网站链接：[https://2021.huntinality.com/](https://2021.huntinality.com/)

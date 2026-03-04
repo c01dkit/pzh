@@ -1,20 +1,20 @@
 nav:
   - 首页: 
-    - index: index.md
+    - index.md
     - 赛事总览: events/index.md
-#    - 题目总览: puzzles/index.md
+    - 题目总览: puzzles/index.md
     - 解题工具: tools/index.md
     - 密码表: graphs/index.md
   - 赛事总览:
-    - index: events/index.md
+    - events/index.md
     - 2026:
-      - index: events/2026/index.md
+      - events/2026/index.md
       - "Brown Puzzlehunt": events/2026/33826b9983251cc3.md
       - "欣年": events/2026/4948bf9479046558.md
       - "SECO Puzzle Hunt": events/2026/7d7c349ada446bf4.md
       - "Abyssal Puzzle": events/2026/6488dae472f55a87.md
     - 2025:
-      - index: events/2025/index.md
+      - events/2025/index.md
       - "Orientation Hunt": events/2025/f2edca9f5735cb78.md
       - "LN Hunt": events/2025/74082b32294a4278.md
       - "Puzzlethon": events/2025/0e14c0600981d08e.md
@@ -34,7 +34,7 @@ nav:
       - "SECO Puzzle Hunt": events/2025/7d8732e60169804e.md
       - "MIT Mystery Hunt": events/2025/6c4272cb4cedf332.md
     - 2024:
-      - index: events/2024/index.md
+      - events/2024/index.md
       - "Orientation Hunt": events/2024/adf47e92e6e527dc.md
       - "Christmas Hunt": events/2024/0de2393131151d8c.md
       - "Puzzlethon": events/2024/0d837a2b0ae36a82.md
@@ -51,7 +51,7 @@ nav:
       - "江湖解谜": events/2024/bd16168546a0d95e.md
       - "MIT Mystery Hunt": events/2024/b15e075545f858e1.md
     - 2023:
-      - index: events/2023/index.md
+      - events/2023/index.md
       - "MiaoHunt": events/2023/7b5159e16b413fd6.md
       - "Huntinality III": events/2023/21d99b4c6cb3543e.md
       - "Galactic Puzzle Hunt": events/2023/fdf67604b24eaa82.md
@@ -61,43 +61,77 @@ nav:
       - "欣年": events/2023/1b318e06dd4191e3.md
       - "MIT Mystery Hunt": events/2023/bf93901bcb5f89ca.md
     - 2022:
-      - index: events/2022/index.md
+      - events/2022/index.md
       - "EC Puzzle Hunt": events/2022/faa7aa605f5c55b9.md
       - "Galactic Puzzle Hunt": events/2022/9904909ff0bce5eb.md
       - "REDDOThunt": events/2022/d2d308bf913f1e3b.md
       - "Huntinality 2.0": events/2022/fd1ee8568647e1e8.md
       - "MIT Mystery Hunt": events/2022/ef2b9d7e571cea51.md
     - 2021:
-      - index: events/2021/index.md
+      - events/2021/index.md
       - "Galactic Puzzle Hunt": events/2021/3224caf5676975d6.md
       - "Teammate Hunt": events/2021/bee2b486b6b713c6.md
       - "Puzzle Potluck": events/2021/fbbddc0ef4fb6765.md
       - "Huntinality": events/2021/7ba61ada5dce15a4.md
     - 2020:
-      - index: events/2020/index.md
+      - events/2020/index.md
       - "Teammate Hunt": events/2020/4ff8802893aba56b.md
       - "DP Puzzle Hunt": events/2020/4e9c6baf57cbf673.md
       - "Galactic Puzzle Hunt": events/2020/dfea2cdbe61a13c8.md
       - "Puzzle Potluck": events/2020/1beaa98fa6ce8943.md
       - "REDDOThunt": events/2020/5573861d02f9c697.md
     - 2019:
-      - index: events/2019/index.md
+      - events/2019/index.md
       - "Puzzle Potluck": events/2019/68d56e325cf0c741.md
       - "Galactic Puzzle Hunt": events/2019/4c7bae42e61bdb41.md
     - 2018:
-      - index: events/2018/index.md
+      - events/2018/index.md
       - "Puzzle Potluck": events/2018/851a065d74b6860b.md
       - "REDDOThunt": events/2018/266519c484d529a8.md
       - "Galactic Puzzle Hunt": events/2018/07ae014fd74627e2.md
     - 2017:
-      - index: events/2017/index.md
+      - events/2017/index.md
       - "REDDOThunt": events/2017/37b46c7eeef680e0.md
       - "Galactic Puzzle Hunt": events/2017/7df2591b8bd22395.md
     - 2016:
-      - index: events/2016/index.md
+      - events/2016/index.md
       - "mezzacotta": events/2016/4bc609a82eb8c0a6.md
+  - 题目总览:
+    - puzzles/index.md
+    - Crossword:
+      - "无孔不入的填字游戏": puzzles/86ed0020634ebd6a.md
+      - "对酒当歌": puzzles/d4b2f9d32a21d77c.md
+      - "方形田字": puzzles/44328a5086f8912e.md
+      - "中英互译Plus": puzzles/880f55a43ef0b1b1.md
+    - 动漫:
+      - "田忌赛马": puzzles/01e95f4c511112d6.md
+    - 地图:
+      - "画马": puzzles/f08ac749f313d4c7.md
+    - 字谜:
+      - "童话故事": puzzles/4af8b39ab6395702.md
+      - "认字是门化简为繁的技术": puzzles/a40753704cf84f3a.md
+    - 常识:
+      - "抢红包": puzzles/9913307f7ca857de.md
+      - "两灯一谜对连": puzzles/5c38a0e212e10464.md
+      - "物薄情厚": puzzles/5c8df8a8c16b456c.md
+    - 数据库:
+      - "地下旅行": puzzles/c506b854f213ee82.md
+      - "所罗门王的钥匙": puzzles/ab89cf03a59d1fc7.md
+      - "[META] 一年又一年": puzzles/2c42db3cb12bedc9.md
+      - "彩蛋-A puzzle only with meta": puzzles/ce39a1259d626754.md
+      - "坏苹果！！": puzzles/b1d4d19b1aa8306d.md
+    - 文件:
+      - "推箱字": puzzles/b284b3cd52ef677d.md
+      - "新手教程": puzzles/112731cdfebc7b56.md
+    - 纸笔:
+      - "数码方阵": puzzles/66a8c9341dd63d93.md
+    - 识图:
+      - "年夜饭": puzzles/6cc72709f09c6618.md
+    - 其他:
+      - "？？？？Plus": puzzles/d56d7de985b306b6.md
+      - "拼图": puzzles/c174bd3d7465b4ea.md
   - 解题工具:
-    - index: tools/index.md
+    - tools/index.md
     - 必备: tools/必备/index.md
     - 中文类: tools/中文类/index.md
     - 化学类: tools/化学类/index.md
@@ -114,7 +148,7 @@ nav:
     - 工具杂项类: tools/工具杂项类/index.md
     - 其他杂项类: tools/其他杂项类/index.md
   - 密码表:
-    - index: graphs/index.md
+    - graphs/index.md
 # END NAV
 
 # 以下配置，均参考 Xiaokang2022 https://github.com/oh-my-mkdocs/oh-my-mkdocs/blob/main/mkdocs.yml
@@ -261,8 +295,10 @@ theme: # 此项各个设定因主题而异
   name: material # 主题名称
   custom_dir: overrides # 覆盖目录
   language: zh # 主题语言
+  favicon: assets/images/puzzle.ico
   features:
     # - header.autohide # 顶栏自动隐藏
+    # - announce.activate # 是否启用公告栏
     # - announce.dismiss # 公告栏可以被关闭
     - search.share # 搜索栏分享按钮
     - search.suggest # 搜索栏内容建议
@@ -281,9 +317,9 @@ theme: # 此项各个设定因主题而异
     - navigation.instant.progress # 加载速度慢时，在页面顶部显示加载进度（400ms 以上加载时间才会显示它）
     - navigation.tabs # 页面顶部导航栏
     # - navigation.tabs.sticky # 导航栏标题栏位置固定
-    - navigation.sections # 左侧边栏节点是否保持展开
-    - navigation.expand # 左侧边栏节点默认全部展开（与 navigation.prune 不兼容）
-    # - navigation.prune # 左侧栏节点至多展开一个，以此来减小站点的构建大小（对于页数100+的网站很有用，与 navigation.expand 不兼容）
+    # - navigation.sections # 左侧边栏节点是否保持展开
+    # - navigation.expand # 左侧边栏节点默认全部展开（与 navigation.prune 不兼容）
+    - navigation.prune # 左侧栏节点至多展开一个，以此来减小站点的构建大小（对于页数100+的网站很有用，与 navigation.expand 不兼容）
     # - toc.integrate # 右边侧栏是否集成到左侧边栏（与 navigation.indexes 不兼容）
     - toc.follow # 锚点关注，侧边栏自动滚动，使锚点总是可见
   palette: # 界面整体样式
@@ -307,7 +343,7 @@ theme: # 此项各个设定因主题而异
         name: 暗黑主题
   font: false # 避免从谷歌加载字体导致网页加载变慢（具体参数可以在自定义 CSS 中指定）
   icon: # 替换掉默认的图标
-    logo: simple/materialformkdocs # 页面左上角徽标
+    logo: material/puzzle # 页面左上角徽标
     repo: fontawesome/brands/github # 右上角仓库图标
     edit: material/file-edit # 页面编辑的图标
     view: material/file-eye # 页面查看源代码的图标

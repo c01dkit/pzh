@@ -61,11 +61,16 @@ uv sync
   ready: false # 题解写好了就改成True
 ```
 
-建议以赛事为单位来保存yml文件。然后运行main.py，会在`src/resources/puzzles`目录下生成题解模板，同时yml文件也会更新puzzle的id。根据id找到对应的`main.md`文件进行编辑即可。完成后将`ready`改为true，再次运行main.py即可。
+以赛事为单位来保存yml文件。然后运行main.py，会在`src/resources/puzzles`目录下生成题解模板，同时yml文件也会更新puzzle的id。根据id找到对应的`main.md`文件进行编辑即可。完成后将`ready`改为true，再次运行main.py即可。
 
 可以编辑并运行`src/scripts/create_puzzle_config.py`来快速生成赛事的题解配置文件。
 
-**注意：对于ready为false的题目，如果在题解未完全写完的情况下更新了题解模板文件（src/resources/puzzles/template.md），会导致题解被强行覆盖。请确保修改题解模板文件前题解均已完成。**
+**注意：**
+
+1. 对于ready为false的题目，如果在题解未完全写完的情况下更新了题解模板文件（src/resources/puzzles/template.md），会导致题解被强行覆盖。请确保修改题解模板文件前题解均已完成。一般情况下不需要更新解题模板。
+2. 赛事谜题请按顺序保存在yml中，否则会影响对应赛事界面“分区”的填充
+
+
 
 ### 插入图片
 

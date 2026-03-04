@@ -1,4 +1,9 @@
-# Puzzlehunt All-in-One
+---
+is_homepage: true
+---
+
+
+# Puzzle Hunt All-in-One
  
 这是一个用于收录与浏览各类 **puzzlehunt（解谜比赛）** 与相关解题工具站点，同时不定期更新题解。
 

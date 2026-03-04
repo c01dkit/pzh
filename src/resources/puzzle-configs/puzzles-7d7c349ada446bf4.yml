@@ -3,7 +3,9 @@
   tool_ids: null
   title: 新手教程
   round: 一区 - 庄园
-  topics: null
+  topics:
+  - 文件
+  - PPT
   author: Riser
   extractions:
   - 五位二进制
@@ -25,6 +27,8 @@
   round: 一区 - 庄园
   topics:
   - 纸笔
+  - 数方
+  - 码牌
   author: 纪录片
   extractions: null
   ft: 数字在方阵中各归其位，那些孤悬的独格，藏着解锁码牌的密钥。
@@ -43,11 +47,12 @@
   title: 坏苹果！！
   round: 一区 - 庄园
   topics:
+  - 数据库
   - 东方
   author: Light
   extractions:
   - A1Z26
-  ft:  *听说东方的人都喜欢吟诗作对。*
+  ft: '&emsp;&emsp;*听说东方的人都喜欢吟诗作对。*'
   note: null
   hints:
   - question: 我毫无头绪！
@@ -66,7 +71,7 @@
   title: 中英互译Plus
   round: 一区 - 庄园
   topics:
-  - crossword
+  - Crossword
   author: Riser
   extractions: null
   ft: '*这是一个简单的cw，真的*'
@@ -85,7 +90,9 @@
   tool_ids: null
   title: 童话故事
   round: 一区 - 庄园
-  topics: null
+  topics:
+  - 字谜
+  - 中英对译
   author: Riser
   extractions: null
   note: null
@@ -106,7 +113,7 @@
   topics: null
   author: Riser
   extractions: null
-  ft:  *这里似乎举行过什么远古的仪式，但我却完全记不起来了……医生，你实话告诉我，我到底昏迷了多久？*
+  ft: '&emsp;&emsp;*这里似乎举行过什么远古的仪式，但我却完全记不起来了……医生，你实话告诉我，我到底昏迷了多久？*'
   note: null
   hints:
   - question: 我毫无头绪！
@@ -129,6 +136,7 @@
   title: 认字是门化简为繁的技术
   round: 一区 - 庄园
   topics:
+  - 字谜
   - Unicode
   author: WAHX
   extractions: null
