@@ -49,22 +49,26 @@ var index = 0;
 var i = 0;
 var switch_flag = true;
 
-// setInterval(function () {
-//   if (switch_flag) {
-//     document.querySelector(".text").innerHTML = txt[i].slice(0, ++index);
-//   } else {
-//     document.querySelector(".text").innerHTML = txt[i].slice(0, index--);
-//   }
+(() => {
+  // 只有当页面上存在 .text 元素时才启动定时器
+  const el = document.querySelector(".text");
+  if (!el) return;
 
-//   if (index == txt[i].length + 25) {
-//     /*25*40 停顿时间*/
-//     switch_flag = false;
-//   } else if (index == 0) {
-//     index = 0;
-//     switch_flag = true;
-//     i++;
-//     if (i >= txt.length) {
-//       i = 0;
-//     }
-//   }
-// }, 40); /*50间隔时间*/
+  setInterval(() => {
+    if (switch_flag) {
+      el.innerHTML = txt[i].slice(0, ++index);
+    } else {
+      el.innerHTML = txt[i].slice(0, index--);
+    }
+
+    if (index === txt[i].length + 25) {
+      /* 25*40 停顿时间 */
+      switch_flag = false;
+    } else if (index === 0) {
+      index = 0;
+      switch_flag = true;
+      i++;
+      if (i >= txt.length) i = 0;
+    }
+  }, 40); /* 50间隔时间 */
+})();
