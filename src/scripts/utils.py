@@ -1,5 +1,9 @@
 import re
+import os
+import yaml
+import shutil
 from pathlib import Path
+from .models import *
 
 def find_project_root(marker: str = "mkdocs.yml") -> Path:
     current = Path(__file__).resolve().parent
@@ -47,3 +51,33 @@ def replace_img_lines(
             line = re.sub(rf'{old_prefix}(.*?)\)',rf'{old_prefix}\1?raw=true)',line)
         out_lines.append(line)
     return "".join(out_lines)
+
+
+def copy_template(template: Path, dest: Path):
+    if dest.exists() and template.stat().st_mtime <= dest.stat().st_mtime:
+        return
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy2(template, dest)
+
+ROOT = find_project_root()
+
+cache_event_dict = None
+def get_event_index_dict():
+    global cache_event_dict
+    if cache_event_dict is None:
+        with open(ROOT / "src" / "resources" / "events.yml", "r", encoding="utf8") as file:
+            events = yaml.safe_load(file)
+        events_items = create_event_items(events)
+        cache_event_dict = {e.id: e for e in events_items}
+    return cache_event_dict
+
+cache_tool_dict = None
+def get_tool_index_dict():
+    global cache_tool_dict
+    if cache_tool_dict is None:
+        with open(ROOT / "src" / "resources" / "tools.yml", "r", encoding="utf8") as file:
+            tools = yaml.safe_load(file)
+        tools_items = create_tool_items(tools)
+        cache_tool_dict = {e.id: e for e in tools_items}
+    return cache_tool_dict
+

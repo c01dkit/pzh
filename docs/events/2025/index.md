@@ -95,9 +95,11 @@ The third annual puzzlehunt by current Brown and RISD students.
 - 网站链接：[本站](/events/2025/552350cec0247e76/) · [官网](https://cornsnaky.dearfad.com)
 
 ## SECO Puzzle Hunt
-- 时间：2025-01-21 17:00 ～ 2025-01-27 17:00
+- 时间：2025-01-21 20:00 ～ 2025-01-24 20:00
 - 主办方：cn
 - 网站链接：[本站](/events/2025/7d8732e60169804e/) · [官网](https://archive.secopuzzle.com/index.html#/index?c=seco1/index)
+
+初/入/梦/境
 
 ## MIT Mystery Hunt
 - 主题：The Case of the Shadow Diamond

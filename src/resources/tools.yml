@@ -302,17 +302,31 @@
   tags:
   - 识图
   id: 7fe4a9ca061e13fe
+- name: 地铁标志色
+  url: https://zhrail.huijiwiki.com/wiki/%E6%A0%87%E5%BF%97%E8%89%B2%E4%B8%80%E8%A7%88
+  description: 地铁标志色查询
+  category: 地图类
+  tags:
+  - 地铁
+  id: 9fe5ccb780eb6995
+- name: 地铁线路
+  url: https://www.metrolinehub.com/zh
+  description: 地铁线路
+  category: 地图类
+  tags:
+  - 地铁
+  id: 52f8e8628d8a087c
 - name: 全球地铁
   url: https://people.reed.edu/~reyn/transport.html#maps
   description: ''
-  category: 国家类
+  category: 地图类
   tags:
   - 地铁
   id: 5fa710801863d4c3
 - name: 地铁换乘?(换城)工具
   url: https://metro.wallbreaker5th.top/
   description: ''
-  category: 国家类
+  category: 地图类
   tags:
   - 地铁
   id: a0172341a6050a56

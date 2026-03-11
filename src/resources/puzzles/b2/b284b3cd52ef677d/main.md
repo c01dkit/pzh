@@ -3,7 +3,9 @@
 
 ## 题目详情
 
-[下载游戏](https://thrivingyear.fun/static/puzzle_resources/sample/%E6%8E%A8%E7%AE%B1%E5%AD%90PLUS.953477465aab.exe)
+<!-- [下载游戏](https://thrivingyear.fun/static/puzzle_resources/sample/%E6%8E%A8%E7%AE%B1%E5%AD%90PLUS.953477465aab.exe) -->
+
+[下载游戏](https://c01dkit.s3.ap-northeast-1.amazonaws.com/assets/puzzles/%E6%8E%A8%E7%AE%B1%E5%AD%90PLUS.953477465aab.exe)
 
 ASWD移动（请切换至英文输入法）
 

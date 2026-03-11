@@ -369,7 +369,9 @@
     </ol>
 </div>
 
-![img](https://thrivingyear.fun/static/puzzle_resources/sample/cw.161741b599f0.jpg)
+<!-- ![img](https://thrivingyear.fun/static/puzzle_resources/sample/cw.161741b599f0.jpg) -->
+
+![alt text](Snipaste_2026-03-11_17-30-50.png)
 
 [腾讯文档](https://docs.qq.com/sheet/DRkZpam5Kd2JHQXBC)
 

@@ -3,7 +3,7 @@
 
 ## 题目详情
 
-![img](https://thrivingyear.fun/static/puzzle_resources/sample/esteregg.0554a66e9450.png)
+![alt text](Snipaste_2026-03-11_17-21-11.png)
 
 ---
 

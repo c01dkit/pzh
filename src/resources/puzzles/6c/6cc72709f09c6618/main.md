@@ -3,7 +3,7 @@
 
 ## 题目详情
 
-![img1](https://thrivingyear.fun/static/puzzle_resources/sample/food6.95adaa7372a7.jpeg)
+<!-- ![img1](https://thrivingyear.fun/static/puzzle_resources/sample/food6.95adaa7372a7.jpeg)
 
 ![img2](https://thrivingyear.fun/static/puzzle_resources/sample/food4.0c1fea3ceed5.jpeg)
 
@@ -15,7 +15,10 @@
 
 ![img6](https://thrivingyear.fun/static/puzzle_resources/sample/food8.45602b9c1b57.jpg)
 
-![img7](https://thrivingyear.fun/static/puzzle_resources/sample/food9.ec05cc51712b.jpeg)
+![img7](https://thrivingyear.fun/static/puzzle_resources/sample/food9.ec05cc51712b.jpeg) -->
+
+![alt text](Snipaste_2026-03-11_17-22-50.png)
+
 
 **食材列表**
 

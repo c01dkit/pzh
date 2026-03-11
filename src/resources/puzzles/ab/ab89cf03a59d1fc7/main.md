@@ -11,7 +11,7 @@
 
     所罗门王的钥匙6到7有一个箭头
 
-![img](https://thrivingyear.fun/static/puzzle_resources/sample/key.b212f08f13d6.png)
+![alt text](Snipaste_2026-03-11_17-45-17.png)
 
 <style>
         .container {

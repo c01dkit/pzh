@@ -281,7 +281,7 @@
             </td>
             <td>
                 <div style="text-align:center;">
-                    <img src="https://thrivingyear.fun/static/puzzle_resources/sample/earth.040afcfacf63.jpg" alt="地球" style="width:60%;display:inline-block">
+                    <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/c5/c506b854f213ee82/Snipaste_2026-03-11_17-46-09.png?raw=true" alt="地球" style="width:60%;display:inline-block">
                 </div>
             </td>
         </tr>

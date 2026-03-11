@@ -1,7 +1,7 @@
 - name: 欣年
   subtitle: 欣年3
-  description: 这是一个春节主题的puzzlehunt，兼具中西风味。谜题数量在20道以内。有彩蛋题，正确解答可参与抢红包活动。这是一个众筹HUNT，没有主办方。
-  url: https://thrivingyear.fun/
+  description: 这是一个春节主题的puzzlehunt，兼具中西风味。谜题数量在20道以内。有彩蛋题，正确解答可参与抢红包活动。这是一个众筹HUNT，没有主办方。比赛原网址https://thrivingyear.fun/已失效。
+  url: null
   start_time: 2026-02-19 20:00:00
   end_time: 2026-02-28 23:59:00
   year: 2026
@@ -17,9 +17,9 @@
   host: cn
   id: 1b318e06dd4191e3
 - name: SECO Puzzle Hunt
-  subtitle: SECO Puzzle Hunt2
+  subtitle: 捕/获/梦/境
   description: 这是由一个不想起床的屑主办的解谜比赛，谜题数量在60道左右。
-  url: https://www.secopuzzle.com
+  url: https://archive.secopuzzle.com
   start_time: 2026-01-31 20:00:00
   end_time: 2026-02-12 20:00:00
   year: 2026
@@ -126,10 +126,10 @@
   host: cn
   id: 552350cec0247e76
 - name: SECO Puzzle Hunt
-  description: null
+  description: 初/入/梦/境
   url: https://archive.secopuzzle.com/index.html#/index?c=seco1/index
-  start_time: 2025-01-21 17:00:00
-  end_time: 2025-01-27 17:00:00
+  start_time: 2025-01-21 20:00:00
+  end_time: 2025-01-24 20:00:00
   year: 2025
   host: cn
   id: 7d8732e60169804e

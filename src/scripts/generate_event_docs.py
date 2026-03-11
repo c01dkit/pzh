@@ -2,13 +2,14 @@ import yaml
 import shutil
 import datetime
 import re 
+import os
 import copy
 import subprocess
 
 from pathlib import Path
 from .log import get_logger
 from .utils import find_project_root, slugify_dirname
-from .models import EventItem, create_event_items
+from .models import *
 from . import setup_ids
 
 def md_escape(s: str) -> str:
@@ -41,12 +42,12 @@ def create_event_groups(event_items:list[EventItem]) -> dict[str, list[EventItem
 def render_events_index_md(categories: list[str]) -> str:
     """生成赛事总览中包含各个年份链接的总index"""
     lines: list[str] = []
-    lines.append("# 赛事总览")
-    lines.append("")
-    lines.append("按年份整理的赛事链接。")
-    lines.append("")
-    lines.append("## 年份")
-    lines.append("")
+    lines.append("# 赛事总览\n")
+    lines.append("按年份整理的赛事链接。赛事名称前使用以下标记表示该赛事谜题收录情况：\n")
+    lines.append("* 🟢 该赛事谜题及题解已收录\n")
+    lines.append("* 🟠 该赛事谜题及题解正在收录中\n")
+    lines.append("* 🔴 该赛事谜题及题解尚未收录\n")
+    lines.append("## 年份\n")
     for cat in categories:
         slug = slugify_dirname(str(cat))
         lines.append(f"- [{cat}](./{slug}/index.md)")
@@ -115,6 +116,21 @@ def render_single_event_md(year: str, event_item: EventItem) -> str:
 
     return "\n".join(lines).rstrip() + "\n\n"
 
+def get_event_status_dict():
+    event_status_dict: dict[str, list[int, int]] = {} # event_id -> [finished puzzle cnt, all puzzle cnt]
+    config_files = next(os.walk(f'{ROOT}/src/resources/puzzle-configs'))[2]
+    for config_file in config_files:
+        with open(f'{ROOT}/src/resources/puzzle-configs/{config_file}', "r", encoding="utf8") as file:
+            puzzles = yaml.safe_load(file)
+        puzzle_items = create_puzzle_items(puzzles)
+        for puzzle_item in puzzle_items:
+            if puzzle_item.event_id:
+                event_status_dict.setdefault(puzzle_item.event_id, [0, 0])
+                event_status_dict[puzzle_item.event_id][1] += 1
+                if puzzle_item.ready:
+                    event_status_dict[puzzle_item.event_id][0] += 1
+    return event_status_dict
+
 def generate_events(events_data:list, target_events_dir:Path) -> str:
     """在指定目录中生成以年份进行分组的赛事子文件夹，返回对应需要填写在nav里的str
     """
@@ -122,6 +138,7 @@ def generate_events(events_data:list, target_events_dir:Path) -> str:
     target_events_dir.mkdir(parents=True, exist_ok=True)
     event_items = create_event_items(events_data)
     event_groups = create_event_groups(event_items)
+    event_status_dict = get_event_status_dict()
 
     written = "  - 赛事总览:\n"
     # 创建年份对应的index
@@ -139,7 +156,14 @@ def generate_events(events_data:list, target_events_dir:Path) -> str:
         for e in event_items:
             # slug = slugify_event_name(e.name)
             slug = e.id
-            written += f"      - \"{e.name}\": events/{year}/{slug}.md\n"
+            es = event_status_dict.get(e.id, None)
+            if es:
+                if es[0] == es[1]:
+                    written += f"      - \"🟢 {e.name}\": events/{year}/{slug}.md\n"
+                else:
+                    written += f"      - \"🟠 {e.name}\": events/{year}/{slug}.md\n"
+            else:
+                written += f"      - \"🔴 {e.name}\": events/{year}/{slug}.md\n"
             (cate_dir / f"{slug}.md").write_text(render_single_event_md(year, e), encoding="utf8")
     return written
 

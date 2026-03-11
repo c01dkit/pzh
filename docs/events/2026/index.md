@@ -12,15 +12,14 @@ Brown Puzzlehunt 2026 is the fourth annual puzzlehunt run by current Brown and R
 - 主题：欣年3
 - 时间：2026-02-19 20:00 ～ 2026-02-28 23:59
 - 主办方：cn
-- 网站链接：[本站](/events/2026/4948bf9479046558/) · [官网](https://thrivingyear.fun/)
 
-这是一个春节主题的puzzlehunt，兼具中西风味。谜题数量在20道以内。有彩蛋题，正确解答可参与抢红包活动。这是一个众筹HUNT，没有主办方。
+这是一个春节主题的puzzlehunt，兼具中西风味。谜题数量在20道以内。有彩蛋题，正确解答可参与抢红包活动。这是一个众筹HUNT，没有主办方。比赛原网址https://thrivingyear.fun/已失效。
 
 ## SECO Puzzle Hunt
-- 主题：SECO Puzzle Hunt2
+- 主题：捕/获/梦/境
 - 时间：2026-01-31 20:00 ～ 2026-02-12 20:00
 - 主办方：cn
-- 网站链接：[本站](/events/2026/7d7c349ada446bf4/) · [官网](https://www.secopuzzle.com)
+- 网站链接：[本站](/events/2026/7d7c349ada446bf4/) · [官网](https://archive.secopuzzle.com)
 
 这是由一个不想起床的屑主办的解谜比赛，谜题数量在60道左右。
 

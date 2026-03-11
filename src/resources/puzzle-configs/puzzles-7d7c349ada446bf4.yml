@@ -2,7 +2,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 新手教程
-  round: 一区 - 庄园
+  round: 一区 - 庄园(42°38′N，89°14′E)
   topics:
   - 文件
   - PPT
@@ -24,7 +24,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 数码方阵
-  round: 一区 - 庄园
+  round: 一区 - 庄园(42°38′N，89°14′E)
   topics:
   - 纸笔
   - 数方
@@ -45,7 +45,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 坏苹果！！
-  round: 一区 - 庄园
+  round: 一区 - 庄园(42°38′N，89°14′E)
   topics:
   - 数据库
   - 东方
@@ -69,7 +69,7 @@
   tool_ids:
   - ac23e24e998e7ab6
   title: 中英互译Plus
-  round: 一区 - 庄园
+  round: 一区 - 庄园(42°38′N，89°14′E)
   topics:
   - Crossword
   author: Riser
@@ -89,7 +89,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 童话故事
-  round: 一区 - 庄园
+  round: 一区 - 庄园(42°38′N，89°14′E)
   topics:
   - 字谜
   - 中英对译
@@ -109,8 +109,10 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: ？？？？Plus
-  round: 一区 - 庄园
-  topics: null
+  round: 一区 - 庄园(42°38′N，89°14′E)
+  topics:
+  - 数据库
+  - 宝可梦
   author: Riser
   extractions: null
   ft: '&emsp;&emsp;*这里似乎举行过什么远古的仪式，但我却完全记不起来了……医生，你实话告诉我，我到底昏迷了多久？*'
@@ -134,7 +136,7 @@
   tool_ids:
   - 3d30567b6ece129c
   title: 认字是门化简为繁的技术
-  round: 一区 - 庄园
+  round: 一区 - 庄园(42°38′N，89°14′E)
   topics:
   - 字谜
   - Unicode
@@ -182,7 +184,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 拼图
-  round: 一区 - 庄园
+  round: 一区 - 庄园(42°38′N，89°14′E)
   topics: null
   author: Riser
   extractions: null
@@ -202,35 +204,45 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 3 small mazes
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Lana
   extractions: null
-  ft: null
+  ft: '*传统的走迷宫，就是把起终点连成一条线，好无趣好无聊！*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - question: 《坠物迷宫》的关键点在哪？
+    answer: 刺所在格是地板而不是墙，所以……
+  - question: 《弹簧迷宫》的关键点在哪？
+    answer: 不要把思维局限在封闭区域里，看看外面广阔的世界吧！
+  - question: 《推箱迷宫》的关键点在哪？
+    answer: 中间的大正方形也是一个箱子！
+  milestones:
+  - phrase: WATER
+  - phrase: IN
+  - phrase: 32
+    text: 将前两题得到的较长单词中某个字母替换成较短单词，得到的新单词即为最终答案。
   answer: WINTER
-  ready: false
+  ready: true
 - id: ed6753f10fa844d6
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 解绳子
-  round: 二区 - 沙海
-  topics: null
+  round: 二区 - 沙海(2°32′S，43°7′W)
+  topics:
+  - 数据库
+  - 地铁
   author: Riser
   extractions: null
-  ft: null
-  note: null
+  ft: 为什么许多人每天沿着这些绳子走？
+  note: 本题呈现方式为交互类型，请到原网站进行解题。
   hints:
-  - question: 我毫无头绪！
-    answer: null
+  - question: 第七题难度太大了！或许我忽略了什么？
+    answer: 你可以注意一下这些节点的颜色，把它们联系到ft上。
+  - question: 这道题的主题是什么？
+    answer: 地铁。
   - question: 该如何提取？
-    answer: null
+    answer: 找到标有数字的节点的英文名，用这些数字提取位数。
   milestones: null
   answer: POPCORN
   ready: false
@@ -238,7 +250,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 调色盘
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Light
   extractions: null
@@ -256,7 +268,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 差序格局Plus
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: WAHX
   extractions: null
@@ -274,7 +286,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 长河漫漫，当文物醒来…
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: King
   extractions: null
@@ -292,7 +304,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 对对碰
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Light
   extractions: null
@@ -310,7 +322,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 程式之衡鉴
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Riser
   extractions: null
@@ -328,7 +340,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 疯狂星期四
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: WAHX
   extractions: null
@@ -346,7 +358,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 见微知微
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Lana
   extractions: null
@@ -364,7 +376,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 中国话
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: WAHX/Light
   extractions: null
@@ -382,7 +394,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 数字狂想曲
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: 半次获释者
   extractions: null
@@ -400,7 +412,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 六八一十二
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: 磬绿薄绒荷
   extractions: null
@@ -418,7 +430,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 道是无情却有晴
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Light
   extractions: null
@@ -436,7 +448,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 四线格
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Light
   extractions: null
@@ -454,7 +466,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 移言为定
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Lana
   extractions: null
@@ -472,7 +484,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 先天与后天
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Light
   extractions: null
@@ -490,7 +502,7 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: Wordles
-  round: 二区 - 沙海
+  round: 二区 - 沙海(2°32′S，43°7′W)
   topics: null
   author: Riser
   extractions: null

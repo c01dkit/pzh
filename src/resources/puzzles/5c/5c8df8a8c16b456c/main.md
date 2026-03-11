@@ -38,9 +38,9 @@
 <p style="color:purple;font-weight:bold">你应该先送礼物提升我的好感度，后面忘了:</p>
 <div style="text-align:center;">
     <div>
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/1.80e87dceea83.png" alt="1" style="width:150px;height:150px;object-fit:contain;display:inline-block">
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/2.9b8f3cb5fa0e.png" alt="2" style="width:150px;height:150px;object-fit:contain;display:inline-block">
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/3.20cfa34baffd.png" alt="3" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-38-50.png?raw=true" alt="1" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-39-06.png?raw=true" alt="2" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-39-18.png?raw=true" alt="3" style="width:150px;height:150px;object-fit:contain;display:inline-block">
     </div>
     <div>
         <p style="display:inline-block;width:150px;">（7）</p>
@@ -48,9 +48,9 @@
         <p style="display:inline-block;width:150px;">（2）</p>
     </div>
     <div>
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/4.7b090acb1351.png" alt="4" style="width:150px;height:150px;object-fit:contain;display:inline-block">
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/5.4dbe0590cb57.png" alt="5" style="width:150px;height:150px;object-fit:contain;display:inline-block">
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/6.43860118f2f7.png" alt="6" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-39-27.png?raw=true" alt="4" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-39-34.png?raw=true" alt="5" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-39-46.png?raw=true" alt="6" style="width:150px;height:150px;object-fit:contain;display:inline-block">
     </div>
     <div>
         <p style="display:inline-block;width:150px;">（3）</p>
@@ -58,9 +58,9 @@
         <p style="display:inline-block;width:150px;">（6）</p>
     </div>
     <div>
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/7.85492f906d50.png" alt="7" style="width:150px;height:150px;object-fit:contain;display:inline-block">
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/8.cb99ad0181e8.png" alt="8" style="width:150px;height:150px;object-fit:contain;display:inline-block">
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/9.8fa27a7017e8.png" alt="9" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-40-01.png?raw=true" alt="7" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-40-34.png?raw=true" alt="8" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-40-42.png?raw=true" alt="9" style="width:150px;height:150px;object-fit:contain;display:inline-block">
     </div>
     <div>
         <p style="display:inline-block;width:150px;">（4）</p>
@@ -68,10 +68,10 @@
         <p style="display:inline-block;width:150px;">（1）</p>
     </div>
         <div>
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/10.ef27912fd25d.png" alt="10" style="width:150px;height:150px;object-fit:contain;display:inline-block">
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/11.5861527b3b75.png" alt="11" style="width:150px;height:150px;object-fit:contain;display:inline-block">
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/122.642ee13c815b.png" alt="12" style="width:150px;height:150px;object-fit:contain;display:inline-block">
-        <img src="https://thrivingyear.fun/static/puzzle_resources/sample/13.401a8d38f683.png" alt="13" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-40-49.png?raw=true" alt="10" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-40-58.png?raw=true" alt="11" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-41-09.png?raw=true" alt="12" style="width:150px;height:150px;object-fit:contain;display:inline-block">
+        <img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-41-18.png?raw=true" alt="13" style="width:150px;height:150px;object-fit:contain;display:inline-block">
     </div>
     <div>
         <p style="display:inline-block;width:150px;">（2）</p>
@@ -95,14 +95,12 @@
 <p>……，暂凭……。</p>
 <p>……，我欲西……。</p>
 <p><br></p>
-
 <p style="color:grey;font-weight:bold">传送带上的礼物:</p>
-<img src="https://thrivingyear.fun/static/puzzle_resources/sample/present1.99fd805835e9.png" alt="礼物" style="width:30%;display:inline-block">
+<img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-36-42.png?raw=true" alt="礼物" style="width:30%;display:inline-block">
 <p><br></p>
-
 <p style="font-weight:bold">META</p>
 <p><em>他们都送了些什么？</em></p>
-<img src="https://thrivingyear.fun/static/puzzle_resources/sample/xxx.db41ecbe5b1e.png" alt="礼物" style="width:30%;display:inline-block">
+<img src="https://github.com/c01dkit/pzh/blob/main/src/resources/puzzles/5c/5c8df8a8c16b456c/Snipaste_2026-03-11_17-34-59.png?raw=true" alt="礼物" style="width:30%;display:inline-block">
 <p>*考虑到个人喜好，<strong style="color:red;">最后一个送的礼物</strong>是那些更带劲的款式！</p>
 <hr style="border-width: 4px;">
   <p>礼物列表：</p>	

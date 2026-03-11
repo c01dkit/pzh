@@ -7,7 +7,7 @@ import subprocess
 
 from pathlib import Path
 from .log import get_logger
-from .utils import find_project_root, slugify_dirname, replace_img_lines
+from .utils import *
 from .models import *
 from . import setup_ids
 
@@ -25,34 +25,6 @@ def slugify_event_name(text: str) -> str:
         code = "".join(f"{ord(c):x}" for c in text)[:12]
         t = f"event-{code}"
     return t
-
-
-
-def copy_template(template: Path, dest: Path):
-    if dest.exists() and template.stat().st_mtime <= dest.stat().st_mtime:
-        return
-    dest.parent.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(template, dest)
-
-cache_event_dict = None
-def get_event_index_dict():
-    global cache_event_dict
-    if cache_event_dict is None:
-        with open(ROOT / "src" / "resources" / "events.yml", "r", encoding="utf8") as file:
-            events = yaml.safe_load(file)
-        events_items = create_event_items(events)
-        cache_event_dict = {e.id: e for e in events_items}
-    return cache_event_dict
-
-cache_tool_dict = None
-def get_tool_index_dict():
-    global cache_tool_dict
-    if cache_tool_dict is None:
-        with open(ROOT / "src" / "resources" / "tools.yml", "r", encoding="utf8") as file:
-            tools = yaml.safe_load(file)
-        tools_items = create_tool_items(tools)
-        cache_tool_dict = {e.id: e for e in tools_items}
-    return cache_tool_dict
 
 def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
     """生成某个具体puzzle的界面"""
@@ -74,18 +46,19 @@ def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
     if puzzle_item.note:
         lines.append(f"    备注：{puzzle_item.note}\n")
     lines.append("=== \"元提示\"")
+    lines.append("    ??? danger \"剧透警告\"")
     if puzzle_item.topics:
-        lines.append(f"    题目主题：{'；'.join(puzzle_item.topics)}\n")
+        lines.append(f"        题目主题：{'；'.join(puzzle_item.topics)}\n")
     if puzzle_item.tool_ids:
         tool_dict = get_tool_index_dict()
-        tmp = f"    相关工具："
+        tmp = f"        相关工具："
         for tool_id in puzzle_item.tool_ids:
             tmp += f"[{tool_dict[tool_id].name}]({tool_dict[tool_id].url}) "
         lines.append(tmp+'\n')
     if puzzle_item.extractions:
-        lines.append(f"    提取方式：{'；'.join(puzzle_item.extractions)}\n")
+        lines.append(f"        提取方式：{'；'.join(puzzle_item.extractions)}\n")
     if lines[-1] == '=== "元提示"':
-        lines.append('    该题目未见元提示。')
+        lines.append('        该题目未见元提示。')
     lines.append("=== \"提示\"")
     for ind, hint in enumerate(puzzle_item.hints):
         lines.append(f'    ??? tip "{ind+1}. {hint.question}"')
@@ -175,6 +148,8 @@ def render_puzzle_index_md(puzzle_items_dict: dict[str, list[PuzzleTemplate]]) -
     lines: list[str] = []
     lines.append("# 题目总览\n")
     lines.append("按主题整理的题目链接。\n")
+    lines.append("!!! danger \"剧透警告\"")
+    lines.append("    根据题面推断主题也是解密过程中的一环。为保证完整的游玩体验，请谨慎浏览此页面。\n")
     for topic, puzzle_items in puzzle_items_dict.items():
         lines.append(f'## {topic}\n')
         for puzzle_item in puzzle_items:
