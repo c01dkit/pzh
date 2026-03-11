@@ -66,7 +66,7 @@ def render_single_puzzle_md(puzzle_item: PuzzleTemplate, appendix: str) -> str:
     lines.append("=== \"答案\"")
     if puzzle_item.milestones:
         for ind, milestone in enumerate(puzzle_item.milestones):
-            if len(milestone.phrase) > 2:
+            if len(str(milestone.phrase)) > 2:
                 no_blank_phrase = milestone.phrase.replace(' ', '')
                 lines.append(f'    ??? info "里程碑 {ind+1}: {no_blank_phrase[0]}{"\\*"*(len(no_blank_phrase)-2)}{no_blank_phrase[-1]}"')
             else:

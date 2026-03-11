@@ -120,6 +120,7 @@ nav:
       - "[META] 一年又一年": puzzles/2c42db3cb12bedc9.md
       - "彩蛋-A puzzle only with meta": puzzles/ce39a1259d626754.md
       - "坏苹果！！": puzzles/b1d4d19b1aa8306d.md
+      - "？？？？Plus": puzzles/d56d7de985b306b6.md
     - 文件:
       - "推箱字": puzzles/b284b3cd52ef677d.md
       - "新手教程": puzzles/112731cdfebc7b56.md
@@ -128,8 +129,8 @@ nav:
     - 识图:
       - "年夜饭": puzzles/6cc72709f09c6618.md
     - 其他:
-      - "？？？？Plus": puzzles/d56d7de985b306b6.md
       - "拼图": puzzles/c174bd3d7465b4ea.md
+      - "3 small mazes": puzzles/3ba780ad22d1cc93.md
   - 解题工具:
     - tools/index.md
     - 必备: tools/必备/index.md
