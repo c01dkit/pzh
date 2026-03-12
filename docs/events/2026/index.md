@@ -1,6 +1,10 @@
 # 2026年赛事
 
-## Brown Puzzlehunt
+## 4月赛事
+
+---
+
+### Brown Puzzlehunt
 - 主题：Brown Puzzlehunt College
 - 时间：2026-04-19 12:00 ～ 2026-04-25 12:00
 - 主办方：Brown and RISD students
@@ -8,14 +12,23 @@
 
 Brown Puzzlehunt 2026 is the fourth annual puzzlehunt run by current Brown and RISD students. This hunt is designed to be a relatively easy introduction to puzzlehunting for beginner teams.
 
-## 欣年
+## 2月赛事
+
+---
+
+### 欣年
 - 主题：欣年3
 - 时间：2026-02-19 20:00 ～ 2026-02-28 23:59
 - 主办方：cn
+- 网站链接：[本站](/events/2026/4948bf9479046558/) · 官网链接已失效
 
 这是一个春节主题的puzzlehunt，兼具中西风味。谜题数量在20道以内。有彩蛋题，正确解答可参与抢红包活动。这是一个众筹HUNT，没有主办方。比赛原网址https://thrivingyear.fun/已失效。
 
-## SECO Puzzle Hunt
+## 1月赛事
+
+---
+
+### SECO Puzzle Hunt
 - 主题：捕/获/梦/境
 - 时间：2026-01-31 20:00 ～ 2026-02-12 20:00
 - 主办方：cn
@@ -23,7 +36,7 @@ Brown Puzzlehunt 2026 is the fourth annual puzzlehunt run by current Brown and R
 
 这是由一个不想起床的屑主办的解谜比赛，谜题数量在60道左右。
 
-## Abyssal Puzzle
+### Abyssal Puzzle
 - 时间：2026-01-23 20:00 ～ 2026-03-02 20:00
 - 主办方：cn
 - 网站链接：[本站](/events/2026/6488dae472f55a87/) · [官网](https://mp.weixin.qq.com/s/mFV75MQcd3WIB_f-_4vwvw)

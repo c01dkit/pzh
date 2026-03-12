@@ -1,5 +1,4 @@
 from pathlib import Path
-from .log import get_logger
 
 qu = ""
 quname = ""
@@ -225,7 +224,7 @@ SECOND CHANCE
 出题人：Riser"""
     target_file = ROOT/"src"/"resources"/"puzzle-configs"/f"puzzles-{event_id}.yml"
     if target_file.exists():
-        logger.critical(f"目标文件{target_file.name}已存在！")
+        print(f"目标文件{target_file.name}已存在！")
         return
     output_file = open(target_file, 'w', encoding='utf8')    
     for line in s.splitlines():
@@ -308,7 +307,7 @@ becomericher"""
     state = 1
     target_file = ROOT/"src"/"resources"/"puzzle-configs"/f"puzzles-{event_id}.yml"
     if target_file.exists():
-        logger.critical(f"目标文件{target_file.name}已存在！")
+        print(f"目标文件{target_file.name}已存在！")
         return
     output_file = open(target_file, 'w', encoding='utf8')
     for line in s.splitlines():
@@ -341,6 +340,5 @@ def find_project_root(marker: str = "mkdocs.yml") -> Path:
 
 if __name__ == '__main__':
     ROOT = find_project_root()
-    logger = get_logger(__name__)
     # get_7d7c349ada446bf4('7d7c349ada446bf4') # [2026] seco2 
     get_4948bf9479046558('4948bf9479046558') # [2026] 欣年3

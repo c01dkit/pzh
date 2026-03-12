@@ -1,6 +1,10 @@
 # 2016年赛事
 
-## mezzacotta
+## 10月赛事
+
+---
+
+### mezzacotta
 - 时间：2016-10-10 15:00 ～ 2016-10-18 15:00
 - 主办方：CiSRA
 - 网站链接：[本站](/events/2016/4bc609a82eb8c0a6/) · [官网](https://www.mezzacotta.net/puzzle/)

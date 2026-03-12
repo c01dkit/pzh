@@ -1,6 +1,10 @@
 # 2017年赛事
 
-## REDDOThunt
+## 9月赛事
+
+---
+
+### REDDOThunt
 - 主题：REDDOThunt 2017
 - 时间：2017-09-29 22:00 ～ 2017-10-01 22:00
 - 主办方：sg
@@ -8,7 +12,11 @@
 
 The REDDOThunt is a 48-hour online puzzle hunt.
 
-## Galactic Puzzle Hunt
+## 3月赛事
+
+---
+
+### Galactic Puzzle Hunt
 - 主题：Puzzleball Championships
 - 时间：2017-03-15 04:59 ～ 2017-03-24 04:59
 - 主办方：Galactic Trendsetters

@@ -39,6 +39,7 @@
 - [宝可梦] [彩蛋-A puzzle only with meta](/puzzles/ce39a1259d626754/)
 - [东方] [坏苹果！！](/puzzles/b1d4d19b1aa8306d/)
 - [宝可梦] [？？？？Plus](/puzzles/d56d7de985b306b6/)
+- [地铁] [解绳子](/puzzles/ed6753f10fa844d6/)
 
 ## 文件
 
@@ -57,3 +58,4 @@
 
 - [拼图](/puzzles/c174bd3d7465b4ea/)
 - [3 small mazes](/puzzles/3ba780ad22d1cc93/)
+- [FM](/puzzles/95186a45ba2ead0c/)

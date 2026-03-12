@@ -16,15 +16,6 @@
   year: 2023
   host: cn
   id: 1b318e06dd4191e3
-- name: SECO Puzzle Hunt
-  subtitle: 捕/获/梦/境
-  description: 这是由一个不想起床的屑主办的解谜比赛，谜题数量在60道左右。
-  url: https://archive.secopuzzle.com
-  start_time: 2026-01-31 20:00:00
-  end_time: 2026-02-12 20:00:00
-  year: 2026
-  host: cn
-  id: 7d7c349ada446bf4
 - name: Abyssal Puzzle
   description: null
   url: https://mp.weixin.qq.com/s/mFV75MQcd3WIB_f-_4vwvw
@@ -125,6 +116,15 @@
   year: 2025
   host: cn
   id: 552350cec0247e76
+- name: SECO Puzzle Hunt
+  subtitle: 捕/获/梦/境
+  description: 这是由一个不想起床的屑主办的解谜比赛，谜题数量在60道左右。
+  url: https://archive.secopuzzle.com
+  start_time: 2026-01-31 20:00:00
+  end_time: 2026-02-12 20:00:00
+  year: 2026
+  host: cn
+  id: 7d7c349ada446bf4
 - name: SECO Puzzle Hunt
   description: 初/入/梦/境
   url: https://archive.secopuzzle.com/index.html#/index?c=seco1/index

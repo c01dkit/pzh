@@ -13,11 +13,17 @@
   ft: '*连接终端中......请确认你已阅读相关教程。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: 请看PPT中的月亮。
-  - question: 该如何提取？
-    answer: 注意到PPT中的月亮有暗有亮，把暗作为0，亮作为1，读取五位二进制，转换为数字后a1z26提取。
-  milestones: null
+  - title: 我毫无头绪 (2提示点)
+    content: 请看PPT中的月亮。
+  - title: 该如何提取 (4提示点)
+    content: 注意到PPT中的月亮有暗有亮，把暗作为0，亮作为1，读取五位二进制，转换为数字后a1z26提取。
+  milestones:
+  - title: 琵琶拨尽四弦悲
+    content: 多年以后，面对通灵者，《写真一言》将会回想起 Winfrid 把它编写出来的那个遥远的下午……不管怎么样，我看是琵琶拨尽四弦悲？
+  - title: MYGO
+    content: MyGO!!!!!
+  - title: ENDOFTIME
+    content: 时间的尽头，不是现在。
   answer: CEMETERY
   ready: true
 - id: 66a8c9341dd63d93
@@ -34,10 +40,10 @@
   ft: 数字在方阵中各归其位，那些孤悬的独格，藏着解锁码牌的密钥。
   note: null
   hints:
-  - question: 本题规则是什么？
-    answer: 是数方（Shikaku）和码牌（Fillomino）的结合：将盘面划分为若干区域，使得每个区域均为矩形且至多包含一个数字，数字表示其所在区域的面积，任意两个相邻的区域面积都不同。
-  - question: 该如何提取？
-    answer: 找到唯一一个面积为1且不含数字的区域，按棋盘密码提取字母。
+  - title: 本题规则是什么？ (2提示点)
+    content: 是数方（Shikaku）和码牌（Fillomino）的结合：将盘面划分为若干区域，使得每个区域均为矩形且至多包含一个数字，数字表示其所在区域的面积，任意两个相邻的区域面积都不同。
+  - title: 该如何提取？ (4提示点)
+    content: 找到唯一一个面积为1且不含数字的区域，按棋盘密码提取字母。
   milestones: null
   answer: CHIPS
   ready: true
@@ -55,12 +61,12 @@
   ft: '&emsp;&emsp;*听说东方的人都喜欢吟诗作对。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: 这些都是现实中存在的诗词，你需要找到另外半句。
-  - question: 下一步要做什么？
-    answer: 每句诗中都隐藏着一个东方project角色的名字。
-  - question: 该如何提取？
-    answer: 用角色是第几个出现在Bad Apple!!的PV中提取（以公开的视频版本为准），中间有三个同时出现的一组角色只算一个。
+  - title: 我毫无头绪！ (2提示点)
+    content: 这些都是现实中存在的诗词，你需要找到另外半句。
+  - title: 下一步要做什么？ (4提示点)
+    content: 每句诗中都隐藏着一个东方project角色的名字。
+  - title: 该如何提取？ (6提示点)
+    content: 用角色是第几个出现在Bad Apple!!的PV中提取（以公开的视频版本为准），中间有三个同时出现的一组角色只算一个。
   milestones: null
   answer: SUIKA
   ready: true
@@ -77,12 +83,13 @@
   ft: '*这是一个简单的cw，真的*'
   note: null
   hints:
-  - question: 这道题和SECO1的《中英互译》有什么联系？
-    answer: 两道题的主题是一样的，这题甚至更简单！
-  - question: 可以帮我们检查一下盘面吗？
-    answer: 请在站内信回复【CET】并给出盘面，我们会尽快反馈。
+  - title: 这道题和SECO1的《中英互译》有什么联系？ (0提示点)
+    content: 两道题的主题是一样的，这题甚至更简单！
+  - title: 可以帮我们检查一下盘面吗？ (5提示点)
+    content: 请在站内信回复【CET】并给出盘面，我们会尽快反馈。
   milestones:
-  - phrase: BURNING FLASHLIGHT
+  - title: burning flashlight
+    content: 这是本题的中间答案！
   answer: TORCH
   ready: true
 - id: 4af8b39ab6395702
@@ -95,13 +102,13 @@
   - 中英对译
   author: Riser
   extractions: null
-  note: null
   ft: '*夜深了，让我来给你讲个童话故事吧*'
+  note: null
   hints:
-  - question: 我毫无头绪！
-    answer: 试着将加粗的词翻译成英文吧。
-  - question: 该如何提取？
-    answer: 下划线部分都有“删除部件”的意思，对你在上一步得到的东西也进行这样的操作。字母和汉字部件是对应的。
+  - title: 我毫无头绪！ (2提示点)
+    content: 试着将加粗的词翻译成英文吧。
+  - title: 该如何提取？ (5提示点)
+    content: 下划线部分都有“删除部件”的意思，对你在上一步得到的东西也进行这样的操作。字母和汉字部件是对应的。
   milestones: null
   answer: FOG
   ready: true
@@ -118,17 +125,17 @@
   ft: '&emsp;&emsp;*这里似乎举行过什么远古的仪式，但我却完全记不起来了……医生，你实话告诉我，我到底昏迷了多久？*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: 想想看，这样排列的12个点在哪里也出现过？本题标题和ft提示了需要找的地方。
-  - question: 可以具体解释一下吗？
-    answer: 本题的真实标题是《人为选择Plus》，对应SECO1的《人为选择》。
-  - question: 我得到了中间答案，但是我实在没法进行操作，可以告诉我这一步的结果吗？
-    answer: 请将中间答案中每个词的首字母合并提交，里程碑会告诉你结果。
+  - title: 我毫无头绪！ (1提示点)
+    content: 想想看，这样排列的12个点在哪里也出现过？本题标题和ft提示了需要找的地方。
+  - title: 可以具体解释一下吗？ (3提示点)
+    content: 本题的真实标题是《人为选择Plus》，对应SECO1的《人为选择》。
+  - title: 我得到了中间答案，但是我实在没法进行操作，可以告诉我这一步的结果吗？ (6提示点)
+    content: 请将中间答案中每个词的首字母合并提交，里程碑会告诉你结果。
   milestones:
-  - phrase: PAINT THE DOT WHITE
-    text: 使用填充工具将图中左上角的黑点填白吧！
-  - phrase: PTDW
-    text: 这道题的答案是CANNON。
+  - title: paint the dot white
+    content: 使用填充工具将图中左上角的黑点填白吧！
+  - title: ptdw
+    content: 这道题的答案是CANNON。
   answer: CANNON
   ready: true
 - id: a40753704cf84f3a
@@ -145,39 +152,39 @@
   ft: '*万国统一的第二平面上飘着好多不认识的字啊，要怎么让他们落到地上呢*'
   note: null
   hints:
-  - question: 我读不懂ft，请解释一下！
-    answer: 这是一系列字谜，但它们的答案位于Unicode的第二辅助平面（U+20000~U+2FFFF）上。
-  - question: 这些字太难找了，有什么比较高效的方法吗？
-    answer: 你可以先找比较容易看出来的部件，如第一段“朝鲜和韩国的共管地带”提示二者共有的部件（𠦝），再把找到的部件放进字统网里面搜索。
-  - question: 我找到了一些字，但是不知道下一步该如何进行？
-    answer: 每段话最后一句是对最终提取出的汉字的描述，想想ft后半段是在说什么。
-  - question: 该如何提取？
-    answer: 将这些汉字的Unicode编码最高位去掉，再依次读出得到的汉字。
-  - question: 可以直接告诉我一些小题的答案吗？
-    answer: 请在站内信回复【查询字典】并给出目前的答案，我们会尽快反馈。
+  - title: 我读不懂ft，请解释一下！ (2提示点)
+    content: 这是一系列字谜，但它们的答案位于Unicode的第二辅助平面（U+20000~U+2FFFF）上。
+  - title: 这些字太难找了，有什么比较高效的方法吗？ (3提示点)
+    content: 你可以先找比较容易看出来的部件，如第一段“朝鲜和韩国的共管地带”提示二者共有的部件（𠦝），再把找到的部件放进字统网里面搜索。
+  - title: 我找到了一些字，但是不知道下一步该如何进行？ (4提示点)
+    content: 每段话最后一句是对最终提取出的汉字的描述，想想ft后半段是在说什么。
+  - title: 该如何提取？ (4提示点)
+    content: 将这些汉字的Unicode编码最高位去掉，再依次读出得到的汉字。
+  - title: 可以直接告诉我一些小题的答案吗？ (4提示点)
+    content: 请在站内信回复【查询字典】并给出目前的答案，我们会尽快反馈。
   milestones:
-  - phrase: 𩙶
-    text: 这是本题的小题答案之一。
-  - phrase: 𦽜
-    text: 这是本题的小题答案之一。
-  - phrase: 𥖜
-    text: 这是本题的小题答案之一。
-  - phrase: 𧈱
-    text: 这是本题的小题答案之一。
-  - phrase: 𦤍
-    text: 这是本题的小题答案之一。
-  - phrase: 𧉩
-    text: 这是本题的小题答案之一。
-  - phrase: 𥍁
-    text: 这是本题的小题答案之一。
-  - phrase: 𤸉
-    text: 这是本题的小题答案之一。
-  - phrase: 𥭗
-    text: 这是本题的小题答案之一。
-  - phrase: 𦯍
-    text: 这是本题的小题答案之一。
-  - phrase: 陶潜喜爱植物十三字母
-    text: 这是本题的中间答案！
+  - title: 𩙶
+    content: 这是本题的小题答案之一。
+  - title: 𦽜
+    content: 这是本题的小题答案之一。
+  - title: 𥖜
+    content: 这是本题的小题答案之一。
+  - title: 𧈱
+    content: 这是本题的小题答案之一。
+  - title: 𦤍
+    content: 这是本题的小题答案之一。
+  - title: 𧉩
+    content: 这是本题的小题答案之一。
+  - title: 𥍁
+    content: 这是本题的小题答案之一。
+  - title: 𤸉
+    content: 这是本题的小题答案之一。
+  - title: 𥭗
+    content: 这是本题的小题答案之一。
+  - title: 𦯍
+    content: 这是本题的小题答案之一。
+  - title: 陶潜喜爱植物十三字母
+    content: 这是本题的中间答案！
   answer: CHRYSANTHEMUM
   ready: true
 - id: c174bd3d7465b4ea
@@ -191,12 +198,12 @@
   ft: 完整的图案将揭示最终的谜底。
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: 这是第一区的元谜题，你需要用到七个小题的答案。
-  - question: 我完成了拼图，然后呢？
-    answer: ft中的“完整”不只是指要拼出完整的图片。
-  - question: 该如何提取？
-    answer: 每个emoji对应一个字母，你需要找到每种emoji中唯一没有被分割的那个。
+  - title: 我毫无头绪！ (0提示点)
+    content: 这是第一区的元谜题，你需要用到七个小题的答案。
+  - title: 我完成了拼图，然后呢？ (8提示点)
+    content: ft中的“完整”不只是指要拼出完整的图片。
+  - title: 该如何提取？ (8提示点)
+    content: 每个emoji对应一个字母，你需要找到每种emoji中唯一没有被分割的那个。
   milestones: null
   answer: SECTION
   ready: true
@@ -211,22 +218,25 @@
   ft: '*传统的走迷宫，就是把起终点连成一条线，好无趣好无聊！*'
   note: null
   hints:
-  - question: 《坠物迷宫》的关键点在哪？
-    answer: 刺所在格是地板而不是墙，所以……
-  - question: 《弹簧迷宫》的关键点在哪？
-    answer: 不要把思维局限在封闭区域里，看看外面广阔的世界吧！
-  - question: 《推箱迷宫》的关键点在哪？
-    answer: 中间的大正方形也是一个箱子！
+  - title: 《坠物迷宫》的关键点在哪？ (3提示点)
+    content: 刺所在格是地板而不是墙，所以……
+  - title: 《弹簧迷宫》的关键点在哪？ (3提示点)
+    content: 不要把思维局限在封闭区域里，看看外面广阔的世界吧！
+  - title: 《推箱迷宫》的关键点在哪？ (4提示点)
+    content: 中间的大正方形也是一个箱子！
   milestones:
-  - phrase: WATER
-  - phrase: IN
-  - phrase: 32
-    text: 将前两题得到的较长单词中某个字母替换成较短单词，得到的新单词即为最终答案。
+  - title: water
+    content: 这是本题的小题答案之一。
+  - title: in
+    content: 这是本题的小题答案之一。
+  - title: 32
+    content: 将前两题得到的较长单词中某个字母替换成较短单词，得到的新单词即为最终答案。
   answer: WINTER
   ready: true
 - id: ed6753f10fa844d6
   event_id: 7d7c349ada446bf4
-  tool_ids: null
+  tool_ids:
+  - 52f8e8628d8a087c
   title: 解绳子
   round: 二区 - 沙海(2°32′S，43°7′W)
   topics:
@@ -235,17 +245,21 @@
   author: Riser
   extractions: null
   ft: 为什么许多人每天沿着这些绳子走？
-  note: 本题呈现方式为交互类型，请到原网站进行解题。
+  note: null
   hints:
-  - question: 第七题难度太大了！或许我忽略了什么？
-    answer: 你可以注意一下这些节点的颜色，把它们联系到ft上。
-  - question: 这道题的主题是什么？
-    answer: 地铁。
-  - question: 该如何提取？
-    answer: 找到标有数字的节点的英文名，用这些数字提取位数。
-  milestones: null
+  - title: 第七题难度太大了！或许我忽略了什么？ (2提示点)
+    content: 你可以注意一下这些节点的颜色，把它们联系到ft上。
+  - title: 这道题的主题是什么？ (2提示点)
+    content: 地铁。
+  - title: 这些题目分别对应什么？ (6提示点)
+    content: 请将本题主题对应的词语（中国大陆用法）重复两遍进行提交，里程碑会进行进一步的反馈。
+  - title: 该如何提取？ (3提示点)
+    content: 找到标有数字的节点的英文名，用这些数字提取位数。
+  milestones:
+  - title: 地铁地铁
+    content: 每道题对应的城市分别是：兰州、哈尔滨、南昌、无锡、南宁、昆明、宁波。
   answer: POPCORN
-  ready: false
+  ready: true
 - id: 53f2abd74539e8d7
   event_id: 7d7c349ada446bf4
   tool_ids: null
@@ -254,13 +268,19 @@
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: '*&emsp;&emsp;拿起画笔，搞点土派艺术！咦，你怎么还带了剪刀和胶水？*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 纸笔的基础规则是什么？ (2提示点)
+    content: 土派艺术，即 Tapa（https://pzplus.tck.mn/rules.html?tapa）。
+  - title: 纸笔的附加规则是什么？ (3提示点)
+    content: 某些边界是连通的。具体来说，你需要将三个纸笔盘面分别粘成一个圆筒，一个圆筒和一个......呃，甜甜圈？这是一张纸可以粘出来的吗？
+  - title: 我完成了纸笔部分，接下来要做什么？ (4提示点)
+    content: 将三个图的答案按三原色叠加到第四幅图中。
+  - title: 最后一幅图是什么意思？ (4提示点)
+    content: 你可以将它粘成一个立方体，每个面需要画上你得到的内容。
+  - title: 我还是不懂最后一幅图是什么？ (4提示点)
+    content: 这其实是一个魔方的展开图，你需要找出还原之后每个面上的图案是什么样的。
   milestones: null
   answer: VANGOGH
   ready: false
@@ -272,13 +292,17 @@
   topics: null
   author: WAHX
   extractions: null
-  ft: null
+  ft: '*他们曾经以为自己是世界的中心，而错位的格局一圈又一圈地蔓延，让多少楼台散入江南的烟雨之中*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 这道题和SECO1的《差序格局》有什么联系？ (3提示点)
+    content: 圆形仍然表示亲属关系，但这道题表示的是上帝视角，并且不区分性别。
+  - title: 能否再详细讲一下规则？ (3提示点)
+    content: 每张图的核心（即中心的实心圆）是这张图的主题，其外的每个圆代表一代人，本题主题下的一类重要人物用点表示。
+  - title: 空心点是什么意思？ (3提示点)
+    content: 它们代表的人物继承了所在图，但并不属于这些图。
+  - title: 这道题的主题是什么？ (6提示点)
+    content: 南朝皇帝。
   milestones: null
   answer: TANGELA
   ready: false
@@ -290,13 +314,17 @@
   topics: null
   author: King
   extractions: null
-  ft: null
+  ft: '*&emsp;&emsp;博物馆游览累了，你在餐厅点了一碗五花米线。然而，你被墙上的一幅幅图像和奇怪的介绍吸引了注意…奇怪…博物馆怎么会在年代上犯这种错误…？*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (2提示点)
+    content: ft 中的"博物馆"和"五花米线"提示了本题主题为某游戏。
+  - title: 我需要注意哪些部分？ (4提示点)
+    content: 你需要把文物的立绘、描述、所藏博物馆的所在地结合起来看。
+  - title: 请问有什么比较方便的数据库吗？ (3提示点)
+    content: https://wiki.biligame.com/whmx/
+  - title: 该如何提取和排序？ (6提示点)
+    content: 提取图片中未被遮挡部分对应的文物名称拼音，再根据相应的文字和地图上的数字进行恺撒，最后将所有字母按文物年代先后顺序进行排列。
   milestones: null
   answer: CONJOINT
   ready: false
@@ -308,14 +336,20 @@
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: '*&emsp;&emsp;对对碰是怎么玩的？你能教教我吗？*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我毫无头绪！ (2提示点)
+    content: 图片提示了《笠翁对韵》，你需要将相对的字消去。
+  - title: 下一步要做什么？ (4提示点)
+    content: 剩下的字可以拼成一个四字词语，它也提示了如何提取。
+  - title: 具体应该怎么提取？ (4提示点)
+    content: 使用用来得到中间答案的格子作为索引来提取。注意这种提取方式有两种常用的版本，你需要使用不含J的那种版本。
+  milestones:
+  - title: 四方密码
+    content: 这是本题的中间答案！
+  - title: red herring
+    content: 找错提取用的索引啦！
   answer: DOUBLE
   ready: false
 - id: 417fa605b94e4dce
@@ -326,13 +360,15 @@
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: '*是程式也，似藏玄机密语。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (2提示点)
+    content: 题目名可翻译为“代码评测”，题面的“蟒蛇”指示了本题使用的语言，以及题面最后有一句隐藏的话。
+  - title: 我该干什么？ (5提示点)
+    content: 判断每个代码程序运行后的评测状态，如AC(Accepted)。
+  - title: 该如何提取？ (3提示点)
+    content: 使用样例输出的正确结果作为index进行提取。
   milestones: null
   answer: CAT
   ready: false
@@ -344,14 +380,16 @@
   topics: null
   author: WAHX
   extractions: null
-  ft: null
+  ft: '*世界瞬息万变，疯狂星期四的脚步也无处不在，你还有上次狂欢的记忆吗*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我毫无头绪！ (2提示点)
+    content: 先搜索这些文字对应的历史事件。
+  - title: 需要找什么？ (4提示点)
+    content: 上一个星期四的具体日期。
+  milestones:
+  - title: LOCUST
+    content: 什么？我的疯四套餐被蝗虫吃了？没事，帮我写一段疯狂星期四文案并提交到站内信，我们再点一份！ 格式要求：在开头标注“【疯四文案】” （注：由于比赛已经结束，无人回复站内信，本题的答案是GOBBLE。想看看选手们都递交了些什么文案？请访问https://v50-seco2.eterill.workers.dev/）
   answer: GOBBLE
   ready: false
 - id: fca4d5aa7bcd1eb4
@@ -362,14 +400,24 @@
   topics: null
   author: Lana
   extractions: null
-  ft: null
+  ft: '*这是计划的一部分。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 应该如何理解本题机制？ (5提示点)
+    content: 例题的词是“璀璨”，阴影部分是“璀”的下半部分，即“堆”，然后用拼音进行恺撒。
+  - title: 能提示一下第1~4题吗？ (2提示点)
+    content: 它们分别是：一种动物、一个两字声旁均在右下角的形容词、一个与音乐有关的集合、一个提醒人多加提防的俗语。
+  - title: 能提示一下第5~6题吗？ (2提示点)
+    content: 它们都出自古诗，其中第6题需要旋转题面。
+  - title: 能提示一下第7~9题吗？ (2提示点)
+    content: 第7题是一个常见单词，第8题是一系列常见软件，第9题描述了一类化学反应。
+  - title: 能提示一下第10题吗？ (2提示点)
+    content: 每个字都可以分成上下两部分。
+  - title: 该如何提取？ (4提示点)
+    content: 最后一张图是对提取的字母的统计，那么横坐标是什么呢？
+  milestones:
+  - title: SAND
+    content: 这是本题的中间答案！那么，什么由沙子组成？(6)
   answer: DESERT
   ready: false
 - id: bc5bebaa199125d9
@@ -380,14 +428,38 @@
   topics: null
   author: WAHX/Light
   extractions: null
-  ft: null
+  ft: '*我们说的话，让世界都认真听话！*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 《心平如水》怎么做？ (3提示点)
+    content: ft中的“十三问”是某个集合的一部分，找到这个集合，然后用其中包含的其他元素回答这些问题。你可能需要用到搜韵网。
+  - title: 《浮声切响》怎么做？ (3提示点)
+    content: 先试着将图片用文字描述，然后注意声调，以及标题，还有ft中的“八”。如果仍然看不出来，请搜索“康托展开”。
+  - title: 《乐在其中》怎么做？ (3提示点)
+    content: 注意到ft可以在某两个位置同时插入“乐在其中”，且它们的读音不完全相同。
+  - title: 《海岛跳棋》怎么做？ (3提示点)
+    content: “海”和“岛”分别表示一种颜色，按顺序完成跳棋，然后注意“好题”可以从“海岛跳棋”进行某种变换得到。
+  - title: meta的ft是什么意思？ (2提示点)
+    content: 请将这句话放进浏览器搜索，你会得到一首唐诗。
+  - title: 该如何提取？ (5提示点)
+    content: 数数你最后得到的东西一共多少字，注意若汉字在其中重复，你需要同时提取所有出现的位置。
+  milestones:
+  - title: 处
+    content: 这是本题的小题答案之一。
+  - title: 望
+    content: 这是本题的小题答案之一。
+  - title: 悠
+    content: 这是本题的小题答案之一。
+  - title: 雨
+    content: 这是本题的小题答案之一。
+  - title: find rhyme index
+    content: 正确，请继续。
+  - title: virgo first word
+    content: 正确，请继续。
+  - title: dead moon king
+    content: 正确，请继续。
+  - title: 空山新后
+    content: 正确，请继续。
   answer: CAFES
   ready: false
 - id: fc495b2a8d00a39f
@@ -398,14 +470,22 @@
   topics: null
   author: 半次获释者
   extractions: null
-  ft: null
+  ft: 注意：请用纯数字回答下面的问题！
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 《认识大数》怎么做？ (3提示点)
+    content: 注意到每个题的答案除了数字之外都多出一些字母。
+  - title: 《不计其数》怎么做？ (3提示点)
+    content: “不计其数”就是不计入成语里面的数字，比如“在一起”对应“八九不离十（不离）”。
+  - title: 《排列各数》怎么做？ (3提示点)
+    content: 题目中的网站是oeis.org，这道题需要的数列在这个网站上都能查到。此外，第3题中最“平凡”的数是0。
+  milestones:
+  - title: 13918416691211
+    content: 这是本题的小题答案之一。
+  - title: 2791510001310001920010
+    content: 这是本题的小题答案之一。
+  - title: 19031590258481919471768704032010
+    content: 这是本题的小题答案之一。
   answer: VEGETABLE
   ready: false
 - id: f3805e9c647084bd
@@ -416,14 +496,20 @@
   topics: null
   author: 磬绿薄绒荷
   extractions: null
-  ft: null
+  ft: "* 隐藏于六面之中，\t 于褪色之处再现。\t 将一切合为一体，\t 答案如初心依然。\t *"
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 这道题为什么要叫《六八一十二》？ (1提示点)
+    content: 想想什么常见几何体同时存在6、8、12这三个元素。
+  - title: 我做完了crossword，然后呢？ (3提示点)
+    content: 这个crossword实际上是将立方体展开图连接在一起的，注意相邻两个展开图有且仅有一个面共用。
+  - title: 该如何提取？ (5提示点)
+    content: 取红色面对应的所有字母，从给定的格子开始按顺时针顺序读取。
+  - title: 我完全知道该怎么做了，但是提取出来好像不对？ (2提示点)
+    content: 去除红色所在图之后，每种图均存在且仅出现一次。
+  milestones:
+  - title: sendminigun
+    content: 本题正确答案是MINIGUN，请提交
   answer: MINIGUN
   ready: false
 - id: c7a0d49657fb6b01
@@ -434,14 +520,24 @@
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: '*对……对吗*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 这道题的主题是什么？ (2提示点)
+    content: 无情对。
+  - title: 该如何提取？ (4提示点)
+    content: 可以注意到每个句子中有一个数字。
+  - title: 我得到了一个奇怪的里程碑，接下来要做什么？ (3提示点)
+    content: 你需要对出最后这个无情对，你可以在题目中找到下联。
+  milestones:
+  - title: 五角星
+    content: 回答正确！请输入PENTAGRAM。
+  - title: 三分线
+    content: 这是本题的中间答案！
+  - title: 三分球
+    content: 这是本题的中间答案！
+  - title: 线外投篮得高分
+    content: 正确，请继续。
   answer: PENTAGRAM
   ready: false
 - id: f87121340b0200e2
@@ -452,13 +548,16 @@
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: '*孩子们在四线格上谱写着七彩的童年*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (2提示点)
+    content: 这些四线格实际上在模仿五线谱，你需要找到对应的歌曲。
+  - title: 这些方块是什么意思？ (4提示点)
+    content: 方块涂黑了一些英文单词。
+  - title: 每行分别是什么？ (5提示点)
+    content: Bingo、London Bridge、Mary had a little lamb、Old MacDonald had a farm、Row
+      row row your boat、Ten little Indians、Twinkle twinkle little star。
   milestones: null
   answer: HALLOWEEN
   ready: false
@@ -470,13 +569,19 @@
   topics: null
   author: Lana
   extractions: null
-  ft: null
+  ft: '*我们说好，每160天在这里交换一个勺绽。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (2提示点)
+    content: 这道题是对《文字游戏》的模仿，你需要按照指引修改文案推进剧情。
+  - title: 我想不出第一次修改！ (1提示点)
+    content: 按照指引，你需要把“隐语”的一个部件移到“日光”上。
+  - title: 我想不出第二次修改！ (2提示点)
+    content: “这段记录似乎……”中有一个词看上去很不自然，它们或许就是玄机所在。
+  - title: 我想不出第三次修改！ (3提示点)
+    content: 回顾本区剧情，澜夜一直想念的是谁呢？
+  - title: 该如何提取？ (3提示点)
+    content: 完成三次修改后会得到一段文本，其中暗示了提取方法，你需要将12句引文（注意“句”和“段”的区别）依次排开，再应用这种方法。
   milestones: null
   answer: MARINE
   ready: false
@@ -488,14 +593,22 @@
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: '*&emsp;&emsp;为什么 puzzle hunt 里还有遗传题啊！*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 这些表现型和基因对应什么？ (3提示点)
+    content: 六十四卦和六爻。
+  - title: 我看不懂这个基因遗传的规则？ (6提示点)
+    content: 有阴阳两种等位基因，男性阳为显性基因，女性阴为显性基因。
+  - title: 具体的提取方式是什么？ (2提示点)
+    content: 使用甲乙丙丁在周易中的爻辞来提取。
+  milestones:
+  - title: ABCD
+    content: 你做出了这道多选题的一个可能的答案，接下来该做这个puzzle了。
+  - title: BCD
+    content: 你做出了这道多选题的一个可能的答案，接下来该做这个puzzle了。
+  - title: 孟德尔
+    content: 请提交Mendel。
   answer: MENDEL
   ready: false
 - id: d09a8b4903f7e607
@@ -509,10 +622,10 @@
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 这个Wordle似乎做不出来？ (5提示点)
+    content: 在本题，空格被看成第27个字母。
+  - title: 这个Wordle的规则好像不太一样？ (10提示点)
+    content: 奇数行和偶数行各是一个单词。
   milestones: null
   answer: BECOMING
   ready: false
@@ -520,71 +633,85 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 未知图腾？
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: 嘉和逆天
   extractions: null
-  ft: null
+  ft: '*这些未知图腾是怎么回事？还好还有一些正常的*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我毫无头绪！ (3提示点)
+    content: 在浏览器中搜索标题，然后和题面进行比对。
+  - title: 我得到了中间答案，但我看不懂！ (5提示点)
+    content: 搜索(6)，看它的(4)。
+  milestones:
+  - title: meltans type
+    content: 这是本题的中间答案！
   answer: STEEL
   ready: false
 - id: af5443973725fd52
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 知识速记
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: '*用音乐来记忆知识点，似乎是个不错的选择*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (2提示点)
+    content: 你需要根据每一首音乐的内容来对应每种学科的一个知识点。
+  - title: 我听不懂怎么办？ (5提示点)
+    content: 请在站内信回复【碎片知识点】并给出需要提示的小题题号，我们会尽快反馈。
   milestones: null
   answer: GREAT WALL
   ready: false
 - id: 187227e857faf895
   event_id: 7d7c349ada446bf4
   tool_ids: null
-  title: 本题使用人工智能...
-  round: 三区 - 高塔
+  title: 本题使用人工智能合成技术，请仔细甄别
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: '*天上的星星，从西边看？还是从东边看*<br />注：存档站不设置存档，按L可以一键通关当前小关'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我似乎没找到个别图片对应的答案？ (0提示点)
+    content: 由于 AI 的能力问题，个别图片和答案的对应略有些牵强，对不起！请原谅 AI，智械危机的时候它会放你一马的！
+  - title: “从西边看”是什么意思？ (3提示点)
+    content: 你需要找到每个图对应的星座，它们都是88个星座之一。
+  - title: “从东边看”是什么意思？ (5提示点)
+    content: 做完“从西边看”之后，根据中间答案的提示你会得到“从东边看”需要的图，你需要找到每个图对应的星宿，它们都是二十八星宿之一。
+  milestones:
+  - title: rotate
+    content: 正确，请继续。
+  - title: kongju
+    content: 请输入scare。
+  - title: 恐惧
+    content: 请输入scare。
   answer: SCARE
   ready: false
 - id: db7bab3e11fa6edd
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 多重数独
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: '*织，连，独。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我不理解“织”和“独”！ (2提示点)
+    content: “织”指数织，每个数字表示连续的一段颜色，两段相同的颜色之间至少有一格是其他颜色；“独”就是正常的数独。
+  - title: 我不理解“连”！ (3提示点)
+    content: 在盘面内画若干条线，每条线连接一个绿色格子和一个红色格子，绿色格子内的数字表示从它出发的线的长度，所有格子都要被线通过。
+  - title: 我理解这些东西了还是做不出来，可以简化一下盘面吗？ (4提示点)
+    content: <a href="https://sudokupad.app/mee8b3rv2q"> 查看简化盘面 </a>
+  - title: 该如何提取？ (4提示点)
+    content: 将虚线框内的数字求和，按下面的顺序a1z26提取。
   milestones: null
   answer: TEARS
   ready: false
@@ -592,17 +719,21 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 到底是谁炸的群！
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: '*这些线索已经无需证明了，大家也公认如此，除了其中一条。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我做出来的答案似乎和最后的禁言对不上？ (5提示点)
+    content: 直接根据文字内容做出来的是群主的答案，你还需要找到两位管理员的答案，ft提示了该如何寻找。
+  - title: 群主和管理员是谁？ (3提示点)
+    content: 欧几里得、黎曼和罗巴切夫斯基。
+  - title: “除了其中一条”指什么？ (4提示点)
+    content: 欧式几何的第五公设。
+  - title: 该如何提取？ (4提示点)
+    content: 根据答案对应哪位管理员，按三进制提取。
   milestones: null
   answer: FLATTEN
   ready: false
@@ -610,71 +741,110 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 还在go
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: 26幕，五位少女和五位少女，笔歌墨舞地写下了属于自己的故事。
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我既没有B站大会员也坚决抵制盗版资源，这题太孬了！ (0提示点)
+    content: 对不起！你可以使用 https://trace.moe/ 这个工具辅助做题。
+  - title: 我毫无头绪！ (3提示点)
+    content: 你需要找到每张图片出自 MyGO!!!!! 或者 Ave Mujica 的第几集。
+  - title: 该如何提取？ (5提示点)
+    content: 得到中间答案后，用每张图时间的分钟数和秒数提取，第一列提示了索引的方法。
+  milestones:
+  - title: 奏春日影
+    content: 为什么要演奏春日影？！（恭喜解锁彩蛋！）
+  - title: 写盘诗
+    content: 这是本题的中间答案！
+  - title: 戏中千叫高外号为
+    content: 这是本题的中间答案！
   answer: TOMORIN
   ready: false
 - id: 6baada4688bf9d5e
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 游戏误学习
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: '*我要好好学习*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我卡在了第一步！ (4提示点)
+    content: 你需要找到每句诗缺少的那个字，如果无法识别汉字，请在站内信回复【古诗重叠】并给出目前进度，我们会尽快反馈。
+  - title: 我在第二步遗漏了什么导致第三步信息缺失？ (6提示点)
+    content: 需要注意视频跑酷部分的总时长为78=3*26秒，可以通过跑酷失误的时间点提取出一些内容。
+  milestones:
+  - title: HTML
+    content: 这是本题的中间答案！
+  - title: PDF
+    content: 这是本题的中间答案！
   answer: MYCENA
   ready: false
 - id: d82bb409322c2423
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 十诀
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: '*围棋中有一套自古流传下来的口诀……咦？这顺序对吗？*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我毫无头绪！ (2提示点)
+    content: ft 提示了围棋十诀。
+  - title: 我知道本题指示的是什么了，但是接下来需要做什么？ (4提示点)
+    content: 你需要在规则中找到【数据删除】对应的字，通过康托展开提取得到中间答案。
+  - title: “设立戒律的原则”有什么用？ (3提示点)
+    content: 得到中间答案后，根据规则开头的角色决定十位，按中间答案的提示寻找个位，提取得到最后的答案。
+  milestones:
+  - title: ronald knox
+    content: 这是本题的中间答案！
+  - title: knox
+    content: 恭喜你发现本题彩蛋！这是通过一条捷径得到的本题的中间答案。
+  - title: ansbowling
+    content: 这是本题的中间答案！请 answer bowling。
   answer: BOWLING
   ready: false
 - id: 4788fb328536754f
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 看！听！提！
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: '*本关考验的是匹配的能力以及对节奏感的把握*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (3提示点)
+    content: 你需要根据节奏把每一段音频对应到视频的一段中，并使用提取表格进行提取。
+  - title: 可以直接提供有声音的视频吗？ (6提示点)
+    content: <video controls width="320" height="240">   <source src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/01.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>  <video controls width="320" height="240">   <source
+      src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/02.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>  <video controls width="320" height="240">   <source
+      src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/03.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>  <video controls width="320" height="240">   <source
+      src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/04.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>  <video controls width="320" height="240">   <source
+      src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/05.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>  <video controls width="320" height="240">   <source
+      src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/06.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>  <video controls width="320" height="240">   <source
+      src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/07.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>  <video controls width="320" height="240">   <source
+      src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/08.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>  <video controls width="320" height="240">   <source
+      src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/09.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>  <video controls width="320" height="240">   <source
+      src="https://image.secopuzzle.com/SECO2/%E7%9C%8B%EF%BC%81%E5%90%AC/simple/10.mp4"
+      type="video/mp4">   您的浏览器不支持视频播放。 </video>
   milestones: null
   answer: APOCALYPSE
   ready: false
@@ -682,17 +852,21 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 宝可梦家族
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: 嘉和逆天
   extractions: null
-  ft: null
+  ft: 这些宝可梦家族是真不小，有些甚至跨越了世代和地区……
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (1提示点)
+    content: 你需要搜索这些进化图谱中对应的宝可梦，你或许需要用到神奇宝贝百科（wiki.52poke.com）。
+  - title: 有没有其他线索可以帮我确定具体的宝可梦？ (3提示点)
+    content: 注意圈的颜色，圈内颜色为宝可梦第一属性颜色。
+  - title: 该如何提取？ (4提示点)
+    content: 按数字提取宝可梦名称的英文字母。
+  - title: 该如何排序？ (3提示点)
+    content: 注意ft中的“世代”，需要提取的八只宝可梦恰好分别出现在第一到第八世代。或者你可以直接按宝可梦的编号排序。
   milestones: null
   answer: BROTHERS
   ready: false
@@ -700,17 +874,21 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 烂柯人观棋记
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: WAHX
   extractions: null
-  ft: null
+  ft: '*相传晋人王质樵于山中，忽见二仙人临于江上，对弈正酣。王质观之，棋盘之上，一局方毕，而棋盘之外，世殊事异，古今已变。* '
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (2提示点)
+    content: 注意到ft中加粗的字，其中隐藏了一个文化术语，你或许可以从一些刻意的描述入手。
+  - title: 要在哪些地方找相关内容？ (4提示点)
+    content: 注意到第18段加粗的字，回想烂柯人叫什么。
+  - title: 该如何提取？ (3提示点)
+    content: 每处关键内容对应两个句子。
+  - title: 可以具体说明一下吗？ (3提示点)
+    content: 本体主题的“棋”提示了一种加密方法，最后按时间顺序排序。
   milestones: null
   answer: NELUMBO
   ready: false
@@ -718,17 +896,19 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 一一对应
-  round: 三区 - 高塔
+  round: 三区 - 高塔(3°45′S，73°15′W)
   topics: null
   author: 纪录片/Riser
   extractions: null
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 冒号前的部分有什么用？ (5提示点)
+    content: 它们是分类的关键词，每个小题的题面或做法都包含其中某类的关键词。
+  - title: 冒号后的部分有什么用？ (5提示点)
+    content: 每句描述对应一个小题答案，其中每个汉字对应一个字母。
+  - title: 该如何提取？ (3提示点)
+    content: 注意到文本里有从一到十的汉字各一个。
   milestones: null
   answer: FRIENDSHIP
   ready: false
@@ -736,71 +916,139 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 联络处
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: Lana
   extractions: null
-  ft: null
+  ft: '*织成纹绺不须机*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我看不懂例题！ (3提示点)
+    content: 每小题中，一些字母组合表示一个汉字部件，字母组合组成的单词近义于汉字部件组成的字。第一个例子中，hamlet=村，shoot=射，因此hamleshoot=榭。
+  - title: 该如何提取？ (4提示点)
+    content: 末尾有25个o，将前面25个数表示的字母填进去。最后5个字母的意义很特殊。
+  - title: 最后一步该怎么做？ (4提示点)
+    content: 在前面找到这些字母组合对应的汉字部件，组成一个两字词语。
+  milestones:
+  - title: 景点
+    content: 这是本题的中间答案！
+  - title: scenic spot
+    content: 正确答案是一个以a开头的单词。
   answer: ATTRACTION
   ready: false
 - id: 7282779c2aa2a711
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 声・韵・调
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: Lana
   extractions: null
-  ft: null
+  ft: '*是向往，还是妄想*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我看不懂例题！ (2提示点)
+    content: 拼音重排。方头括号里的符号提示你哪些前后一样、哪些前后交换、哪些完全相同。
+  - title: 最后一小关是如何得到字母的？ (4提示点)
+    content: 某处提示了三进制转换方法。
+  - title: 最后一步该怎么做？ (4提示点)
+    content: 将你得到的两个单词各翻译成一个汉字，然后按要求进行拼音重排，你会得到某一事物的古代雅称。
+  milestones:
+  - title: 寒酥
+    content: 这是本题的中间答案！
   answer: SNOW
   ready: false
 - id: 157851a613efe883
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 8番SECO
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: 为照顾没有参赛的玩家，请点击左侧【<svg data-v-1adae20c="" t="1772070551027" class="icon" viewBox="0
+    0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="6634" width="16"
+    height="16"><path data-v-1adae20c="" d="M248.768295 434.912297c15.133675 0 29.9358-2.030239
+    44.261063-5.529947 0.769526 1.051959 1.198292 2.275833 2.153036 3.230578l64.396659
+    64.396659c4.89345 4.89345 11.30344 7.339152 17.714454 7.339152 6.40999 0 12.821003-2.445702
+    17.714454-7.339152 9.7869-9.785877 9.7869-25.640983 0-35.427884l-52.420907-52.432163c13.237489-7.829316
+    25.690102-17.200754 36.859489-28.381397 5.088902-5.088902 9.750061-10.496052 14.165628-16.050558l53.962006
+    53.949726c4.892427 4.89345 11.30344 7.339152 17.71343 7.339152 6.412037 0 12.821003-2.446725
+    17.71343-7.339152 9.7869-9.7869 9.7869-25.640983 0-35.427884l-63.135946-63.124689c8.967232-21.922289
+    13.70207-45.581128 13.713326-69.999261 0-49.348941-19.230993-95.738481-54.132898-130.652665-38.143739-38.143739-90.698698-57.545624-144.757918-53.459562-9.762341
+    0.733711-18.190291 7.094582-21.592784 16.269545-3.388167 9.175987-1.136893 19.500123
+    5.786797 26.423813l32.847106 32.859385c14.887059 14.900362 23.096021 34.69315
+    23.096021 55.758931 0 21.042245-8.208962 40.859593-23.109324 55.759955-29.77514
+    29.751604-81.742722 29.751604-111.518886 0l-32.847106-32.859385c-6.924713-6.948249-17.23657-9.17394-26.412556-5.773494-9.187243
+    3.400446-15.536858 11.81714-16.282848 21.578458-4.097318 53.925167 15.378246 106.675578
+    53.460586 144.770198C153.017534 415.681304 199.41833 434.912297 248.768295 434.912297zM195.957509
+    326.280158c34.449603 0 66.831105-13.431917 91.186815-37.777395 24.369014-24.369014
+    37.777395-56.739259 37.789675-91.187839 0-25.176402-7.16826-49.251727-20.515243-69.877487
+    14.569834 6.581905 27.965935 15.830547 39.599903 27.452235 25.433252 25.445532
+    39.452547 59.258639 39.452547 95.224782 0 35.967166-14.020318 69.77925-39.452547
+    95.224782-25.445532 25.445532-59.270918 39.464827-95.249341 39.464827-35.966143
+    0-69.791529-14.019295-95.224782-39.441291-11.54801-11.54801-20.747533-24.955368-27.329439-39.538505C146.815275
+    319.134411 170.841481 326.280158 195.957509 326.280158z" p-id="6635" fill="currentColor"></path><path
+    data-v-1adae20c="" d="M902.606721 640.237663c-34.900881-34.889625-81.303724-54.120618-130.651642-54.120618-25.032116
+    0-49.27731 4.991688-71.66418 14.410198L580.586586 480.860792l201.484897-207.429283c22.790052-14.288424
+    45.300742-36.236296 50.755987-49.789986 5.65172-14.044878 7.878434-27.916816 4.929266-30.828123-2.933819-2.935865-7.742335-7.756661-10.69048-10.692526s-16.832364-0.733711-30.851659
+    4.919033c-13.726629 5.553483-36.150338 28.699646-50.426483 51.844785L403.263995
+    591.499635l-84.361363-8.489348c-7.52437-0.685615-14.729469 1.834788-20.026102
+    7.020904-18.300808 17.909905-176.210257 178.583305-182.76658 185.263447-41.886993
+    41.86141-43.99091 92.043323-5.614881 134.24754 18.803251 20.674878 43.049468 31.930223
+    70.134337 32.56672 0.795109 0 1.602498 0.023536 2.397606 0.023536 31.500435 0
+    59.992349-14.387685 74.855872-29.287023 62.965054-65.399499 162.178683-167.230746
+    177.48325-179.684382 10.739599-8.734942 12.355399-24.51637 3.631714-35.232432-8.733918-10.741645-24.538883-12.380982-35.243689-3.620457-22.582321
+    18.349927-165.713182 166.911474-181.640943 183.450149-6.15314 6.166443-22.680559
+    15.292288-40.321334 14.241352-13.408381-0.319272-24.613584-5.603625-34.228569-16.173354-13.554714-14.901385-25.360598-35.795251
+    4.134157-65.253166 1.493004-1.517563 136.084375-138.483005 173.983543-176.528506l84.61719
+    8.512884c7.695263 0.735757 15.145955-1.981121 20.478404-7.484462l32.945343-33.912367
+    128.267339 128.255059c-3.083222 13.481036-4.844332 27.330462-4.844332 41.49609
+    0 49.349965 19.232017 95.738481 54.133921 130.652665 34.814923 34.840506 81.20344
+    54.022381 130.615826 54.022381 4.709255 0 9.41851-0.170892 14.129812-0.537236
+    9.761318-0.733711 18.190291-7.096628 21.591761-16.269545 3.40147-9.175987 1.150196-19.501146-5.774517-26.423813l-32.847106-32.859385c-30.742165-30.754444-30.742165-80.789001
+    0.01228-111.544469 29.777187-29.751604 81.743746-29.751604 111.51991 0l32.847106
+    32.859385c6.91141 6.92369 17.21201 9.149381 26.411533 5.773494 9.187243-3.400446
+    15.536858-11.81714 16.282848-21.578458C960.164624 731.082694 940.689061 678.332283
+    902.606721 640.237663zM498.635109 565.222155l47.038316-48.419779 110.321618 110.296035c-5.089925
+    4.110621-10.019191 8.465812-14.71719 13.162788-11.584849 11.574616-21.263279 24.51637-29.263487
+    38.314631L498.635109 565.222155zM824.764841 694.773743c-34.449603 0-66.830081
+    13.407358-91.186815 37.751812-43.674709 43.674709-49.423643 111.152543-17.22429
+    161.088862-14.59644-6.605442-28.015054-15.8285-39.649022-27.475771-25.433252-25.445532-39.45357-59.258639-39.45357-95.224782
+    0-35.966143 14.019295-69.77925 39.45357-95.225805 25.444509-25.444509 59.269895-39.463804
+    95.250364-39.463804 35.96512 0 69.789483 14.019295 95.223758 39.440267 11.54801
+    11.54801 20.747533 24.956392 27.329439 39.538505C873.907075 701.892885 849.878822
+    694.773743 824.764841 694.773743z" p-id="6636" fill="currentColor"></path></svg>】后手动开始才能体验本题的交互部分。部分手机浏览器无法体验本题可以换用[via/X浏览器]。
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 本题请使用交互区内的提示功能，感谢！
+    content: 喵～
+  milestones:
+  - title: 琵琶拨尽四弦悲
+    content: 多年以后，面对通灵者，《写真一言》将会回想起 Winfrid 把它编写出来的那个遥远的下午……不管怎么样，我看是琵琶拨尽四弦悲？
+  - title: MYGO
+    content: MyGO!!!!!
+  - title: ENDOFTIME
+    content: 时间的尽头，不是现在。
   answer: PERFUMED
   ready: false
 - id: f594000fef53ffa0
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 像素小游戏
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: Light
   extractions: null
-  ft: null
+  ft: '*看起来是个复古的电子游戏*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我有小题需要提示！（该提示不包含3-5答案回复） (4提示点)
+    content: 请在站内信回复【Pixel Game】并给出需要提示的小题题号，我们会尽快反馈。
+  - title: 3-5的答案是什么？ (6提示点)
+    content: Counting Pixels。
+  - title: 我做完了所有题目，该怎么得到答案？ (4提示点)
+    content: 仔细观察标题界面，你会找到得到答案需要什么；你或许也需要仔细观察和理解第三部分的题目和题目答案。
   milestones: null
   answer: PUFF
   ready: false
@@ -808,35 +1056,51 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 盲人摸字
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: WAHX
   extractions: null
-  ft: null
+  ft: '*汉字，汉字，你的笔画为什么那么长*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 可以告诉我一些技巧吗？ (2提示点)
+    content: 最关键的是怎么找到汉字的边界。你可以从比例突变点、1.0区域、4.0区域等位置入手。
+  - title: 第一个字是什么？ (1提示点)
+    content: 火。
+  - title: 第二个字是什么？ (1提示点)
+    content: 牙。
+  - title: 第三个字是什么？ (1提示点)
+    content: 纪。
+  - title: 第四个字是什么？ (2提示点)
+    content: 空。
+  - title: 第五个字是什么？ (2提示点)
+    content: 钱。
+  - title: 第六个字是什么？ (2提示点)
+    content: 越。
+  - title: 我实在不想做了，可以直接告诉我最终的提取方法吗？ (4提示点)
+    content: 请在这些汉字中选择部件，拼成一款游戏的名字。
+  milestones:
+  - title: 穿越火线
+    content: 答对了！请提交它的英文名。(9)
   answer: CROSSFIRE
   ready: false
 - id: e8db31fde4c52b50
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: f(字)
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: Lana
   extractions: null
-  ft: null
+  ft: '*&emsp;&emsp;我挑选，我封装，我转体，我开窗，我均分，我坠落，我折光。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (1提示点)
+    content: 例图和ft给出了本题需要的七种变换方法，分别是：只保留某一种笔画、给出部件凸包及其笔画数、将所有笔画绕中心旋转某个角度、只保留一条狭缝、用等距方格表示笔画（一个封闭区域里有一个笔画）、将所有笔画向下平移直到接触底边、只给出笔画折点（折点指仅与两条成一定角度的线相连的点）。
+  - title: 救命，我看不出这些字到底是什么！ (6提示点)
+    content: 请在站内信回复【展！】并给出目前进度，我们会尽快反馈。
+  - title: 最后一步该怎么做？ (4提示点)
+    content: 将你得到的部件象形成英文字母，得到答案。
   milestones: null
   answer: COPSY
   ready: false
@@ -844,35 +1108,47 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 随蓝百练
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: WAHX
   extractions: null
-  ft: null
+  ft: '*解谜太累？不如做点小题轻松一下！*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 随蓝是什么题型？ (0提示点)
+    content: 每道题描述了一个词，题干开头【】的内容是这个词的首字母和字数，如“随蓝”表示为【S2】。
+  - title: 我知道该怎么提取了，但是我得到的100个东西该怎么用？ (4提示点)
+    content: 你可以关注第47题的答案，看看这100个东西在其中出现的顺序。
+  - title: 最后一步该怎么做？ (4提示点)
+    content: 将你得到的99个东西每三个分为一组进行三进制提取，然后把得到的英文句子放到浏览器里搜索。
+  milestones:
+  - title: in mc edu to combine four sodium acetate
+    content: 这是本题的中间答案！
   answer: ICE BOMB
   ready: false
 - id: 01a235ef0c06c8a8
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: Mini Linker
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: 半次获释者/King
   extractions: null
-  ft: null
+  ft: '*还是尽可能把线连的细一点吧！*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 《连线教学》怎么做？ (2提示点)
+    content: 你需要依照左右两侧的共同汉字进行连接。
+  - title: 《天各一方》怎么做？ (3提示点)
+    content: “斗地主中出现的牌型”大概就是类似334455这样子的。“常见的纸笔谜题”是星战。“已被推翻的物理模型”表现为电子在原子内部均匀分布，而非类似太阳系的圈层结构。
+  - title: 《🧵》怎么做？ (3提示点)
+    content: 上面的五类分别是中国象棋、麻将、50层魔塔、加密方式和保卫萝卜。
+  - title: 《暗藏玄机》怎么做？ (3提示点)
+    content: 注意圈出来的字，以及它和“左右”或“东西”的关系。
+  - title: 《拆弹专家》怎么做？ (3提示点)
+    content: 最中间的（第三个）需要留下的数字是15。
+  - title: 《回到简单》怎么做？ (4提示点)
+    content: 将你前面得到的所有小题答案填入对应“？”中，然后按第一题的方法进行连线。
   milestones: null
   answer: DUKE CHERRY
   ready: false
@@ -880,17 +1156,17 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 朝复夕
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: Lana
   extractions: null
-  ft: null
+  ft: 闭上眼感受韵脚之意，随诗行推进轮转不止息。
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (2提示点)
+    content: 关注每个字的韵母。
+  - title: 该如何提取？ (6提示点)
+    content: 注意到每三个字就会出现一个韵母为i（和夕押韵）的字，它们是分界线。闭上眼感受吧。
   milestones: null
   answer: TRIPLETS
   ready: false
@@ -898,17 +1174,25 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 八方来词
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: WAHX/花落星飞/小汤圆
   extractions: null
-  ft: null
+  ft: 看上去就是普通的crossword……不对，我怎么什么都看不懂？
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我毫无头绪！ (2提示点)
+    content: 本题的描述进行了Unicode恺撒，你或许可以试试对第一条clue进行恺撒操作。
+  - title: 我得到了一些答案，但是应该怎么填进格子？ (4提示点)
+    content: 注意盘面外侧的“↑+10”和“→+1”，它们指示了答案的方向。
+  - title: 能具体说明怎么填写吗？ (6提示点)
+    content: 每条描述的Unicode偏移量表示了答案第一个字到第二个字的移动方法，后续的字顺次移动。
+  - title: 最后一步该怎么做？ (4提示点)
+    content: 将标出的格子象形转换为片假名，再按题目指示的顺序a1z26提取，注意有三个字只取一部分。
+  - title: 我认为我已经到最后一步了，但是怎么完全提不出来？ (2提示点)
+    content: 你或许把恺撒的方向弄反了。正确的填法中，红色底色的格子应填入一个三画的字。
+  - title: 救命，我做不出这些答案！ (4提示点)
+    content: 请在站内信回复【来词，来】并给出目前进度，我们会尽快反馈。
   milestones: null
   answer: PSYCHOL
   ready: false
@@ -916,35 +1200,115 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 雪崩
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: Lana
   extractions: null
-  ft: null
+  ft: '*纷飞的画纸如雪片一样，它们飘扬，堆积，连结，直到——崩塌。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 第一步该做什么？ (2提示点)
+    content: 将一共66张图片分类分层。本小题有五个小meta，为大meta（在图03）提供线索。
+  - title: 救命，我做不出这些题！ (0提示点)
+    content: 请在站内信回复【雪崩】并给出目前进度，我们会尽快反馈。收费标准为小题0.5提示点，小meta3提示点，最终提取6提示点。
+  milestones:
+  - title: 01at
+    content: 本题答案正确！
+  - title: 02白
+    content: 本题答案正确！
+  - title: 05差
+    content: 本题答案正确！
+  - title: 06春
+    content: 本题答案正确！
+  - title: 07大合唱
+    content: 本题答案正确！
+  - title: 10冬
+    content: 本题答案正确！
+  - title: 12〢
+    content: 本题答案正确！
+  - title: 16封
+    content: 本题答案正确！
+  - title: 17古
+    content: 本题答案正确！
+  - title: 18故意
+    content: 本题答案正确！
+  - title: 20和
+    content: 本题答案正确！
+  - title: 22积
+    content: 本题答案正确！
+  - title: 23戋
+    content: 本题答案正确！
+  - title: 24荐
+    content: 本题答案正确！
+  - title: 25纟
+    content: 本题答案正确！
+  - title: 26动机
+    content: 本题答案正确！
+  - title: 28酒
+    content: 本题答案正确！
+  - title: 29居中的竖线
+    content: 本题答案正确！
+  - title: 30开水
+    content: 本题答案正确！
+  - title: 32立
+    content: 本题答案正确！
+  - title: 34铃
+    content: 本题答案正确！
+  - title: 39念
+    content: 本题答案正确！
+  - title: 41overline
+    content: 本题答案正确！
+  - title: 47上箭头
+    content: 本题答案正确！
+  - title: 48勺
+    content: 本题答案正确！
+  - title: 50尸
+    content: 本题答案正确！
+  - title: 52寺
+    content: 本题答案正确！
+  - title: 53the
+    content: 本题答案正确！
+  - title: 56夏
+    content: 本题答案正确！
+  - title: 60衣
+    content: 本题答案正确！
+  - title: 61又
+    content: 本题答案正确！
+  - title: 63中
+    content: 本题答案正确！
+  - title: 64中药材
+    content: 本题答案正确！
+  - title: 65子弹
+    content: 本题答案正确！
   answer: BLUE
   ready: false
 - id: bbf5332052392268
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 定量分析
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: Lana
   extractions: null
-  ft: null
+  ft: '*感谢购买SECO晚报！*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 左上角的两个扇形图分别是什么？ (2提示点)
+    content: 芬兰和法国国旗中的颜色比例。
+  - title: 正上方的灰色扇形图是什么？ (2提示点)
+    content: 对墙角的象形。
+  - title: 正上方的绿色扇形图是什么？ (2提示点)
+    content: 对某个单词进行a1z26之后每个字母占总和的比例。
+  - title: 右上角的两个扇形图是什么？ (2提示点)
+    content: 对字母频率的统计，两个单词的相同字母使用相同的颜色。
+  - title: 左侧中间的扇形图是什么？ (2提示点)
+    content: 空气中某类成分中各个成分的占比。
+  - title: 左下角的三个扇形图是什么？ (2提示点)
+    content: 一部著名日本动漫中机体的颜色。
+  - title: 正中间“SECO晚报”下方的图形是什么？ (2提示点)
+    content: 这是一首日文歌曲的开头部分，它的作者是米津玄师。
+  - title: 该如何提取？ (4提示点)
+    content: 把各个扇形图象征的单词按长度填入右下的格子里。
   milestones: null
   answer: AFFLUENT
   ready: false
@@ -952,71 +1316,141 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 谷歌翻译
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: 花落星飞
   extractions: null
-  ft: null
+  ft: '*怎么谷歌翻译了50次以后变成了这样，我要好好想想原来是什么东西。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 这些句子是怎么得来的？ (3提示点)
+    content: 把汉语句子谐音成英语常见词汇，然后再逐词翻译成汉语。
+  - title: 第1句是什么？ (1提示点)
+    content: 桃李不言，下自成蹊。
+  - title: 第2句是什么？ (1提示点)
+    content: 东边日出西边雨。
+  - title: 第3句是什么？ (1提示点)
+    content: 机不可失，时不再来。
+  - title: 第4句是什么？ (1提示点)
+    content: 兵来将挡，水来土掩。
+  - title: 第5句是什么？ (1提示点)
+    content: 屋漏偏逢连夜雨。
+  - title: 第6句是什么？ (1提示点)
+    content: 旱的旱死，涝的涝死。
+  - title: 第7句是什么？ (1提示点)
+    content: 万事俱备，只欠东风。
+  - title: 第8句是什么？ (1提示点)
+    content: 帮人帮到底，送佛送到西。
+  - title: 第9句是什么？ (1提示点)
+    content: 八九不离十。
+  - title: 第10句是什么？ (1提示点)
+    content: 只字不提。
+  - title: 第11句是什么？ (1提示点)
+    content: 儿行千里母担忧。
+  milestones:
+  - title: 下雨时挡雨的东西八字母
+    content: 这是本题的中间答案！
   answer: UMBRELLA
   ready: false
 - id: 2446459fc577d4d5
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 画布之间
-  round: 四区 - 花原
+  round: 四区 - 花原(29°32′N，103°20′E)
   topics: null
   author: 半次获释者/Riser
   extractions: null
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我需要简化第一步的盘面！ (4提示点)
+    content: <a href="https://sudokupad.app/ix3c6s3ef1"> 查看简化盘面 </a>
+  - title: 我需要简化第二步的盘面！ (4提示点)
+    content: 请提交你在上一步得到的倒数第二行的9个数字。
+  - title: 该如何提取？ (8提示点)
+    content: 两个盘面上黄色和灰色色块上的数字对应了提取位数，用它们依次对小题答案进行提取，然后按照给出顺序重新排序，答案是26个字母的一句话。
+  milestones:
+  - title: differentshadesofonecolour
+    content: 请使用浏览器搜索此答案，带空格。答案是10个字母的单词。
+  - title: 816327495
+    content: 这一步的简化盘面为：https://sudokupad.app/lpva5bjge8
+  - title: 348219567592763814
+    content: 虽然补全了，但是画布并没有发出任何动静。你突然想到： 从你的视角来看是这样的，但是，从她的视角看呢？ https://sudokupad.app/nkzuvc6fod
+  - title: 584297361362481957
+    content: 你们复原了她眼中的画布，咔哒一声，画布旁边的柜子打开了，里面是一张纸条。你们拿起了纸条，似乎得到了一串和涂色区域有关的数字… （有色）16
+      8 13 3 18 24 5 1 26 11 23 12 20 （无色）9 19 17 4 10 22 2 21 6 15 7 25 14 究竟如何使用纸条上面的数字，和涂色区域上面的所有数字呢？
   answer: MONOCHROME
   ready: false
 - id: 257cd2bf2907af9c
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 我的世界
-  round: 五区 & 过渡 - 暗格 / 过渡
+  round: 五区 & 过渡 - 暗格 / 过渡(48°52′S，123°26′W)
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: '*欢迎参加 Minecraft Puzzle Hunt 比赛！本教程将帮助你快速了解游戏规则和操作方法。*'
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我没有电脑怎么办？ (0提示点)
+    content: 很抱歉，本题暂无手机端兼容，你可以通过购买下面的提示通过本题。
+  - title: 可以给我一个不需要进入游戏的纯题目版本吗？ (15提示点)
+    content: <h3>移动迷宫</h3> <p>象形√81</p>  <h3>简单跑酷</h3> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/paoku.png"
+      width="300">  <h3>破损数码管</h3> <a href="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/%E7%A0%B4%E6%8D%9F%E6%95%B0%E7%A0%81%E7%AE%A1.xlsx">下载破损数码管.xlsx</a>  <h3>奇怪音频</h3>
+      <audio src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/block.mp3"
+      controls></audio>  <h3>树林秘密</h3> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/flower.png"
+      width="300">  <h3>见证者洞穴</h3> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/6.1.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/6.2.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/6.3.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/6.4.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/6.5.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/6.6.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/6.7.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/6.8.png"
+      width="150">  <h3>黑白视错觉</h3> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/eye.png"
+      width="300">  <h3>立体峡谷</h3> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.1.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.2.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.3.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.4.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.5.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.6.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.7.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.8.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.9.png"
+      width="150"> <img src="https://image.secopuzzle.com/SECO2/%E6%88%91%E7%9A%84%E4%B8%96%E7%95%8C/withoutmc/8.10.png"
+      width="150">
+  - title: 本题的答案是什么？ (80提示点)
+    content: PLANTING。
+  - title: 为什么我按题目顺序提取不出来？ (0提示点)
+    content: 因为防爆破，所以是乱序的。
+  milestones:
+  - title: hpms
+    content: 【来自EterIll的私货】欢迎加入HPMS玩家社群https://qm.qq.com/q/1QA7vI3FI8 谢谢喵
   answer: PLANTING
   ready: false
 - id: 1a576f21eb71e29a
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 规则怪谈
-  round: 五区 & 过渡 - 暗格 / 过渡
+  round: 五区 & 过渡 - 暗格 / 过渡(48°52′S，123°26′W)
   topics: null
   author: Riser
   extractions: null
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 这道题的主题是什么？ (3提示点)
+    content: 植物大战僵尸。
+  - title: 该如何使用小题答案？ (6提示点)
+    content: 你需要将小题答案分别对应到本题主题的一个元素。
+  - title: 为什么我只能数出47道小题，第48道在哪里？ (10提示点)
+    content: 注意看五区剧情，其中缚雪说明了五区题目同时作为故事碎片（小题）和最终印象（meta）。
+  - title: 我完成了第一步，但是接下来该怎么做？ (3提示点)
+    content: ft给出了五条格式，回想一下，你之前在哪些地方看到过这样格式的文字呢？
+  - title: 可以详细说明一下吗？ (6提示点)
+    content: 你需要将前面所有小题的ft和本题每条规则的格式对应。
+  - title: 该如何提取？ (8提示点)
+    content: 完成扫雷盘面，用不是雷的地方读取盲文。
   milestones: null
   answer: PVZPENNY
   ready: false
@@ -1024,17 +1458,15 @@
   event_id: 7d7c349ada446bf4
   tool_ids: null
   title: 我来秋浦正逢秋
-  round: 五区 & 过渡 - 暗格 / 过渡
+  round: 五区 & 过渡 - 暗格 / 过渡(48°52′S，123°26′W)
   topics: null
   author: WAHX
   extractions: null
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 本题需要用到哪些信息？ (15提示点)
+    content: 有且仅有前面五个区域的剧情。
   milestones: null
   answer: ALIEN
   ready: false
@@ -1049,10 +1481,8 @@
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 本题的答案是什么？ (80提示点)
+    content: COLOR MIXED。
   milestones: null
   answer: COLOR MIXED
   ready: false
@@ -1067,11 +1497,47 @@
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 本题和SECO1-DLC有什么关系？ (0提示点)
+    content: 真的没有任何关系，对不起！
+  - title: 《陈旧的传统，必将遭逢地裂山崩》怎么做？ (3提示点)
+    content: 将所有诗句还原成原句，再提取主对角线上字的拼音首字母。
+  - title: 《解谜星球的喜马拉雅山》分别是哪些集合？ (3提示点)
+    content: 数字、词头、希腊字母、地质年代、颜色、月份、元素、北约字母。
+  - title: 《东南西北中发白相承一脉》怎么做？ (3提示点)
+    content: 你需要打出未听牌的那副手牌中的一张牌，凑成类似麻将听牌的牌型。另一副手牌一定处于听牌状态，这或许可以给你一些提示。
+  - title: 《你的棋盘比较松弛》的ft是什么意思？ (3提示点)
+    content: 这些盘面都是白先三步杀，你需要找到黑棋被抓的禁手形状。
+  - title: 该如何提取？ (5提示点)
+    content: 别忘了你在metameta是怎么提取的，这道题的提取方法是它的DLC。
+  - title: 我确信我找到提取方法了，但是为什么凑不出合适的单词？ (6提示点)
+    content: 每道题实际上存在一个“字面意义”的答案，比如你可以注意到《陈旧的传统，必将遭逢地裂山崩》直接提取原文能得到另一个答案。
+  - title: 本题的答案是什么？ (80提示点)
+    content: RUINED TOWERS HISTORY。
+  milestones:
+  - title: descend
+    content: 这是本题的小题答案之一。
+  - title: rhythms
+    content: 这是本题的小题答案之一。
+  - title: himalaya
+    content: 这是本题的小题答案之一。
+  - title: waste bin
+    content: 这是本题的小题答案之一。
+  - title: zinc mine
+    content: 这是本题的小题答案之一。
+  - title: parabola
+    content: 这是本题的小题答案之一。
+  - title: cetacean
+    content: 这是本题的小题答案之一。
+  - title: colossal
+    content: 这是本题的小题答案之一。
+  - title: elastic rod
+    content: 这是本题的小题答案之一。
+  - title: team spirit
+    content: 这是本题的小题答案之一。
+  - title: tackling
+    content: 这是本题的小题答案之一。
+  - title: compress
+    content: 这是本题的小题答案之一。
   answer: RUINED TOWERS HISTORY
   ready: false
 - id: 2dcaab2179ea9892
@@ -1085,11 +1551,17 @@
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我卡题or提交行了怎么办？ (4提示点)
+    content: 请在站内信回复【塔塔开】并给出目前进度，我们会尽快反馈。
+  - title: 我已经得到了里程碑，但我不知道怎么用！ (6提示点)
+    content: 注意到ft里“小巧”和“八面”两个词，它们后面能接同一个词组成成语，再结合本题是个“塔”可以得到。
+  - title: 我已经找到了【数据删除】，但这是什么意思呢？ (6提示点)
+    content: 注意到文字中有一句表示了你应该遵循的顺序，你需要按顺序再做一遍题。
+  - title: 本题的答案是什么？ (80提示点)
+    content: ISLE。
+  milestones:
+  - title: 贯口
+    content: 那么，你是否听过一个和“塔”有关的贯口……
   answer: ISLE
   ready: false
 - id: 9e8a31728abcbb1b
@@ -1103,11 +1575,28 @@
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我毫无头绪！ (3提示点)
+    content: 这是对本比赛所有题目的汇总，目前还没有解锁的题不会干扰结果。
+  - title: 我应该用哪些词进行猜测？ (4提示点)
+    content: 开赛前我们在比赛群发了一份问卷，你需要从群精华消息里面的词云图中选词猜测。如果你没有加群，请提交【缤果词云一】/【缤果词云二】/【缤果词云三】得到这三张词云图。
+  - title: 该如何使用右下角的白色格子？ (0提示点)
+    content: 这个格子仅作为空位，和提取无关。
+  - title: 我填完bingo了，然后呢？ (6提示点)
+    content: 注意到提取部分的每行都是bingo图的某一行或某一列（有可能是倒序），把它们进行二进制提取。
+  - title: 我一直提取不出合适的答案，是不是哪格的答案有问题？ (2提示点)
+    content: 黑色底的四格答案分别是：1-4是，1-5否，2-4否，2-5否。
+  - title: 本题的答案是什么？ (80提示点)
+    content: SPLIT PERSONALITY。
+  milestones:
+  - title: 缤果词云一
+    content: <img src="https://image.secopuzzle.com/SECO2/Bingo/simples/1.png" alt="词云1"
+      width="2718" height="1496">
+  - title: 缤果词云二
+    content: <img src="https://image.secopuzzle.com/SECO2/Bingo/simples/2.png" alt="词云2"
+      width="2718" height="1496">
+  - title: 缤果词云三
+    content: <img src="https://image.secopuzzle.com/SECO2/Bingo/simples/3.png" alt="词云3"
+      width="2718" height="1496">
   answer: SPLIT PERSONALITY
   ready: false
 - id: 417840b11b32acef
@@ -1121,11 +1610,27 @@
   ft: null
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我完全不会拆塔，可以告诉我大致的路线吗？ (4提示点)
+    content: 前期商店只加攻，通过11层之后转防，大后期再转攻。
+  - title: 我不太敢用红钥匙，能告诉我这座塔在哪些地方存在红门吗？ (4提示点)
+    content: 7F（银盾）、8F（跳怪）、10F（圣剑）、12F（骑士剑）、13F（骑士盾）、14F（必经之路）、17F（圣盾）、18F（大金币）、20F（必经之路）、23F（必经之路）。此外，全塔红钥匙总数等于红门总数。
+  - title: 可以告诉我怪物的具体数值吗？ (8提示点)
+    content: <a href="https://docs.qq.com/sheet/DTENwdVhzamFLUGNQ"> 【腾讯文档】暗格怪物属性对照表
+      </a>
+  - title: 本题的答案是什么？ (80提示点)
+    content: WATER CYCLE。
+  - title: 这个塔实在太好玩了！我想玩玩作者更多的塔！ (0提示点)
+    content: 关注B站【盐铁桶子】谢谢喵，此外如果你对汉字文化有兴趣，也可以加入【汉字文化脑洞协会】（915324969）一起玩喵！
+  milestones:
+  - title: 沉默
+    content: <img src="https://image.secopuzzle.com/SECO2/%E6%9A%97%E6%A0%BC/%E6%9A%97%E6%A0%BC-%E5%9D%8F%E7%BB%93%E5%B1%80-%E6%B2%89%E9%BB%98.png"
+      alt="坏结局" width="630" height="396">
+  - title: 共鸣
+    content: <img src="https://image.secopuzzle.com/SECO2/%E6%9A%97%E6%A0%BC/%E6%9A%97%E6%A0%BC-%E4%B8%AD%E7%BB%93%E5%B1%80-%E5%85%B1%E9%B8%A3.png"
+      alt="中结局" width="630" height="396">
+  - title: 春天
+    content: <img src="https://image.secopuzzle.com/SECO2/%E6%9A%97%E6%A0%BC/%E6%9A%97%E6%A0%BC-%E5%A5%BD%E7%BB%93%E5%B1%80-%E6%98%A5%E5%A4%A9.png"
+      alt="好结局" width="630" height="396">
   answer: WATER CYCLE
   ready: false
 - id: 12582ad7c983eb5f
@@ -1136,14 +1641,20 @@
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: 断开连接中......
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
-  milestones: null
+  - title: 我毫无头绪！ (4提示点)
+    content: PPT中的每个部分对应六区的一道题目。此外，你或许能发现小题答案的“错位感”，但这只和剧情有关。
+  - title: 可以简化一下右下角纸笔的盘面吗？ (6提示点)
+    content: <a href="https://sudokupad.app/o5zrk1fvxf"> 查看简化盘面 </a>
+  - title: 能否详细说明整道题的解题思路？ (8提示点)
+    content: 每题的答案都需要用一个meta的机制进行提取（即对应剧情人物所在区的meta），最后将提取出的东西按小题顺序排序并连接。
+  - title: 本题的答案是什么？ (80提示点)
+    content: CENTER PIECE。
+  milestones:
+  - title: 2153434251
+    content: 这个画框还少了三个不同的杀手框，你记得之前出现过……请从她的视角，按照颜色由浅入深的顺序，求和后提取。
   answer: CENTER PIECE
   ready: false
 - id: 95186a45ba2ead0c
@@ -1154,13 +1665,13 @@
   topics: null
   author: Riser
   extractions: null
-  ft: null
+  ft: 最终的秘密似乎被隐藏在了不起眼的**角落**中。
   note: null
   hints:
-  - question: 我毫无头绪！
-    answer: null
-  - question: 该如何提取？
-    answer: null
+  - title: 我应该做什么？
+    content: 将这张图打印出来，折成墙角的形状。
+  - title: 该如何提取？
+    content: 将六个meta的答案填入横线，然后读取白色部分对应的字母。注意比例。
   milestones: null
   answer: SECOND CHANCE
-  ready: false
+  ready: true

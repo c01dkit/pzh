@@ -85,7 +85,7 @@ def parse_table(table: html.HtmlElement) -> list[Metro]:
             line_name = parse_line_name(tds[0])
             hex_color = parse_hex_color(tds[1])
             rgb_color = parse_rgb(tds[2].text_content().strip())
-            if hex_color and rgb_color:
+            if hex_color and rgb_color and current_district not in ['通长图', 'G总的图', '图标', '未知']:
                 result.append(
                     Metro(
                         district=current_district,
@@ -213,4 +213,15 @@ if __name__ == '__main__':
         metros.extend(parse_table(table))
     
     # 测试
-    test()
+    # test()
+    for testcase in [
+        ['#ff5d5d','#3eb1ff'],
+        ['#f44336','#ffb000','#3b8b5a'],
+        ['#1aa043','#2c6fdb','#ffcc00','#ff1f1f'],
+        ['#c14cc5','#2fb8f4','#f44242','#35bc4e'],
+        ['#2ca84f','#9966cc','#3366cc','#c4cc23','#ff3333'],
+        ['#36ba55','#ff9900','#d663c9','#27c1b9','#2b7ee0','#ff0101'],
+        ['#ffa329','#f456a6','#ea2f2f','#2730a0','#008bd8','#875d32','#a2c60a']
+    ]:
+        best, candidates = guess_district(testcase, metros)
+        print(f'最佳匹配：{best}，对应线路{" / ".join(candidates[best][1])}')

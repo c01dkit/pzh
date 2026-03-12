@@ -27,13 +27,13 @@ class ToolItem:
 
 @dataclass(frozen=True)
 class HintItem:
-    question: str
-    answer: str
+    title: str
+    content: str
 
 @dataclass(frozen=True)
 class MileStone:
-    phrase: str
-    text: str
+    title: str
+    content: str
 
 @dataclass(frozen=True)
 class PuzzleTemplate:
@@ -85,8 +85,8 @@ def create_puzzle_items(data: list) -> list[PuzzleTemplate]:
         if item.get('hints', []):
             hints = [
                 HintItem(
-                    question=hint.get('question', ''),
-                    answer=hint.get('answer', '')
+                    title=hint.get('title', ''),
+                    content=hint.get('content', '')
                 )
                 for hint in item.get('hints', [])
             ]
@@ -96,8 +96,8 @@ def create_puzzle_items(data: list) -> list[PuzzleTemplate]:
         if item.get('milestones', []):
             milestones = [
                 MileStone(
-                    phrase=ms.get('phrase', ''),
-                    text=ms.get('text', '这是本题目的一个里程碑！')
+                    title=ms.get('title', ''),
+                    content=ms.get('content', '这是本题目的一个里程碑！')
                 )
                 for ms in item.get('milestones', [])
             ]

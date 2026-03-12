@@ -57,6 +57,7 @@ def render_events_index_md(categories: list[str]) -> str:
 def render_event_for_one_year_md(year: str, items: list[EventItem]) -> str:
     """生成某年所有赛事的index界面"""
     lines: list[str] = []
+    months = set()
     lines.append(f"# {year}年赛事")
     lines.append("")
     for event_item in items:
@@ -64,8 +65,16 @@ def render_event_for_one_year_md(year: str, items: list[EventItem]) -> str:
         start_time = event_item.start_time.strftime("%Y-%m-%d %H:%M") if event_item.start_time else None
         end_time = event_item.end_time.strftime("%Y-%m-%d %H:%M") if event_item.end_time else None
         host = event_item.host or ""
-
-        lines.append(f"## {name}")
+        if event_item.start_time:
+            if event_item.start_time.month not in months:
+                lines.append(f'## {event_item.start_time.month}月赛事\n')
+                lines.append('---\n')
+                months.add(event_item.start_time.month)
+        elif '其他' not in months:
+            lines.append(f'## 其他赛事\n')
+            lines.append('---\n')
+            months.add('其他')
+        lines.append(f"### {name}")
         
         # 比赛时间、主办方、网址
         if event_item.subtitle:
@@ -78,6 +87,8 @@ def render_event_for_one_year_md(year: str, items: list[EventItem]) -> str:
             lines.append(f"- 主办方：{host}")
         if event_item.url:
             lines.append(f"- 网站链接：[本站](/events/{event_item.year}/{event_item.id}/) · [官网]({event_item.url})")
+        else:
+            lines.append(f"- 网站链接：[本站](/events/{event_item.year}/{event_item.id}/) · 官网链接已失效")
 
         if event_item.description:
             lines.append("")

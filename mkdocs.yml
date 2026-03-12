@@ -121,6 +121,7 @@ nav:
       - "彩蛋-A puzzle only with meta": puzzles/ce39a1259d626754.md
       - "坏苹果！！": puzzles/b1d4d19b1aa8306d.md
       - "？？？？Plus": puzzles/d56d7de985b306b6.md
+      - "解绳子": puzzles/ed6753f10fa844d6.md
     - 文件:
       - "推箱字": puzzles/b284b3cd52ef677d.md
       - "新手教程": puzzles/112731cdfebc7b56.md
@@ -131,6 +132,7 @@ nav:
     - 其他:
       - "拼图": puzzles/c174bd3d7465b4ea.md
       - "3 small mazes": puzzles/3ba780ad22d1cc93.md
+      - "FM": puzzles/95186a45ba2ead0c.md
   - 解题工具:
     - tools/index.md
     - 必备: tools/必备/index.md
