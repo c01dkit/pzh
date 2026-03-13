@@ -268,7 +268,7 @@ def parse(item: PuzzleTemplate, puzzle: dict):
         event_id=item.event_id,
         tool_ids=item.tool_ids,
         title=item.title,
-        note='',
+        note=item.note,
         round=item.round,
         author=item.author,
         ft=newft(puzzle['desc']) if not item.ready else item.ft,

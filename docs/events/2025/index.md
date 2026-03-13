@@ -72,6 +72,8 @@ You are Gaia, a newly-formed nature spirit. Your boss, Pan, has tasked you with 
 - 主办方：cn
 - 网站链接：[本站](/events/2025/6a3b521cf05f73b9/) · [官网](https://ccbc16.cipherpuzzles.com/)
 
+CCBC（Cipher & Code Breaking Competition）是由密码菌主办的古典密码主题解谜寻宝（Puzzle Hunt）比赛。参赛方式为线上组队参赛，每队 1-5 人共同完成题目，以解答出「最终题目」（即 Final Meta）的时间先后计算名次。
+
 ## 7月赛事
 
 ---

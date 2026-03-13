@@ -245,7 +245,7 @@
   author: Riser
   extractions: null
   ft: 为什么许多人每天沿着这些绳子走？
-  note: null
+  note: 这是一道交互题，请在[官网存档站](https://seco-archive.eterill.xyz/#/problems/seco2/2/2)进行解题
   hints:
   - title: 第七题难度太大了！或许我忽略了什么？ (2提示点)
     content: 你可以注意一下这些节点的颜色，把它们联系到ft上。
