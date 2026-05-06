@@ -352,6 +352,7 @@ theme: # 此项各个设定因主题而异
     view: material/file-eye # 页面查看源代码的图标
 
 extra: # 额外设定
+  site_flavor: !ENV [SITE_FLAVOR, 'github']   # 默认值 github, 若运行SITE_FLAVOR=aliyun mkdocs build则会添加备案信息
   # version:
   #   provider: mike
   #   alias: true
