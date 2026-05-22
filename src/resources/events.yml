@@ -564,6 +564,26 @@
   year: 2026
   host: Brown and RISD students
   id: 33826b9983251cc3
+- name: Princeton Puzzle Hunt
+  subtitle: Princeton Puzzle Hunt 2026
+  description: 由普林斯顿大学举办的puzzlehunt，题目类型多样，涵盖文字游戏、逻辑题和多媒体题等。每队最多4人，所有题目答案均为英文单词或短语。线下开幕在Frist
+    Campus Center MPR，并设有面向普林斯顿学生与教职工的奖项。时间均为EDT。
+  url: https://puzzles.princeton.edu/hunt/current/info/
+  start_time: 2026-04-25 10:45:00
+  end_time: 2026-05-02 17:00:00
+  year: 2026
+  host: Princeton University
+  id: 0be63da10ca467b6
+- name: Princeton Puzzle Hunt
+  subtitle: Princeton Puzzle Hunt 2025
+  description: 由普林斯顿大学举办的puzzlehunt，2025年版本为单日4小时活动，共16道题，分为3个常规分区与1个最终meta分区，每个常规分区以一道meta题收尾。每队最多4人，所有题目答案均为英文单词或短语。比赛期间每10分钟自动释出一条提示，使用提示不扣分。由Jane
+    Street、Projects Board赞助，基于PuzzleSpring平台。时间为EDT。
+  url: https://puzzles.princeton.edu/hunt/2/view/
+  start_time: 2025-05-03 13:30:00
+  end_time: 2025-05-03 17:30:00
+  year: 2025
+  host: Princeton University
+  id: c7bad74d08672af3
 - name: Brown Puzzlehunt
   subtitle: Brown Puzzlehunt Cinemas
   description: The third annual puzzlehunt by current Brown and RISD students.
@@ -624,3 +644,871 @@
   year: 2024
   host: Brown Puzzle Club
   id: adf47e92e6e527dc
+- name: Singapore Puzzle Hunt 2025
+  description: null
+  url: https://www.sgpuzzlehunt.com/
+  start_time: 2025-07-12 13:00:00
+  end_time: 2025-07-14 00:00:00
+  year: 2025
+  host: null
+  id: 4dd51a50fa5489f6
+- name: 2025 Truzzle Hunt
+  description: null
+  url: https://2025truzzlehunt.happinessboard.com/
+  start_time: 2025-07-12 12:00:00
+  end_time: 2025-07-17 00:00:00
+  year: 2025
+  host: null
+  id: 10ebb225c7e6f7a4
+- name: Silph Puzzle Hunt
+  description: null
+  url: https://silphpuzzlehunt.com/
+  start_time: 2025-07-26 07:00:00
+  end_time: 2025-08-04 19:00:00
+  year: 2025
+  host: null
+  id: d1ca2d5ca5c46d59
+- name: 'NYE 24: P24 Films'
+  description: null
+  url: https://puzzlehunt.azurewebsites.net/nye24/play
+  start_time: 2025-01-01 04:31:24
+  end_time: 2025-01-08 05:07:25
+  year: 2025
+  host: null
+  id: 4fcfd010211e33c7
+- name: The Fourth Annual Bravo Awards (2024)
+  description: '提名: https://forms.gle/b8vfMAbiQmxtG4pm9
+
+    投票: https://forms.gle/HtMCKXVp5XLxeKhN8
+
+    公示: https://www.twitch.tv/bravoawards'
+  url: https://bravopuzzleawards.com
+  start_time: 2025-01-01 00:00:00
+  end_time: 2025-01-14 00:00:00
+  year: 2025
+  host: null
+  id: 4bb917cfae3733a8
+- name: Clue Hunt 4
+  description: null
+  url: https://cluehunting.com/
+  start_time: 2025-01-10 07:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: 27c9a2d2ee07d44f
+- name: P&A Magazine Issue 107
+  description: null
+  url: https://www.pandamagazine.com
+  start_time: 2025-01-13 00:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: aa977eb9c9fd43ac
+- name: 蛇年闯关-叨科学
+  description: 公众号 叨科学
+  url: null
+  start_time: 2025-01-28 20:00:00
+  end_time: 2025-02-04 20:00:00
+  year: 2025
+  host: cn
+  id: 9413d68a1f90e861
+- name: Qota 可答
+  description: null
+  url: https://www.qota.host/
+  start_time: 2025-02-13 00:00:00
+  end_time: null
+  year: 2025
+  host: cn
+  id: caeffa28f33a6d61
+- name: 2024 Mystery Hunt Epilogue Round
+  description: null
+  url: https://epilogue.mitmh2024.com/
+  start_time: 2025-03-09 02:00:00
+  end_time: 2025-03-17 11:00:00
+  year: 2025
+  host: null
+  id: 992de498c6984eb4
+- name: Cryptex 2025
+  description: null
+  url: https://cryptexhunt.com/2025/
+  start_time: 2025-03-08 02:00:00
+  end_time: 2025-04-06 11:00:00
+  year: 2025
+  host: null
+  id: 2772552a8c2caebb
+- name: P&A Magazine Issue 108
+  description: null
+  url: https://www.pandamagazine.com
+  start_time: 2025-03-14 00:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: b8daf807777553bf
+- name: VT Hunt
+  description: null
+  url: https://www.vthunt.com/
+  start_time: 2025-03-21 00:00:00
+  end_time: 2025-04-21 00:00:00
+  year: 2025
+  host: null
+  id: e44dea8c97249671
+- name: CMU Puzzle Hunt - 2025 Spring
+  description: null
+  url: https://puzzlehunt.club.cc.cmu.edu
+  start_time: 2025-04-13 01:00:00
+  end_time: 2025-04-14 01:00:00
+  year: 2025
+  host: null
+  id: 3575f1be46e86d13
+- name: WWU Great Puzzle Hunt
+  description: null
+  url: https://www.greatpuzzlehunt.com
+  start_time: 2025-04-27 01:30:00
+  end_time: 2025-04-27 07:30:00
+  year: 2025
+  host: null
+  id: 8bd27500dcfc6324
+- name: NanoHunt 2025
+  description: QQ群 1020215456
+  url: https://hunt.csart.top/
+  start_time: 2025-05-02 19:00:00
+  end_time: 2025-05-04 19:00:00
+  year: 2025
+  host: cn
+  id: de6770d1ecf41815
+- name: Puzzle Trek
+  description: null
+  url: https://cruzzlehunt.blogspot.com/p/puzzle-trek.html
+  start_time: 2025-05-18 00:00:00
+  end_time: 2025-05-26 00:00:00
+  year: 2025
+  host: null
+  id: ec9c7c0c044605b1
+- name: 解谜·环游世界
+  description: 公众号 Firegod puzzle
+  url: null
+  start_time: 2025-05-23 20:00:00
+  end_time: 2025-05-25 20:00:00
+  year: 2025
+  host: cn
+  id: e8b06383948f18b3
+- name: 第九届上海交通大学校园寻宝大赛
+  description: null
+  url: https://campushunt.justhunt.cn/
+  start_time: 2025-05-24 09:00:00
+  end_time: 2025-05-30 21:00:00
+  year: 2025
+  host: cn
+  id: a519ee260b94c6e9
+- name: Semester Mystery Search 2
+  description: 公众号 蒙吾
+  url: null
+  start_time: 2025-05-30 20:00:00
+  end_time: null
+  year: 2025
+  host: cn
+  id: 6ce604fd27a8681b
+- name: P&A Magazine Issue 109
+  description: null
+  url: https://www.pandamagazine.com
+  start_time: 2025-05-31 00:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: f998408e5c1dcaf6
+- name: Puzzler Pride 2025
+  description: null
+  url: https://pride.puz.fun/2025/
+  start_time: 2025-06-01 00:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: aca661a679a59262
+- name: Microsoft Puzzle Hunt 24
+  description: null
+  url: https://puzzlehunt.azurewebsites.net/ph24/play
+  start_time: 2025-06-08 01:00:00
+  end_time: 2025-06-09 09:30:00
+  year: 2025
+  host: null
+  id: 3ad20bc2ca36e050
+- name: Holiday Hoopla 2024
+  description: null
+  url: https://vitamincsquad.com/
+  start_time: 2024-12-28 02:00:00
+  end_time: 2025-01-01 02:00:00
+  year: 2024
+  host: null
+  id: 6fc7d03c56c94f03
+- name: Puzzling Advent Calendar - 2024
+  description: null
+  url: https://puzzling.meta.stackexchange.com/questions/7612/puzzling-advent-calendar-2024
+  start_time: 2024-12-01 00:00:00
+  end_time: 2024-12-24 23:59:59
+  year: 2024
+  host: null
+  id: cd940f97ba3e29e9
+- name: Advent Puzzle Hunt
+  description: null
+  url: https://www.adventhunt.com
+  start_time: 2024-12-01 08:00:00
+  end_time: 2024-12-24 08:00:00
+  year: 2024
+  host: null
+  id: f501f9f475ccbb2f
+- name: Puzzle Boat 11
+  description: null
+  url: https://pandamagazine.com/island11/
+  start_time: 2024-11-30 01:00:00
+  end_time: null
+  year: 2024
+  host: null
+  id: 6786f1bc05bc75b2
+- name: MITMH 2025 Heist
+  description: null
+  url: https://mitmysteryheist.com/
+  start_time: 2024-11-17 00:00:00
+  end_time: null
+  year: 2024
+  host: null
+  id: 836751554ca53830
+- name: The VeheMusical
+  description: null
+  url: https://www.vehemhunt.com/
+  start_time: 2024-11-09 09:00:00
+  end_time: 2024-11-11 09:00:00
+  year: 2024
+  host: null
+  id: 9d8f12acf66af34c
+- name: CMU Puzzle Hunt - 2024 Fall
+  description: null
+  url: https://puzzlehunt.club.cc.cmu.edu/
+  start_time: 2024-11-03 01:00:00
+  end_time: 2024-11-04 01:20:00
+  year: 2024
+  host: null
+  id: 7b7903f1f52b6c64
+- name: Magic Hunt
+  description: null
+  url: https://puzzlehuntmy.us/hunt/13-Magic-Hunt
+  start_time: 2024-10-30 08:00:00
+  end_time: null
+  year: 2024
+  host: null
+  id: 4b85f3c07f196b90
+- name: glyph 6
+  description: null
+  url: https://g6.glyph.wtf/
+  start_time: 2024-10-19 01:00:00
+  end_time: 2024-10-21 01:00:00
+  year: 2024
+  host: null
+  id: 3d72f3964d490bc4
+- name: glyph 7
+  description: null
+  url: https://g7.glyph.wtf/
+  start_time: 2025-07-19 01:00:00
+  end_time: 2025-07-21 01:00:00
+  year: 2025
+  host: null
+  id: bc5cd244a4613a42
+- name: P&A Magazine Issue 106
+  description: null
+  url: https://www.pandamagazine.com
+  start_time: 2024-09-30 00:00:00
+  end_time: null
+  year: 2024
+  host: null
+  id: 7c6a294c9b4f71a1
+- name: PuzzleBang 2024
+  description: null
+  url: https://puzzlebang.com/
+  start_time: 2024-09-17 00:00:00
+  end_time: 2024-09-22 00:00:00
+  year: 2024
+  host: null
+  id: f5f86f1efb40fb1c
+- name: Island Puzzle Hunt
+  description: null
+  url: https://islandpuzzlehunt.com
+  start_time: 2024-09-03 00:00:00
+  end_time: null
+  year: 2024
+  host: null
+  id: 2e86db8c2487fe53
+- name: 'Mark Halpin''s Labor Day Hunt: Ch-Ch-Ch-Ch-Changes'
+  description: null
+  url: https://www.markhalpin.com/puzzles/puzzles.html
+  start_time: 2024-09-01 01:00:00
+  end_time: 2024-09-16 01:00:00
+  year: 2024
+  host: null
+  id: 9bc020e13d41bcc7
+- name: FISHY POKER 鱼谜纸牌
+  description: 公众号 & 淘宝店铺 语谜Puzzling
+  url: null
+  start_time: 2024-08-25 00:00:00
+  end_time: null
+  year: 2024
+  host: cn
+  id: 4e44ccbcabf2e54f
+- name: Grand Hunt Digital Vol.2
+  description: null
+  url: https://2024.grandhuntdigital.com/
+  start_time: 2024-08-10 03:00:00
+  end_time: 2024-08-19 03:00:00
+  year: 2024
+  host: null
+  id: 029e69baf92c6768
+- name: P&A Magazine Issue 105
+  description: null
+  url: https://www.pandamagazine.com
+  start_time: 2024-07-27 01:00:00
+  end_time: null
+  year: 2024
+  host: null
+  id: f51f952508a944b7
+- name: Edric's 2024 Ptruzzle Hunt
+  description: null
+  url: http://happinessboard.com/2024ptruzzlehunt/
+  start_time: 2024-07-17 09:00:00
+  end_time: 2024-07-25 09:00:00
+  year: 2024
+  host: null
+  id: 1b29154ea6a867d8
+- name: Singapore Puzzle Hunt 2024
+  description: null
+  url: https://www.sgpuzzlehunt.com/2024/
+  start_time: 2024-07-13 13:00:00
+  end_time: 2024-07-14 23:59:59
+  year: 2024
+  host: null
+  id: b401cd10cda8285e
+- name: SNHUNT
+  description: 公众号 SNHUNT
+  url: null
+  start_time: 2024-07-11 08:00:00
+  end_time: null
+  year: 2024
+  host: cn
+  id: 252a727eb9e14bbd
+- name: 四方谜
+  description: 公众号 密码菌
+  url: null
+  start_time: 2024-07-01 20:00:00
+  end_time: 2024-08-01 20:00:00
+  year: 2024
+  host: cn
+  id: 974fe51258702d08
+- name: Bloomberg's Summer of Puzzles 2024
+  description: null
+  url: https://bp6summer.bpuzzled.io/
+  start_time: 2024-06-22 00:00:00
+  end_time: 2024-08-24 00:00:00
+  year: 2024
+  host: null
+  id: 8064fa9ff87017d4
+- name: CCBC 9 REMASTERED
+  description: null
+  url: https://ccbc9.cipherpuzzles.com/
+  start_time: 2024-05-31 20:00:00
+  end_time: 2024-06-09 20:00:00
+  year: 2024
+  host: cn
+  id: 9d0edac7e2db0bcc
+- name: Puzzle Rojak 2
+  description: null
+  url: https://www.puzzlerojak.xyz/
+  start_time: 2024-04-25 08:00:00
+  end_time: 2024-06-10 08:00:00
+  year: 2024
+  host: null
+  id: fad99f91995400f5
+- name: Scavenger Hunt
+  description: null
+  url: https://www.scavenger.shotdeck.com/
+  start_time: 2024-05-22 00:00:00
+  end_time: 2024-05-29 00:00:00
+  year: 2024
+  host: null
+  id: b3f2e5935742083d
+- name: Rubik's Cube 50th Anniversary
+  description: null
+  url: https://puzzlehunt.azurewebsites.net/rubik-50/play
+  start_time: 2024-05-19 02:00:00
+  end_time: 2024-05-27 02:00:00
+  year: 2024
+  host: null
+  id: 21072d6c129b134c
+- name: P&A Magazine Issue 104
+  description: null
+  url: https://www.pandamagazine.com
+  start_time: 2024-05-19 01:00:00
+  end_time: null
+  year: 2024
+  host: null
+  id: 84d26bb0c7fd498c
+- name: 2024 PEA Puzzle Hunt
+  description: null
+  url: https://www.peapuzzlehunt.com/wip
+  start_time: 2024-05-13 07:30:00
+  end_time: 2024-05-16 06:45:00
+  year: 2024
+  host: null
+  id: 13e6a43be5ba4558
+- name: WWU Great Puzzle Hunt
+  description: null
+  url: https://www.greatpuzzlehunt.com
+  start_time: 2024-04-21 01:30:00
+  end_time: 2024-04-21 07:30:00
+  year: 2024
+  host: null
+  id: c5e99218b54f3892
+- name: CMU Puzzle Hunt - 2024 Spring
+  description: null
+  url: https://puzzlehunt.club.cc.cmu.edu/
+  start_time: 2024-04-21 01:00:00
+  end_time: 2024-04-22 01:20:00
+  year: 2024
+  host: null
+  id: bd9f5839715198c0
+- name: CS50x Puzzle Day 2024
+  description: null
+  url: https://cs50.harvard.edu/x/2024/puzzles/
+  start_time: 2024-04-05 00:00:00
+  end_time: 2024-04-08 00:00:00
+  year: 2024
+  host: null
+  id: 19b1a2ae27b559c0
+- name: glyph 5
+  description: null
+  url: https://g5.glyph.wtf/
+  start_time: 2024-03-16 02:00:00
+  end_time: 2024-03-18 02:00:00
+  year: 2024
+  host: null
+  id: a146f8ee66ecd310
+- name: White Day
+  description: null
+  url: https://deusovi.github.io/white-day/intro.html
+  start_time: 2024-03-15 00:00:00
+  end_time: null
+  year: 2024
+  host: null
+  id: 27285f4e621db753
+- name: Cryptex 2024
+  description: null
+  url: https://cryptex.elan.org.in/register
+  start_time: 2024-03-08 20:30:00
+  end_time: 2024-03-11 04:30:00
+  year: 2024
+  host: null
+  id: 43734d877c103f98
+- name: MindBreakers
+  description: 'Part 1: Feb 24, 1:00 AM (UTC+8)
+
+    Part 2: Feb 24, 8:00 PM (UTC+8)'
+  url: https://mindbreakers.fun/
+  start_time: 2024-02-24 01:00:00
+  end_time: null
+  year: 2024
+  host: null
+  id: df6ecb516f389f92
+- name: Zero Hunt
+  description: 公众号 Zero侦探社
+  url: null
+  start_time: 2024-02-16 16:16:00
+  end_time: 2024-02-19 23:59:00
+  year: 2024
+  host: cn
+  id: 57cce4133c674e20
+- name: Tommy Hunt
+  description: 公众号 哈哈镜解谜
+  url: null
+  start_time: 2024-02-12 19:00:00
+  end_time: 2024-02-15 19:00:00
+  year: 2024
+  host: cn
+  id: e4aff939a87b506e
+- name: 龙年闯关-叨科学
+  description: 公众号 叨科学
+  url: null
+  start_time: 2024-02-09 20:00:00
+  end_time: 2024-02-17 20:00:00
+  year: 2024
+  host: cn
+  id: e6d2b725c6fb2db1
+- name: 末世解谜
+  description: 公众号 解谜小屋
+  url: null
+  start_time: 2024-02-03 18:00:00
+  end_time: 2024-02-05 23:59:59
+  year: 2024
+  host: cn
+  id: 8bd2c0720709b045
+- name: Star Hunt
+  description: 公众号 Star是个解谜脑袋
+  url: null
+  start_time: 2024-01-29 12:00:00
+  end_time: 2024-01-30 12:00:00
+  year: 2024
+  host: cn
+  id: 5391b663bf1084d4
+- name: Who Killed Ickey? $50,000 Treasure Hunt
+  description: null
+  url: https://www.ickeytreasurehunt.com/
+  start_time: 2024-01-28 02:00:00
+  end_time: 2024-01-28 08:00:00
+  year: 2024
+  host: null
+  id: bcee414a4027bb6c
+- name: 123 123
+  description: null
+  url: https://puzzlehunt.azurewebsites.net/123-123/play
+  start_time: 2024-01-01 04:31:23
+  end_time: 2024-01-08 05:07:24
+  year: 2024
+  host: null
+  id: aead19f7eea75f31
+- name: 'Mark Halpin''s Labor Day Hunt: Look! Up in the Sky!'
+  description: null
+  url: https://www.markhalpin.com/puzzles/puzzles.html
+  start_time: 2025-08-31 01:00:00
+  end_time: 2025-09-16 01:00:00
+  year: 2025
+  host: null
+  id: 59d60b643f36f7cc
+- name: P&A Magazine Issue 111
+  description: null
+  url: https://www.pandamagazine.com
+  start_time: 2025-09-20 01:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: 2831f52b9f195663
+- name: Enigame 12 - A puzzling taste
+  description: null
+  url: https://enigame.com/
+  start_time: 2025-09-26 23:00:00
+  end_time: 2025-09-30 05:59:00
+  year: 2025
+  host: null
+  id: 48df1324cfafb931
+- name: MIT Mystery Hatch
+  description: null
+  url: https://www.mitmysteryhatch.com/
+  start_time: 2025-10-10 01:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: ccd8afb8dd833086
+- name: PokéFest
+  description: null
+  url: https://enigmapedia.xyz/pokefest/index.htm
+  start_time: 2025-10-16 12:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: a0a47f6103072dae
+- name: HBR EN Server 1st Anniversary Mini-Puzzlehunt
+  description: 公众号 古明地puzzle
+  url: null
+  start_time: 2025-11-14 00:00:00
+  end_time: null
+  year: 2025
+  host: cn
+  id: ae2e3896b656a370
+- name: Puzzle Boat 12
+  description: null
+  url: https://www.pandamagazine.com/island12/
+  start_time: 2025-11-23 01:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: 1f5f19e888a8c810
+- name: The Puzzle Awards 2025
+  description: '11月26日-12月14日：提名
+
+    12月15日-12月25日：投票
+
+    12月27日：结果公布'
+  url: https://docs.qq.com/form/page/DZWxKdURzeWNuQkZ4?nlc=1#/fill
+  start_time: 2025-11-26 00:00:00
+  end_time: 2025-12-26 00:00:00
+  year: 2025
+  host: null
+  id: 6e115f644ea598bc
+- name: 'Vertex Hunt 2025: Winter Warm Up'
+  description: null
+  url: https://www.vertexhunt.com/
+  start_time: 2025-11-29 22:00:00
+  end_time: null
+  year: 2025
+  host: null
+  id: 28a21d8c0b36e8c9
+- name: Advent Puzzle Hunt 2025
+  description: null
+  url: https://2025.adventhunt.com/
+  start_time: 2025-12-01 19:00:00
+  end_time: 2026-01-05 19:00:00
+  year: 2025
+  host: null
+  id: a4844b3a86595889
+- name: FlatDurian Hunt
+  description: null
+  url: https://www.puzzlehuntmy.us/hunt/23-flatdurian
+  start_time: 2025-12-02 00:00:00
+  end_time: 2026-08-12 00:00:00
+  year: 2025
+  host: null
+  id: fb449d4c335d9e3e
+- name: CMU Puzzle Hunt - 2025 Fall
+  description: null
+  url: https://puzzlehunt.club.cc.cmu.edu
+  start_time: 2025-12-13 08:00:00
+  end_time: 2025-12-15 05:00:00
+  year: 2025
+  host: null
+  id: b0544cd975c1dafa
+- name: The Fifth Annual Bravo Awards (2025)
+  description: 'Nomination: https://forms.gle/WfMEFi8rdLJB1PNo7
+
+    Voting: https://forms.gle/wftAjofP29ZYWUbX6
+
+    Presentation: TBA'
+  url: https://bravopuzzleawards.com/finalists/
+  start_time: 2025-12-16 00:00:00
+  end_time: 2026-01-12 00:00:00
+  year: 2025
+  host: null
+  id: 2bce5aac902ad377
+- name: N2PH：IN MACHU PICCHU南外跨年解谜活动
+  description: '线上题目开放：12月21日00:00
+
+    线下题目/地点： 12月31日12:00 于【南京外国语学校南部新城校区】
+
+    特殊情况说明：本次活动为南外跨年解谜活动，线上题目1-8将不作为比赛成绩判定内容，对所有人开放。如有外校成员想要完成后续题目，请与本校学生组队或加入参赛群1071665210联系管理员。
+
+    参赛qq群：1071665210'
+  url: https://n2ph.fun/
+  start_time: 2025-12-21 00:00:00
+  end_time: 2025-12-31 17:00:00
+  year: 2025
+  host: cn
+  id: 7ae1938084a628e3
+- name: 第一届“墨阵杯”中文纵横字谜
+  description: QQ群 1007855980
+  url: null
+  start_time: 2025-12-28 13:00:00
+  end_time: 2025-12-28 17:00:00
+  year: 2025
+  host: cn
+  id: 436cb604d0289874
+- name: Holiday Hoopla 2025
+  description: null
+  url: https://vitamincsquad.com/
+  start_time: 2025-12-28 02:00:00
+  end_time: 2026-01-01 02:00:00
+  year: 2025
+  host: null
+  id: f188302fc913cafa
+- name: Pear Hunt
+  description: 公众号 狐狸雪梨fox_pear
+  url: null
+  start_time: 2025-12-31 20:00:00
+  end_time: 2026-01-03 20:00:00
+  year: 2025
+  host: cn
+  id: 6a0d7917f0c4e647
+- name: 'NYE 2025: Times Square'
+  description: null
+  url: https://puzzlehunt.azurewebsites.net/nye25/play
+  start_time: 2026-01-01 04:31:25
+  end_time: 2026-01-08 05:07:26
+  year: 2026
+  host: null
+  id: be2c1ecac82346b3
+- name: MIT Mystery Hunt 2026
+  description: null
+  url: https://www.mitmh2026.com/
+  start_time: 2026-01-17 01:00:00
+  end_time: 2026-01-20 01:00:00
+  year: 2026
+  host: null
+  id: 477c7cffaa5f72b7
+- name: 第四届半咸水语奥公开赛（MOL4）
+  description: 'MOL(Mirturl Linguistics Open，半咸水语言学公开赛)是由国际语言学奥林匹克竞赛中国国家队成员自主创办的线上语言学公开挑战赛，旨在向社会推广语言学这一多元多彩的学科。比赛分为个人赛与团队赛两部分。
+
+    而第四届MOL团队赛，组委会将线上Puzzle Hunt中的机制引入传统语奥机制中。本次的团队赛题会存在不同类型的题目，有些完全是正常的语奥题型，有些会更加新颖的融入了PH元素的题目。与此同时，题目会有着PH的结构，即存在若干小题与Meta问题，需要通过不断推进赛程获取新的题目。
+
+    更多关于MOL4团队赛赛制的内容，详见：https://mp.weixin.qq.com/s/P5SmpEX4Szg6N91x5j_uYw
+
+    MOL官网网址（这不意味着MOL4团队赛将在此网站上进行）：mirturl-ol.github.io'
+  url: https://mol4.cn
+  start_time: 2025-08-25 08:00:00
+  end_time: 2025-08-31 23:59:59
+  year: 2025
+  host: cn
+  id: fc6c21a373f7b2e6
+- name: 夏洛PuzzleHunt
+  description: 公众号 古明地puzzle
+  url: null
+  start_time: 2025-01-26 19:30:00
+  end_time: null
+  year: 2025
+  host: cn
+  id: 0ffc0e56e4e1317f
+- name: 2025端午套谜
+  description: 公众号 波煞航Pulsar Hunt
+  url: null
+  start_time: 2025-05-30 18:33:00
+  end_time: 2025-06-02 00:00:00
+  year: 2025
+  host: cn
+  id: b544f7bb557c4d84
+- name: Pleasant Goat 20th Puzzle Hunt
+  description: '比赛消息通知QQ群：237277340
+
+    公众号 波煞航Pulsar Hunt'
+  url: null
+  start_time: 2025-07-26 20:00:00
+  end_time: 2025-08-03 20:00:00
+  year: 2025
+  host: cn
+  id: 025ab71f2fec1e47
+- name: 夏洛PuzzleHunt2
+  description: null
+  url: null
+  start_time: 2025-06-09 19:30:00
+  end_time: null
+  year: 2025
+  host: cn
+  id: 47055490eea75ff2
+- name: Penchant Puzzlehunt
+  description: null
+  url: https://penchantpuzzlehunt.com/
+  start_time: 2025-08-16 06:00:00
+  end_time: 2025-08-22 06:00:00
+  year: 2025
+  host: null
+  id: 6f22b23fd446259a
+- name: Bloomberg's Summer of Puzzles 2025
+  description: null
+  url: https://summer.bpuzzled.io/2025
+  start_time: 2025-06-21 12:00:00
+  end_time: 2025-08-16 12:00:00
+  year: 2025
+  host: null
+  id: cff4091ceacf5424
+- name: CCBC15省流版
+  description: 公众号 Reese的安全屋
+  url: null
+  start_time: 2025-07-14 20:00:00
+  end_time: 2025-07-21 20:00:00
+  year: 2025
+  host: cn
+  id: c95363f077c751ec
+- name: 半咸水语言学公开赛·元谜题（MOL META）
+  description: 'MOL(Mirturl Linguistics Open，半咸水语言学公开赛)是一个线上语言学公开挑战赛，旨在推广语言学这一多元多彩的学科。
+
+    在MOL META中，组委会将线上Puzzle Hunt中的机制引入传统语奥机制中。MOL META中的谜题有相当一部分会带有谜题色彩，同时也会有着PH的结构，即存在若干小题与meta问题（元谜题），需要通过不断推进赛程获取新的题目。
+
+    此外，在MOL META中，MOL将与LILAC丁香谜进行联动。此次活动的剧情既承接自上一届MOL4，又可视为LILAC丁香谜这一企划的主线剧情的延申。
+
+
+    更多关于MOL META团队赛的内容，详见：https://mp.weixin.qq.com/s/6vQM4ZewRRaQ08iP2AFqeg，与https://mp.weixin.qq.com/s/P5SmpEX4Szg6N91x5j_uYw。'
+  url: https://molmeta.cn
+  start_time: 2026-02-21 19:00:00
+  end_time: 2026-03-01 19:00:00
+  year: 2026
+  host: cn
+  id: 4051759095e86ccd
+- name: 第二届“墨阵杯”中文纵横字谜
+  description: QQ群 1007855980
+  url: null
+  start_time: 2026-03-21 12:30:00
+  end_time: 2026-03-21 17:30:00
+  year: 2026
+  host: cn
+  id: 09059f5e4af931ca
+- name: WWU Great Puzzle Hunt
+  description: null
+  url: https://www.greatpuzzlehunt.com/
+  start_time: 2026-04-19 00:30:00
+  end_time: 2026-04-19 07:45:00
+  year: 2026
+  host: null
+  id: acd8cf56edfb6e5d
+- name: CS50x Puzzle Day 2026
+  description: null
+  url: https://cs50.harvard.edu/x/puzzles/
+  start_time: 2026-04-03 00:00:00
+  end_time: 2026-04-06 23:59:59
+  year: 2026
+  host: null
+  id: 2f395d8d410525d0
+- name: CS50x Puzzle Day 2025
+  description: null
+  url: https://cs50.harvard.edu/x/puzzles/
+  start_time: 2025-04-04 00:00:00
+  end_time: 2025-04-07 00:00:00
+  year: 2025
+  host: null
+  id: 220127efa2d506d3
+- name: P&KU 3 - 囚于??的七日谈 (中)
+  description: 'P&KU3（中）预计将于2026年7月10日至7月26日举行。在本届活动中，玩家将走进“雾散行刑者”驭蝶的故事，与她一同行于因果交错之间，以解谜之眼洞悉宇宙万物的联系，并将那些不该留下的存在一一抹除。预计各队队伍规模上限为6人。
+
+    P&KU（Puzzle and Key Universe） 是由北京大学学生谜题协会出品的以网页解谜为主的系列解谜企划，从 2021 年首次举办，至今已进行了
+    4 届： P&KU0、P&KU1、P&KU2 和 P&KU3（上）。有关比赛的更多事宜请等待后续通知。感谢各位的耐心等待。
+
+    网站：pkupuzzle.art
+
+    公众号：PKU谜协
+
+    QQ群：649943168'
+  url: null
+  start_time: 2026-07-10 20:00:00
+  end_time: 2026-07-26 20:00:00
+  year: 2026
+  host: cn
+  id: 0207207c95810d0f
+- name: Alex's Enigmarch
+  description: null
+  url: https://enigmarch.alexirpan.com/
+  start_time: 2026-04-12 05:00:00
+  end_time: 2026-04-12 09:00:00
+  year: 2026
+  host: null
+  id: dcc80ea5b2b59023
+- name: VT Hunt 2026 (Remote)
+  description: null
+  url: https://www.vthunt.com/
+  start_time: 2026-04-18 10:00:00
+  end_time: 2026-05-18 10:00:00
+  year: 2026
+  host: null
+  id: 6eb6d0e835c54f29
+- name: Puzzle Boat 13
+  description: null
+  url: https://www.pandamagazine.com/island13/
+  start_time: 2026-11-15 01:00:00
+  end_time: null
+  year: 2026
+  host: null
+  id: 50d2bd7d3dcc80c6
+- name: Edric's 2026 Puzzle Extravaganza
+  description: 网站待公布
+  url: null
+  start_time: 2026-07-18 08:00:00
+  end_time: 2026-07-27 08:00:00
+  year: 2026
+  host: null
+  id: 01efb8169842234a
+- name: Paradox Puzzlehunt
+  description: null
+  url: https://www.paradoxpuzzlehunt.com/
+  start_time: 2026-08-01 07:00:00
+  end_time: 2026-08-10 07:00:00
+  year: 2026
+  host: null
+  id: 18d012502ecd43f4
